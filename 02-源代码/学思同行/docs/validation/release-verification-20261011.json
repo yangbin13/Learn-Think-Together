@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-10T20:40:05.014429+00:00",
+  "scope": "Current source release acceptance: automated tests, real Mimo teaching/quiz cases, isolated native runtime and selected browser confirmations; archive and video have separate root audits",
+  "status": "passed",
+  "competition_requirement": {
+    "track": "中兴赛道",
+    "topic": "命题二：专业课助教智能体",
+    "case_minimum": 10,
+    "case_count": 32,
+    "coverage": [
+      "normal",
+      "abnormal",
+      "boundary"
+    ],
+    "manual_locations": [
+      "P25-P29",
+      "P46-P51"
+    ]
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "node": "v22.17.0",
+    "npm": "10.9.2",
+    "runtime_model": "mimo-v2.6-flash"
+  },
+  "source_fingerprint": {
+    "algorithm": "sha256 of ordered UTF-8 relative path, NUL, file sha256, LF",
+    "file_count": 141,
+    "aggregate_sha256": "1ac0ef870e90f80427e842ff9396d8a3d1b441b70ab2a7b10ed23a4e97f63f5a",
+    "files": [
+      {
+        "path": "backend/app/__init__.py",
+        "sha256": "c18a72eae8b7941ec40c6409381e2b7829a8a3c3bf713334ab20776ac1fba6de"
+      },
+      {
+        "path": "backend/app/agent.py",
+        "sha256": "6a2cb47a0addaefedc8b7ee8137d387374adc67ab6ac3f94a8315eb32c5b2338"
+      },
+      {
+        "path": "backend/app/auth.py",
+        "sha256": "0134d0eafc738e62eb57bb06e12f18e35f6c7e29585af5723b137258ff6374e1"
+      },
+      {
+        "path": "backend/app/binary_search.py",
+        "sha256": "4fe9ce3921f7bdb7c87e4e786424ccf5830930463aa6a3bef59cb2e7523a9dc2"
+      },
+      {
+        "path": "backend/app/calculator.py",
+        "sha256": "2534fad0ca33ab77981562493d4574cfc97bd159fd1c9b55442fddfeb9cff378"
+      },
+      {
+        "path": "backend/app/chat_recovery.py",
+        "sha256": "248a1a98d45374eac2e0a8c7c2cf69d6a449fa38485bb7c8d37c20f63f4172d6"
+      },
+      {
+        "path": "backend/app/citation_locations.py",
+        "sha256": "1a4dd25ff5ee920bd89698865c8623b34d0c68e908d2de238c5e0533f2c35a3c"
+      },
+      {
+        "path": "backend/app/citations.py",
+        "sha256": "7b2c9eeb46de83693dd02166ec4ceab90011ac46d3c5b3af3f68fc9caf5dfb93"
+      },
+      {
+        "path": "backend/app/civil_tools.py",
+        "sha256": "25a4588698050daec75a16abcafdae41b723b29022c5ba2c3fa8db6945cd7a55"
+      },
+      {
+        "path": "backend/app/config.py",
+        "sha256": "68f1c9f40db54c82c63263594b2facba1c8b3bbdf7a51feea174c81dd105a034"
+      },
+      {
+        "path": "backend/app/db.py",
+        "sha256": "38d88c1cc2b34d5b9a20211eae6b6973079cb5495aac166f9a030c0a2220288f"
+      },
+      {
+        "path": "backend/app/fact_review.py",
+        "sha256": "7769bf2af1b511265fb32d2d04c014c23e67265806a8b12cdee31d3db055ec1a"
+      },
+      {
+        "path": "backend/app/figures.py",
+        "sha256": "702fdeec9278049e095192f3db0d69feb6c233e91c4360b5a2e60893a82fa653"
+      },
+      {
+        "path": "backend/app/grounded_reply.py",
+        "sha256": "963c3e68ce8fa1c310b1b46a0e335f29bf4d683838521eaf55eb98cf0140f22a"
+      },
+      {
+        "path": "backend/app/ingestion.py",
+        "sha256": "2edb3d06f0a43ad8ba357e7b1c9d2fae891648b45130680be08cb50d9ca3cfb3"
+      },
+      {
+        "path": "backend/app/knowledge_map.py",
+        "sha256": "434aeb94a3d877f55fd1b1b6df5906c91956e5cfd49a5b7618ee2baeacc88125"
+      },
+      {
+        "path": "backend/app/main.py",
+        "sha256": "715d1f51fc13c0d18731c8e5fc68a1dff6faa866724fb6b285e24d7df1ecc2ce"
+      },
+      {
+        "path": "backend/app/material_overview.py",
+        "sha256": "b7449f7156ba15f619d66203b1ca7da9f904731d6ee6aa60fd5b8fd17a3aca29"
+      },
+      {
+        "path": "backend/app/materials.py",
+        "sha256": "0846c795d3c3bcf4622b2d7cc0fa45a5406a845aef9600da14b98927decea642"
+      },
+      {
+        "path": "backend/app/paging.py",
+        "sha256": "2b08534d1a23708c165dd461dea5db18eb80868b4c026ce7c36155758c7c45be"
+      },
+      {
+        "path": "backend/app/plan_goals.py",
+        "sha256": "d4ad64572124195b86e4a936b1efda20e7d665dd43289dd814476e2a84c54164"
+      },
+      {
+        "path": "backend/app/practice.py",
+        "sha256": "b4845ba45277855b912ed502b1b13af97093da257ae65118c7763b3ca47e282f"
+      },
+      {
+        "path": "backend/app/provider.py",
+        "sha256": "6e0dc3481a4a8b0938424fec5ac626de207cdee12c420ecfd95b7e2b4716f228"
+      },
+      {
+        "path": "backend/app/question_scope.py",
+        "sha256": "6042ae3a8b1b5e2e110022986d5f4c95d8c11ea5d03516a878358e4d86ccbc58"
+      },
+      {
+        "path": "backend/app/quiz_application.py",
+        "sha256": "db6b80c1667452077892d2426081be996200a79e7e9b9f357acb35273f702000"
+      },
+      {
+        "path": "backend/app/quiz_concept_promotion.py",
+        "sha256": "2f14b4fa04cae88a0357d66d5f103d14fb02e0e3019a715992bb387e5c50619c"
+      },
+      {
+        "path": "backend/app/quiz_evidence.py",
+        "sha256": "5f8b15a3e8ce6907e70cb88ebe9c724cf99808169e904a3343a81545ecd3e9e8"
+      },
+      {
+        "path": "backend/app/quiz_review.py",
+        "sha256": "4030cd7fa8c9f7290681c59a649ed10ae6e0859ff71b6e760fc29547cd4d04b6"
+      },
+      {
+        "path": "backend/app/retrieval.py",
+        "sha256": "b26431a7e3c77bbe15aeb2ddd962b4250ff529fd01729a5a90fd620f72bb99a3"
+      },
+      {
+        "path": "backend/app/session_status.py",
+        "sha256": "18e301045bac11c239efb67cb0362a50bd753574fa27eec19ab3de434c2e8e9a"
+      },
+      {
+        "path": "backend/app/socratic_reply.py",
+        "sha256": "5375daad38aae780eef18c5b844712fea759c7702814da702a8c7e37019b46a4"
+      },
+      {
+        "path": "backend/app/teaching_prompts.py",
+        "sha256": "80da233f12b0328e7092123a64a16c64ad3c450b2005e3c8af9bb9e7f50fa7c0"
+      },
+      {
+        "path": "backend/app/teaching_route.py",
+        "sha256": "9c974eae3645ecd0306e3328479ab9e86f805d0d43b01b3558414afe1e1d6980"
+      },
+      {
+        "path": "backend/app/tools.py",
+        "sha256": "f5037b97c6d9540191a9473997a8e49c68197140aa8a2d6df5425951800cc4ff"
+      },
+      {
+        "path": "backend/app/vision_observations.py",
+        "sha256": "c6fe9c5fa4eb328e35007bff8367d9c898d923dd5b45d300f7305729545407e2"
+      },
+      {
+        "path": "backend/app/vision_question_projection.py",
+        "sha256": "14abce931d778fa1a1cfa60fddb7c8c7bc298c3cf973a5fb835d36637980798f"
+      },
+      {
+        "path": "backend/requirements.lock.txt",
+        "sha256": "33b17fc872fd43fd480f9c9551618b4c045d8ea7d15436448cc0601057fce5b3"
+      },
+      {
+        "path": "backend/tests/quiz_review_helpers.py",
+        "sha256": "1c15627885675cf59bc89711f31b851a896d545e42eff934352769401242f792"
+      },
+      {
+        "path": "backend/tests/test_agent_material_expansion.py",
+        "sha256": "f1bf689984677574d9c3b6ec4b0f9cf02da08fff885717d3bc97447dbd74e2f1"
+      },
+      {
+        "path": "backend/tests/test_api.py",
+        "sha256": "b5ecddb715a42d42ca5baf70780021b9c7b070002c689e190388cefc0c64c91b"
+      },
+      {
+        "path": "backend/tests/test_arithmetic_examples.py",
+        "sha256": "6fc818c733f019d0e10ffd785a0a85b3f0dc263d2ee666beec9faf64583434a6"
+      },
+      {
+        "path": "backend/tests/test_binary_search_prose.py",
+        "sha256": "519d2204202e816b1d66c5bb563762ffaa09272317103119cdf2abea0b85946a"
+      },
+      {
+        "path": "backend/tests/test_binary_search_trace.py",
+        "sha256": "94623eda027e7d7b1ff7d03460f8a19c2cbe5038b7463f96c0896bbdf14b3d27"
+      },
+      {
+        "path": "backend/tests/test_calculator.py",
+        "sha256": "e82beebb4a796db021e7270cd7d96b1897685063f5b061aaa5814b064147cfda"
+      },
+      {
+        "path": "backend/tests/test_caption_retrieval.py",
+        "sha256": "e2d176a07a3ac44a60de1c1c5d7df62c358b111fcb44bc31b70020a87b8e6997"
+      },
+      {
+        "path": "backend/tests/test_chat_deadlines.py",
+        "sha256": "512af5ade761003002544cf8d7fb1859f1ac88e4f7e3dd7f942083e354464c4b"
+      },
+      {
+        "path": "backend/tests/test_chat_recovery.py",
+        "sha256": "0d97501f294f56b1ba7a12e493f210713a03c089b76af4b83fa8cf6d288dd984"
+      },
+      {
+        "path": "backend/tests/test_chat_recovery_api.py",
+        "sha256": "01a8ce4f07bc456f2b6bbab7d14827c146c7a28cc84fb26d3f0802e8e6b11670"
+      },
+      {
+        "path": "backend/tests/test_citation_location_scope.py",
+        "sha256": "3e1c13596fe0231f1f184b0baf1b89474f1bdbea43f83e36a7e59008e7bea471"
+      },
+      {
+        "path": "backend/tests/test_citation_repair.py",
+        "sha256": "28bf76050e59764e42c75e4e69e5ca6a39e6a5cfcf7737f637e6fc3c328814ae"
+      },
+      {
+        "path": "backend/tests/test_civil_tools.py",
+        "sha256": "c61987730359d90b4135a74db0f24cf68f2c1920f11b554a6eef802a7e30a354"
+      },
+      {
+        "path": "backend/tests/test_configuration.py",
+        "sha256": "1860e06358ecde90b84e334949e85fba544f975f9b91c7d225dff839ad42e6d0"
+      },
+      {
+        "path": "backend/tests/test_default_quiz_evidence.py",
+        "sha256": "f37284389d6b43456d88de55ade0b76a33d0c36846f856bc7abc93d0b3eff13c"
+      },
+      {
+        "path": "backend/tests/test_evidence_admissibility.py",
+        "sha256": "27e542a551c0097debc81df5b7d95f8c4e83fae67335b613ba75e107afe972ae"
+      },
+      {
+        "path": "backend/tests/test_fact_review.py",
+        "sha256": "783a9c68a9d708ecc5a475030edbcddccf4f02a20fc554399c8c2b8e23dae182"
+      },
+      {
+        "path": "backend/tests/test_figure_index.py",
+        "sha256": "c64bd6d1e07b4d377345c059c8ab21f4dbad17060612c6eeca893e42c92e6172"
+      },
+      {
+        "path": "backend/tests/test_graph_structure.py",
+        "sha256": "20ffae5b20e170740d1c9d7b2b944f2b95bcaf06d9d7ae0129255165cde235ab"
+      },
+      {
+        "path": "backend/tests/test_grounded_reply.py",
+        "sha256": "615468f413cd71650296b348cf45b306933ed8e30da7a969f8ee94ac78d3fb88"
+      },
+      {
+        "path": "backend/tests/test_implementation_attribution.py",
+        "sha256": "8533ab3be3e52cdf67a4dc0f8c192619af7e3e7ecd4b22a9a6cd9f597dc94351"
+      },
+      {
+        "path": "backend/tests/test_ingestion_quality.py",
+        "sha256": "769f045ebfc17ae967dfce82d8d94bdc5a6539ed34142a2557dcbe51bed31730"
+      },
+      {
+        "path": "backend/tests/test_learning_export.py",
+        "sha256": "0cc6ae0f81a89f8ec3697e28c163e974e5e1c4321c4b1d26fcdf93436b4bbe10"
+      },
+      {
+        "path": "backend/tests/test_material_overview.py",
+        "sha256": "2a22c150acc1dad3411b4b6b270216eed97e6359368b780383e99f58a9d6aa38"
+      },
+      {
+        "path": "backend/tests/test_material_overview_retention.py",
+        "sha256": "54bab58fff0f64f0f6b9896f83c24b079c50807b3d05eb4fc2ddabb0e3b2b96d"
+      },
+      {
+        "path": "backend/tests/test_material_tools.py",
+        "sha256": "46e1feb6820b948894fb0e4f1c1423ed2e9d9008005068b47ce6e87cb6dcd36b"
+      },
+      {
+        "path": "backend/tests/test_mindmap_annotations.py",
+        "sha256": "444d693ccfdd80cc9d0d3daca04fc0e6793219f55232c947ec1e85c31b589d1c"
+      },
+      {
+        "path": "backend/tests/test_mindmap_evidence.py",
+        "sha256": "089f3283b8de35c4fbc5924f7b76751542622c19409f3a88badfcaf0f3411b58"
+      },
+      {
+        "path": "backend/tests/test_os_tools.py",
+        "sha256": "02870b4dc8387aecff8baadaa10feba6b9ae121838f111ead468f1295326d2da"
+      },
+      {
+        "path": "backend/tests/test_paging.py",
+        "sha256": "fafd84ec5e6da5d3c006c63d1e6aa7a4d21aa53bcd247a303a19a644475e84e5"
+      },
+      {
+        "path": "backend/tests/test_pdf_outline_consistency.py",
+        "sha256": "2d298559600084bf5bdd12dd114de18d52c5526950bb11dfc3c82a2b610b2470"
+      },
+      {
+        "path": "backend/tests/test_plan_semantics.py",
+        "sha256": "8f664f47a549380eaab90035d4c23f447333f1708aa3273179afe4352794e394"
+      },
+      {
+        "path": "backend/tests/test_provider_boundaries.py",
+        "sha256": "66edb54658b1a364375188f20cc789e5b62e679d5e2d99d775deee1791b858ee"
+      },
+      {
+        "path": "backend/tests/test_provider_json_mode.py",
+        "sha256": "61cfabdbf24721599ef84dbfbdc6a03b49f1d2d683e470bb2871b856b735563b"
+      },
+      {
+        "path": "backend/tests/test_question_scope.py",
+        "sha256": "770ff648fd008b840f4760150d49c9fbf51e670b9ed681eda024c0f3939f3034"
+      },
+      {
+        "path": "backend/tests/test_quiz_application.py",
+        "sha256": "d4704861f79c8cc18c1105517abbfaf79a6bda829cda1279783113aa27a88485"
+      },
+      {
+        "path": "backend/tests/test_quiz_blind_pipeline.py",
+        "sha256": "44bf6119397982c7b46332140dc70a7b795d68e7077403e394a2ac3c90a30bd8"
+      },
+      {
+        "path": "backend/tests/test_quiz_blind_review.py",
+        "sha256": "8e3e0db3a9f85821d25b8b36550263e30d5360e14407c35bc456f311e8dd9464"
+      },
+      {
+        "path": "backend/tests/test_quiz_concept_promotion.py",
+        "sha256": "97a328f2d18f17c16f68b7382bc6066733607a341022b52cc94d8b8b71d15e85"
+      },
+      {
+        "path": "backend/tests/test_quiz_concept_scope.py",
+        "sha256": "2e30dd035a43b9df0a02f4b58d7b1f51604a3620b867ed479bd2162ea71b21c7"
+      },
+      {
+        "path": "backend/tests/test_quiz_drafts.py",
+        "sha256": "c0d52da1730a972d1d361d262449153a2ebcfd8191113f2f6c56d43625bb2655"
+      },
+      {
+        "path": "backend/tests/test_quiz_evidence_context.py",
+        "sha256": "b839e31e98dc75cc4e6c1be2df91953ebbdb9235e97cd95745842fe9e89330c8"
+      },
+      {
+        "path": "backend/tests/test_quiz_explanation_math.py",
+        "sha256": "611ba0011f03f10f2034c8b769938fe1a0ffa49cd36effcd07a68e254f7fb1e5"
+      },
+      {
+        "path": "backend/tests/test_quiz_generation_routing.py",
+        "sha256": "a453f6830689e8417c28d0eb874ead3f8abb251f5b72ca0aa0c43267c5c29dbc"
+      },
+      {
+        "path": "backend/tests/test_quiz_model_evidence.py",
+        "sha256": "687a5810ecbd991a8dadb3e0b4459bf0002b6583b126e66f488f877b1df8610b"
+      },
+      {
+        "path": "backend/tests/test_quiz_review.py",
+        "sha256": "e45064edc60a35e2c6334833c3c5b3bd452367d66b1f81703d573d32d58c8510"
+      },
+      {
+        "path": "backend/tests/test_quiz_review_checks.py",
+        "sha256": "296e1c51f727b243b6c15b9d89716e8225092a5bf12ed491bc0639c8ec939f65"
+      },
+      {
+        "path": "backend/tests/test_review_evidence_scope.py",
+        "sha256": "ff911e69ad06b043957321759765f394590413af207a90f3e21b3347787b574e"
+      },
+      {
+        "path": "backend/tests/test_review_model_routing.py",
+        "sha256": "4d5690c4fd13792aed4b013e342c1a91e8f2c7fc3fe1121b63aa45d80f841d05"
+      },
+      {
+        "path": "backend/tests/test_review_output_protocol.py",
+        "sha256": "eeb7c675249502d55c3c83c9f7720c019f9aa1f7fe66191386401bf7528cc524"
+      },
+      {
+        "path": "backend/tests/test_session_status.py",
+        "sha256": "34256056a780cdbadd4b2f468fa8a157c5b5b43150ca2e6b5425ec21e96ef0d5"
+      },
+      {
+        "path": "backend/tests/test_shortest_path_contract.py",
+        "sha256": "bd0a3fc98daa389b2717940282519886135071eaa5af597f6ffca5ef7da139cf"
+      },
+      {
+        "path": "backend/tests/test_socratic_arithmetic_claims.py",
+        "sha256": "f43dc915c852945c854fc2d3a0d8ed4772e73ba78915c278cfc009e4aa90f976"
+      },
+      {
+        "path": "backend/tests/test_socratic_reply.py",
+        "sha256": "d5372c50008a233120c80e1e89e88e12dfdd36bc1e546bfb0e84cc0ba8a890d0"
+      },
+      {
+        "path": "backend/tests/test_teaching_prompts.py",
+        "sha256": "a80c737dab3ae06a17a64762d7da87bceb05e8d8107654f3492dd894b0cecf5a"
+      },
+      {
+        "path": "backend/tests/test_teaching_review_contract.py",
+        "sha256": "77f13b33540c551bc4adb6c0c369c698f9c04d58cf99459cf31165f86d811729"
+      },
+      {
+        "path": "backend/tests/test_teaching_route.py",
+        "sha256": "2f3e2cd3d2014dc6b7b4951fef86aac8855c1c328342814b731f0ab9d41dd564"
+      },
+      {
+        "path": "backend/tests/test_tool_execution_evidence.py",
+        "sha256": "14b979032deb96ccac3b0549641aab4db7610ef19b51742ea8bf4ae9b5edbe24"
+      },
+      {
+        "path": "backend/tests/test_tool_verification_language.py",
+        "sha256": "6181add734f3818a972ccbad5369aa39e6b8df4f064ea0be503bc68a513b29ce"
+      },
+      {
+        "path": "backend/tests/test_vision_observations.py",
+        "sha256": "4c35f8b421205b86f12ed8aedbadd9262ad786fb86a8168708b7afa2cee82ad0"
+      },
+      {
+        "path": "backend/tests/test_vision_question_projection.py",
+        "sha256": "a1b24534334402751c1befce7a801ecf592e2a0b760c66441d1e75485f79b002"
+      },
+      {
+        "path": "backend/tests/test_windows_platform.py",
+        "sha256": "6ca062ecb5482260a93b7e26819bdd174fe86a1e3b8a013e2481f88fa76aefe6"
+      },
+      {
+        "path": "compose.yaml",
+        "sha256": "c53f82ac019d95c1804a95aa41e6f7f15e21e9003db0f292e7b1b79d3034f12a"
+      },
+      {
+        "path": "Dockerfile",
+        "sha256": "6c2632c758dbb8089ddb5c2c08785f07309c76045691f2a578a3d27860bde807"
+      },
+      {
+        "path": "frontend/package-lock.json",
+        "sha256": "fcd6658439b35f212052bf173ff44b03a57e628bf9bdb3d7cd251d2ff9dd0e66"
+      },
+      {
+        "path": "frontend/package.json",
+        "sha256": "3a2c9afbf63981e8ed8cc88d0c636f79a77fe0ecdcfaad4584957ede61d1e75e"
+      },
+      {
+        "path": "frontend/scripts/test-document-status.cjs",
+        "sha256": "f801b670f475ae8d6466cd6c138d90075692b042aa9310094b13ffba6ccd8398"
+      },
+      {
+        "path": "frontend/scripts/test-knowledge-map.cjs",
+        "sha256": "bb20cfd0e90968a2516082d4230be8ac728f1aff353bd7ecdfc36f2d4eb22275"
+      },
+      {
+        "path": "frontend/scripts/test-mind-map.cjs",
+        "sha256": "ba5a242ac20517e97971143b813597ed362b9b96acff3f09c1c46d147215ea90"
+      },
+      {
+        "path": "frontend/scripts/test-question-draft.cjs",
+        "sha256": "54923bcc3bc4c00c2c09665698040ee1cc4e273eff31fee22735a1ae7f31b437"
+      },
+      {
+        "path": "frontend/scripts/test-quiz-draft.cjs",
+        "sha256": "441e77c94b01e93946cf229b98fd8c4c4d0d72c1ec4f84a600d924995e027b33"
+      },
+      {
+        "path": "frontend/scripts/test-starter-prompts.cjs",
+        "sha256": "458d64489ef3070198e0a64ea144b796b9b6f9625b8e2518b60577c56e07ac99"
+      },
+      {
+        "path": "frontend/scripts/test-trace-status.cjs",
+        "sha256": "e91e08485af2e4172b18dffe3944fb50591ecb14f1a6191e476af4e145c7e58a"
+      },
+      {
+        "path": "frontend/src/api.ts",
+        "sha256": "91a03e2d85a162a3b043578570581827ef6b0564a15921944c3f6239a8115bfe"
+      },
+      {
+        "path": "frontend/src/App.tsx",
+        "sha256": "539bf2574c69b8eb3ba1a307a394f00c33fd2c2a0969e2e34d66f89be5a0b053"
+      },
+      {
+        "path": "frontend/src/components/DocumentStatus.tsx",
+        "sha256": "044539c117b4f7ae70d01183b154873303055b13160dafe4118bade298355da0"
+      },
+      {
+        "path": "frontend/src/components/FigureMarkerDialog.tsx",
+        "sha256": "b57a5203cd691f2037b7cff03a9edcc0f9f2d00d33299bbb551958f041d4c1e0"
+      },
+      {
+        "path": "frontend/src/components/Markdown.tsx",
+        "sha256": "1517df41a367847422ef1ab4f93466ffde91e68c342c81a29d564e454f8530f3"
+      },
+      {
+        "path": "frontend/src/components/MindMapCanvas.tsx",
+        "sha256": "93a141fbea43f0028229b369479ac18dbb71f81addcfc43fd5b6a528c77274e6"
+      },
+      {
+        "path": "frontend/src/components/MindMapFigure.tsx",
+        "sha256": "05bacc9da5212550f38a53dcdf3991d25d80b8412e61b6ff35da876740474cf9"
+      },
+      {
+        "path": "frontend/src/components/RelationshipGraph.tsx",
+        "sha256": "dafe82ddba32553c429fe2d6fad6ed8844b40e0f5e759ce3cb8798f24e68b5ef"
+      },
+      {
+        "path": "frontend/src/components/ui.tsx",
+        "sha256": "de6dc21bf5cc1674b10b7e5a8938712981216f557b8966be04ff7c0b766273ef"
+      },
+      {
+        "path": "frontend/src/lib/knowledge-map.ts",
+        "sha256": "a4a426f1096b3235cfb30013cb26b20144146a1d960502bf74ef8cb62a49213d"
+      },
+      {
+        "path": "frontend/src/lib/mind-map-export.ts",
+        "sha256": "e35626a3423ee848fb96fcd2036ad0b82fdfce9637c9ab95a85c156add020981"
+      },
+      {
+        "path": "frontend/src/lib/mind-map.ts",
+        "sha256": "5d2df05fe82e748dbc6e97aa669b2b48f39139917f9961e242ee667604592fba"
+      },
+      {
+        "path": "frontend/src/lib/question-draft.ts",
+        "sha256": "dde64f96a04a6ad38e6b9466c52e7b7c23bcaf648fc3266f89a0e3b9b93bdce6"
+      },
+      {
+        "path": "frontend/src/lib/quiz-draft.ts",
+        "sha256": "09759ad30863bb4dd0bc2d691ade332894a61b3af4f62f9a12d817b8997d9ae4"
+      },
+      {
+        "path": "frontend/src/lib/starter-prompts.ts",
+        "sha256": "21c6810952986535d9b00f62ac0871c4f86966fab98101a9ba9adcc82c898dc1"
+      },
+      {
+        "path": "frontend/src/lib/trace-status.ts",
+        "sha256": "c85b89e343a0dbd3e4fca29f588184226a0bde83c2e905928483876039c902f5"
+      },
+      {
+        "path": "frontend/src/main.tsx",
+        "sha256": "1b7dfef3f422f438201ea785c2ec703c95e33794ef134601313bf3c7a455f0b2"
+      },
+      {
+        "path": "frontend/src/styles.css",
+        "sha256": "58431fb8324902e89ecf5be63656c36be1e441df12214cdf5f9e4ac08f0f394e"
+      },
+      {
+        "path": "frontend/src/views/Auth.tsx",
+        "sha256": "91d0dd286da1e696266d4dd867c1b92d50f980ad703de6a13183b16b608cfed6"
+      },
+      {
+        "path": "frontend/src/views/Chat.tsx",
+        "sha256": "f7f925fa26561fa9c963a81b68fe28c11f044e168c29b1ad3b43118d0aa5d209"
+      },
+      {
+        "path": "frontend/src/views/CourseSpace.tsx",
+        "sha256": "adc3b3deba00ca4477d3f478ac0d5c93f546150bafa75f42b44cfc23d70fe9f4"
+      },
+      {
+        "path": "frontend/src/views/Dashboard.tsx",
+        "sha256": "0d404bdd50d38bd1800c1e2e508eb562cb68117ad897f6688a2c7ee6d7de0e55"
+      },
+      {
+        "path": "frontend/src/views/Graph.tsx",
+        "sha256": "a6290b4ff76447eede3836178426122f3cf3a73f53e4b32bc523071e14457b31"
+      },
+      {
+        "path": "frontend/src/views/knowledge-map.css",
+        "sha256": "641323cfb3a65ee02bdf9c17b58a0a56a39ff3c623ea36a3549fa33bfd2251ac"
+      },
+      {
+        "path": "frontend/src/views/Library.tsx",
+        "sha256": "cf524b1233fbbf113f07d7fb68e1038bcfc5abfb88157bad3983a138eb8eef89"
+      },
+      {
+        "path": "frontend/src/views/Materials.tsx",
+        "sha256": "416102991ea2e0846cafab64d2e832de743f3f6acacdb5cf012b526817a5e3d7"
+      },
+      {
+        "path": "frontend/src/views/mind-map.css",
+        "sha256": "03adcc9ad15302d2c7f80e46d414dfe8715d78de44b819e45b1bada422e2f86c"
+      },
+      {
+        "path": "frontend/src/views/Plans.tsx",
+        "sha256": "6810331779c9ab6c3994ae10f11be0731420c67d541229360142133eb6b8916c"
+      },
+      {
+        "path": "frontend/src/views/Practice.tsx",
+        "sha256": "863c7efe6fe29364b2cee3b032e192a6c9acd684b5af829135fe297ad6edd429"
+      },
+      {
+        "path": "scripts/start.ps1",
+        "sha256": "39eb271018a9f123fa4636dbde8b7fbb08c79e8f64cd8205095e820d78a23495"
+      }
+    ],
+    "unchanged_before_and_after_full_regression": true,
+    "unchanged_after_full_regression_and_archive_runtime": true
+  },
+  "backend": {
+    "status": "passed",
+    "artifact": "docs/validation/pytest-release-final-20261011.xml",
+    "command": ".venv/Scripts/python.exe -m pytest backend/tests -q",
+    "scope": "Temporary databases and controlled providers; no live model performance claim",
+    "tests": 2276,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "junit_seconds": 381.588,
+    "command_seconds": 381.8,
+    "junit_sha256": "4e88477746483326f50be04f8fd4e57da1d9bde2a6e60bc8a7a1e6524004873a"
+  },
+  "frontend": {
+    "status": "passed",
+    "logic_checks_passed": 60,
+    "check_groups": {
+      "document_status": 7,
+      "knowledge_navigation": 7,
+      "mindmap_contract": 15,
+      "quiz_draft_queue": 8,
+      "trace_status": 13,
+      "question_draft": 9,
+      "starter_prompt_modes": 1
+    },
+    "typescript_build": "passed",
+    "vite_build": "passed",
+    "vite_version": "6.4.3",
+    "entry_asset": "index-l2p1WpvJ.js",
+    "source_files_unchanged_since_test_and_build": true
+  },
+  "real_mimo_teaching": {
+    "case_count": 8,
+    "manual_passed": 8,
+    "artifact": "docs/validation/starter-prompts-20261011-results.json",
+    "surface": "Actual in-app browser plus manual answer/citation/tool review",
+    "mode_coverage": [
+      "explain",
+      "socratic",
+      "solve"
+    ],
+    "latency_scope": "Single observed case intervals, not a latency distribution",
+    "supplemental_final_replay": {
+      "artifact": "docs/validation/demo-ui-learning-20261011.json",
+      "observed_messages": 5,
+      "current_head_messages": 4,
+      "unaffected_solve_replay_messages": 1,
+      "manual_semantics_passed": 5,
+      "scope": "Current analogy explanation, Socratic introduction and correct no-question follow-up, plus same original-history correct-attempt recovery; solve replay predates final Socratic/analogy-only edits and explicitly reports its unchanged version scope",
+      "original_history_recovery_is_textbook_normal_pass": false
+    }
+  },
+  "real_mimo_textbook_quiz_loop": {
+    "artifact": "docs/validation/mimo-release-learning-loop-20261011.json",
+    "generated_groups": 1,
+    "generated_questions": 1,
+    "generation_model": "mimo-v2.6-flash",
+    "review_model": "mimo-v2.6-flash",
+    "semantic_review": "independent_passed",
+    "surface": "Actual HTTP and read-only owned-row capture, no browser login change",
+    "grading": "0/1 deliberately wrong; one actual mistake; canonical repeated submit",
+    "review_plan": "Seven days, 15 minutes/day, real weak stack concept and persisted completion",
+    "checked_original_material": "Original synthetic stack/queue Markdown",
+    "latest_export_context": "Passed actual GET after service reload: submitted stem, all four choices, actual wrong/correct selections, explanation and completed plan; 1522 bytes"
+  },
+  "isolated_runtime": {
+    "artifact": "docs/validation/clean-release-runtime-20261011.json",
+    "passed": 29,
+    "total": 29,
+    "type": "real_http_files_native_process_restart",
+    "paid_provider_requests": 0,
+    "mocked_api_responses": 0,
+    "original_database_used": false,
+    "original_service_modified": false,
+    "owned_process_stopped": true,
+    "fresh_dependencies_downloaded": false
+  },
+  "windows_startup": {
+    "artifact": "docs/validation/startup-port-safety-20261011.json",
+    "passed": 10,
+    "total": 10,
+    "type": "Actual Windows PowerShell 5.1 -File command; only UTF-8 BOM added",
+    "occupied_original_port": 8766,
+    "independent_port": 8792,
+    "original_service_modified": false,
+    "owned_process_stopped": true
+  },
+  "chat_deadlines": {
+    "normal_agent_seconds": "settings.provider_timeout, default 90",
+    "ordinary_recovery_seconds": "min(30, settings.provider_timeout)",
+    "expiry_behavior": "Existing ordinary teaching recovery, then honest server learning continuation",
+    "scope": "Bounds model work, not semaphore queue wait or all local IO",
+    "quota_and_cancellation": "402/429 errors and user cancellation retain existing behavior",
+    "targeted_artifact": "docs/validation/pytest-release-deadlines-20261011.xml",
+    "targeted_tests_passed": 100,
+    "targeted_failures": 0
+  },
+  "submitted_quiz_export_fix": {
+    "source": "backend/app/main.py",
+    "scope": "Only submitted quizzes attach their existing stem/options using result.question_id; unsubmitted questions, saved drafts and other users remain excluded",
+    "tests": "backend/tests/test_learning_export.py",
+    "targeted_artifact": "docs/validation/pytest-release-export-20261011.xml",
+    "targeted_tests_passed": 67,
+    "existing_submitted_quiz_shape_audit": {
+      "quizzes": 17,
+      "invalid_shapes": 0,
+      "unmatched_question_ids": 0,
+      "read_only": true
+    }
+  },
+  "selected_browser_evidence": [
+    {
+      "artifact": "docs/validation/ds-bank-practice-results.json",
+      "scope": "Latest completed curated-bank answer-hidden/draft/grade/mistake/measurement confirmation; no provider calls"
+    },
+    {
+      "artifact": "docs/validation/ds-post-learning-results.json",
+      "scope": "Completed read-only saved conversation/grade/dashboard/download/ownership confirmation; no new model request"
+    },
+    {
+      "artifact": "docs/validation/ds-account-boundaries-results.json",
+      "scope": "Latest completed owner/foreign/anonymous API and rendered UI boundary confirmation"
+    },
+    {
+      "artifact": "docs/validation/ds-mindmap-browser-results.json",
+      "scope": "Completed stage confirmations for hierarchy/notes/recall/drafts; historical failed attempts retained and not counted as all passed"
+    },
+    {
+      "artifact": "docs/validation/mindmap-export-browser-results.json",
+      "scope": "Six real browser PNG/export-helper checks; no whole UI teaching quality claim"
+    },
+    {
+      "artifact": "docs/validation/ds-stream-cancel-results.json",
+      "scope": "Latest completed stop-recovery confirmation; initial failed attempts not current acceptance"
+    }
+  ],
+  "limits": [
+    "Do not add overlapping test sets into an accuracy percentage.",
+    "Provider/HTTP success and automatic model review are not semantic proof.",
+    "One original textbook question and eight teaching cases do not validate arbitrary books, questions or models.",
+    "Current native Windows startup is verified; Linux Docker evidence is historical unless a separate current audit is added.",
+    "Private cookies, hidden answer keys, original databases, source PDFs and complete private book responses remain outside this public report."
+  ],
+  "source_archive_reproduction": {
+    "artifact": "docs/validation/source-archive-reproduction-20261011.json",
+    "current_freeze": true,
+    "files": 305,
+    "critical_files_compared": 209,
+    "missing": 0,
+    "different": 0,
+    "zip_crc": "passed",
+    "runtime": "passed",
+    "runtime_artifact": "docs/validation/extracted-release-runtime-20261011.json",
+    "runtime_passed": 29,
+    "runtime_total": 29,
+    "owned_process_stopped": true,
+    "paid_provider_requests": 0,
+    "archive_sha256": "b8e25e0b2f6506009fe46810f0ebde5cf6ea1e0e8919b3595163f28f53c593ad",
+    "archive_bytes": 19270887
+  },
+  "completed": true,
+  "delivery_scope_boundary": "Source code, final offline gates, current Mimo sample cases and native/extracted startup are closed; final formal-report/video/big-archive audits are recorded separately by the release owner",
+  "student_current_request_guard": {
+    "targeted_artifact": "docs/validation/pytest-release-final-student-20261011.xml",
+    "targeted_tests_passed": 486,
+    "targeted_failures": 0,
+    "scope": "Explicit current whole-clause no-question commands; quoted, reported, hypothetical and negated commands excluded; latest-turn-only scope, actual Agent/API/DB flow with fake generation and review, latest-attempt-only recovery prompt contract",
+    "semantic_boundary": "Controlled providers establish scope/control flow; actual current Mimo replies are manually checked separately. The same original failed history now judges the latest correct attempt correctly via generic recovery, not as a verified textbook answer.",
+    "real_model_artifact": "docs/validation/demo-ui-learning-20261011.json",
+    "real_new_socratic_normal_messages": 2,
+    "real_original_history_recovery_messages": 1,
+    "real_latest_attempt_correctly_confirmed": true,
+    "real_current_no_question_request_respected": true
+  }
+}

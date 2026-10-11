@@ -1,0 +1,2462 @@
+{
+  "surface": "Standalone Chromium, Python Playwright; Codex IAB unavailable and not used",
+  "scope": "Existing-account isolation, protected-resource GET access and real UI recovery",
+  "attempts": [
+    {
+      "run_id": "20261004T004122Z-71aef3dd",
+      "started_at": "2026-10-04T00:41:22.379999+00:00",
+      "completed": false,
+      "passed": false,
+      "checks": [
+        {
+          "name": "owner storage or login matches designated original account",
+          "passed": true
+        },
+        {
+          "name": "designated real DS document is ready",
+          "passed": true
+        },
+        {
+          "name": "positive controls contain real sessions quizzes plans figures and notes",
+          "passed": false
+        },
+        {
+          "name": "second browser context is a distinct existing account",
+          "passed": true
+        },
+        {
+          "name": "anonymous context never acquires a login cookie",
+          "passed": true
+        },
+        {
+          "name": "second account business data stays byte-equivalent excluding auth sessions",
+          "passed": true
+        },
+        {
+          "name": "no business mutations or model requests were attempted",
+          "passed": true
+        },
+        {
+          "name": "browser has no unhandled page errors",
+          "passed": false
+        }
+      ],
+      "ui_checks": [
+        {
+          "name": "owner can render real DS chat tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS materials tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS graph tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS practice tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS plans tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "other real login form succeeds",
+          "passed": true
+        },
+        {
+          "name": "other UI restricted chat has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted chat recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI chat renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted materials has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted materials recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI materials renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted graph has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted graph recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI graph renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted practice has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted practice recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI practice renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted plans has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted plans recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI plans renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "unknown course route has an actual working recovery button",
+          "passed": true
+        },
+        {
+          "name": "unknown tab recovers into a permitted course chat without generation",
+          "passed": true
+        },
+        {
+          "name": "other_account actual browser direct pdf-preview URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "other_account actual browser direct pdf-download URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "other_account actual browser direct page-image URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "anonymous actual browser direct pdf-preview URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous actual browser direct pdf-download URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous actual browser direct page-image URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous returns from denied raw URL to actual login UI",
+          "passed": true
+        },
+        {
+          "name": "malformed encoded course route offers visible in-app recovery",
+          "passed": false,
+          "action": "navigate malformed hash course URL"
+        }
+      ],
+      "http_checks": [
+        {
+          "name": "owner positive control: course",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: documents",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: graph",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: sessions",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: practice",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: plans",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: figures",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-detail",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-documents",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-graph",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-overview",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-sessions",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-practice",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-plans",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-export",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: document-download",
+          "passed": true,
+          "principal": "owner",
+          "status": 206
+        },
+        {
+          "name": "owner positive control: document-preview",
+          "passed": true,
+          "principal": "owner",
+          "status": 206
+        },
+        {
+          "name": "owner positive control: document-chunks",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: document-figures",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: physical-page-image-99",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: physical-page-image-161",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-14",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-15",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-16",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-17",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-18",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-19",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: session-messages-1",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "second account course list excludes main private DS course",
+          "passed": true,
+          "principal": "other_account",
+          "status": 200
+        },
+        {
+          "name": "other_account denied: course-detail",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-documents",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/documents",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-graph",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/graph",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-overview",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/overview",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-sessions",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/sessions",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-practice",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/practice",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-plans",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/plans",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-export",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/export?course_id={course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-download",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/download",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-preview",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/preview",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-chunks",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/chunks?page=1",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-figures",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/figures",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: physical-page-image-99",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: physical-page-image-161",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-14",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-15",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-16",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-17",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-18",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-19",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: session-messages-1",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-detail",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-documents",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/documents",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-graph",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/graph",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-overview",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/overview",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-sessions",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/sessions",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-practice",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/practice",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-plans",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/plans",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-export",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/export?course_id={course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-download",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/download",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-preview",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/preview",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-chunks",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/chunks?page=1",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-figures",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/figures",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: physical-page-image-99",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: physical-page-image-161",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-14",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-15",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-16",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-17",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-18",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-19",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: session-messages-1",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        }
+      ],
+      "page_error_count": 1,
+      "unexpected_mutation_count": 0,
+      "private_artifact_directory": "data/private-validation/ds-account-boundaries/20261004T004122Z-71aef3dd",
+      "browser_version": "151.0.7922.34",
+      "real_resource_counts": {
+        "sessions": 1,
+        "quizzes": 0,
+        "plans": 3,
+        "manual_figures": 2,
+        "noted_nodes": 0
+      },
+      "protected_read_url_count": 21,
+      "exception_type": "AssertionError",
+      "finished_at": "2026-10-04T00:42:03.015719+00:00"
+    },
+    {
+      "run_id": "20261004T004720Z-f4080869",
+      "started_at": "2026-10-04T00:47:20.526142+00:00",
+      "completed": true,
+      "passed": false,
+      "checks": [
+        {
+          "name": "owner storage or login matches designated original account",
+          "passed": true
+        },
+        {
+          "name": "designated real DS document is ready",
+          "passed": true
+        },
+        {
+          "name": "positive controls contain real sessions quizzes plans figures and notes",
+          "passed": false
+        },
+        {
+          "name": "second browser context is a distinct existing account",
+          "passed": true
+        },
+        {
+          "name": "anonymous context never acquires a login cookie",
+          "passed": true
+        },
+        {
+          "name": "second account business data stays byte-equivalent excluding auth sessions",
+          "passed": true
+        },
+        {
+          "name": "only allowed auth login and optional designated owner note requests were attempted",
+          "passed": true
+        },
+        {
+          "name": "browser has no unhandled page errors",
+          "passed": true
+        }
+      ],
+      "ui_checks": [
+        {
+          "name": "authorized owner p99 figure note saved by actual UI",
+          "passed": true,
+          "action": "explicitly authorized one note PUT; title unchanged"
+        },
+        {
+          "name": "owner p99 note persists after actual browser reload with title unchanged",
+          "passed": true
+        },
+        {
+          "name": "owner can render real DS chat tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS materials tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS graph tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS practice tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS plans tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "other real login form succeeds",
+          "passed": true
+        },
+        {
+          "name": "other UI restricted chat has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted chat recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI chat renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted materials has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted materials recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI materials renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted graph has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted graph recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI graph renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted practice has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted practice recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI practice renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted plans has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted plans recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI plans renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "unknown course route has an actual working recovery button",
+          "passed": true
+        },
+        {
+          "name": "unknown tab recovers into a permitted course chat without generation",
+          "passed": true
+        },
+        {
+          "name": "other_account actual browser direct pdf-preview URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "other_account actual browser direct pdf-download URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "other_account actual browser direct page-image URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "anonymous actual browser direct pdf-preview URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous actual browser direct pdf-download URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous actual browser direct page-image URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous returns from denied raw URL to actual login UI",
+          "passed": true
+        },
+        {
+          "name": "malformed encoded course route offers visible in-app recovery",
+          "passed": true,
+          "action": "navigate malformed hash course URL"
+        },
+        {
+          "name": "second account remains usable after invalid route",
+          "passed": true,
+          "recovery": "in-app return button"
+        }
+      ],
+      "http_checks": [
+        {
+          "name": "owner positive control: course",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: documents",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: graph",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: sessions",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: practice",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: plans",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: figures",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: owner-note-before",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: owner-note-after-reload",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: graph-after-owner-note",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-detail",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-documents",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-graph",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-overview",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-sessions",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-practice",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-plans",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-export",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: document-download",
+          "passed": true,
+          "principal": "owner",
+          "status": 206
+        },
+        {
+          "name": "owner positive control: document-preview",
+          "passed": true,
+          "principal": "owner",
+          "status": 206
+        },
+        {
+          "name": "owner positive control: document-chunks",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: document-figures",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: physical-page-image-99",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: physical-page-image-161",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-14",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-15",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-16",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-17",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-18",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-19",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: session-messages-1",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "second account course list excludes main private DS course",
+          "passed": true,
+          "principal": "other_account",
+          "status": 200
+        },
+        {
+          "name": "other_account denied: course-detail",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-documents",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/documents",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-graph",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/graph",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-overview",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/overview",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-sessions",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/sessions",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-practice",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/practice",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-plans",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/plans",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-export",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/export?course_id={course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-download",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/download",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-preview",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/preview",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-chunks",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/chunks?page=1",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-figures",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/figures",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: physical-page-image-99",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: physical-page-image-161",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-14",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-15",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-16",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-17",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-18",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-19",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: session-messages-1",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-detail",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-documents",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/documents",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-graph",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/graph",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-overview",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/overview",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-sessions",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/sessions",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-practice",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/practice",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-plans",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/plans",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-export",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/export?course_id={course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-download",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/download",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-preview",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/preview",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-chunks",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/chunks?page=1",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-figures",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/figures",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: physical-page-image-99",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: physical-page-image-161",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-14",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-15",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-16",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-17",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-18",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-19",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: session-messages-1",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        }
+      ],
+      "page_error_count": 0,
+      "unexpected_mutation_count": 0,
+      "private_artifact_directory": "data/private-validation/ds-account-boundaries/20261004T004720Z-f4080869",
+      "authorized_owner_note_opt_in": true,
+      "browser_version": "151.0.7922.34",
+      "real_resource_counts": {
+        "sessions": 1,
+        "quizzes": 0,
+        "plans": 3,
+        "manual_figures": 2,
+        "noted_nodes": 1
+      },
+      "protected_read_url_count": 21,
+      "authorized_owner_note_put_count": 1,
+      "finished_at": "2026-10-04T00:47:44.168459+00:00"
+    },
+    {
+      "run_id": "20261004T005630Z-2d2b5327",
+      "started_at": "2026-10-04T00:56:30.700062+00:00",
+      "completed": true,
+      "passed": true,
+      "checks": [
+        {
+          "name": "owner storage or login matches designated original account",
+          "passed": true
+        },
+        {
+          "name": "designated real DS document is ready",
+          "passed": true
+        },
+        {
+          "name": "required freshly generated quiz belongs to designated DS course and account",
+          "passed": true
+        },
+        {
+          "name": "positive controls contain real sessions quizzes plans figures and notes",
+          "passed": true
+        },
+        {
+          "name": "second browser context is a distinct existing account",
+          "passed": true
+        },
+        {
+          "name": "anonymous context never acquires a login cookie",
+          "passed": true
+        },
+        {
+          "name": "second account business data stays byte-equivalent excluding auth sessions",
+          "passed": true
+        },
+        {
+          "name": "only allowed auth login and optional designated owner note requests were attempted",
+          "passed": true
+        },
+        {
+          "name": "browser has no unhandled page errors",
+          "passed": true
+        }
+      ],
+      "ui_checks": [
+        {
+          "name": "owner can render real DS chat tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS materials tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS graph tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS practice tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner can render real DS plans tab",
+          "passed": true,
+          "action": "click course tab"
+        },
+        {
+          "name": "owner opens a real existing DS quiz by history button without editing or submission",
+          "passed": true,
+          "action": "click quiz history then read existing quiz",
+          "question_count": 3
+        },
+        {
+          "name": "other real login form succeeds",
+          "passed": true
+        },
+        {
+          "name": "other UI restricted chat has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted chat recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI chat renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted materials has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted materials recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI materials renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted graph has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted graph recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI graph renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted practice has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted practice recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI practice renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted plans has no private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "other UI restricted plans recovers by return button",
+          "passed": true,
+          "action": "click return to courses"
+        },
+        {
+          "name": "anonymous UI plans renders login without private data",
+          "passed": true,
+          "action": "navigate actual protected course URL"
+        },
+        {
+          "name": "unknown course route has an actual working recovery button",
+          "passed": true
+        },
+        {
+          "name": "unknown tab recovers into a permitted course chat without generation",
+          "passed": true
+        },
+        {
+          "name": "other_account actual browser direct pdf-preview URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "other_account actual browser direct pdf-download URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "other_account actual browser direct page-image URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 404
+        },
+        {
+          "name": "anonymous actual browser direct pdf-preview URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous actual browser direct pdf-download URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous actual browser direct page-image URL denied",
+          "passed": true,
+          "action": "browser navigation to real file URL",
+          "status": 401
+        },
+        {
+          "name": "anonymous returns from denied raw URL to actual login UI",
+          "passed": true
+        },
+        {
+          "name": "malformed encoded course route offers visible in-app recovery",
+          "passed": true,
+          "action": "navigate malformed hash course URL"
+        },
+        {
+          "name": "second account remains usable after invalid route",
+          "passed": true,
+          "recovery": "in-app return button"
+        }
+      ],
+      "http_checks": [
+        {
+          "name": "owner positive control: course",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: documents",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: graph",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: sessions",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: practice",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: plans",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: figures",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-detail",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-documents",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-graph",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-overview",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-sessions",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-practice",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-plans",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: course-export",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: document-download",
+          "passed": true,
+          "principal": "owner",
+          "status": 206
+        },
+        {
+          "name": "owner positive control: document-preview",
+          "passed": true,
+          "principal": "owner",
+          "status": 206
+        },
+        {
+          "name": "owner positive control: document-chunks",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: document-figures",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: physical-page-image-99",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: physical-page-image-161",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-14",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-15",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-16",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-17",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-evidence-18",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: node-annotation-19",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: session-messages-1",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: session-messages-2",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "owner positive control: quiz-read-1",
+          "passed": true,
+          "principal": "owner",
+          "status": 200
+        },
+        {
+          "name": "second account course list excludes main private DS course",
+          "passed": true,
+          "principal": "other_account",
+          "status": 200
+        },
+        {
+          "name": "second account global dashboard excludes main private resource fingerprints",
+          "passed": true,
+          "principal": "other_account",
+          "status": 200
+        },
+        {
+          "name": "second account global all-record-export excludes main private resource fingerprints",
+          "passed": true,
+          "principal": "other_account",
+          "status": 200
+        },
+        {
+          "name": "anonymous global identity requires login",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401
+        },
+        {
+          "name": "anonymous global course-list requires login",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401
+        },
+        {
+          "name": "anonymous global dashboard requires login",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401
+        },
+        {
+          "name": "anonymous global all-record-export requires login",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401
+        },
+        {
+          "name": "permitted shared course cannot be combined with owner's private figure evidence",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404
+        },
+        {
+          "name": "permitted shared course cannot be combined with owner's private figure annotation",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404
+        },
+        {
+          "name": "other_account denied: course-detail",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-documents",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/documents",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-graph",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/graph",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-overview",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/overview",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-sessions",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/sessions",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-practice",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/practice",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-plans",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/plans",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: course-export",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/export?course_id={course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-download",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/download",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-preview",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/preview",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-chunks",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/chunks?page=1",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: document-figures",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/figures",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: physical-page-image-99",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: physical-page-image-161",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-14",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-15",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-16",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-17",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-evidence-18",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: node-annotation-19",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: session-messages-1",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: session-messages-2",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        },
+        {
+          "name": "other_account denied: quiz-read-1",
+          "passed": true,
+          "principal": "other_account",
+          "status": 404,
+          "expected_status": 404,
+          "resource_pattern": "/api/quizzes/{quiz_id}",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-detail",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-documents",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/documents",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-graph",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/graph",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-overview",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/overview",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-sessions",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/sessions",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-practice",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/practice",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-plans",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/plans",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: course-export",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/export?course_id={course_id}",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-download",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/download",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-preview",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/preview",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-chunks",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/chunks?page=1",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: document-figures",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/figures",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: physical-page-image-99",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: physical-page-image-161",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/documents/{document_id}/pages/{physical_page}/image",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-14",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-15",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-16",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-17",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-evidence-18",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/evidence",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: node-annotation-19",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/courses/{course_id}/mindmap/nodes/{node_id}/annotation",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: session-messages-1",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: session-messages-2",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/sessions/{session_id}/messages",
+          "content_leak": false
+        },
+        {
+          "name": "anonymous denied: quiz-read-1",
+          "passed": true,
+          "principal": "anonymous",
+          "status": 401,
+          "expected_status": 401,
+          "resource_pattern": "/api/quizzes/{quiz_id}",
+          "content_leak": false
+        }
+      ],
+      "page_error_count": 0,
+      "unexpected_mutation_count": 0,
+      "private_artifact_directory": "data/private-validation/ds-account-boundaries/20261004T005630Z-2d2b5327",
+      "authorized_owner_note_opt_in": false,
+      "browser_version": "151.0.7922.34",
+      "real_resource_counts": {
+        "sessions": 2,
+        "quizzes": 1,
+        "plans": 3,
+        "manual_figures": 2,
+        "noted_nodes": 1
+      },
+      "protected_read_url_count": 23,
+      "authorized_owner_note_put_count": 0,
+      "finished_at": "2026-10-04T00:56:52.272360+00:00"
+    }
+  ],
+  "boundaries": [
+    "GET checks are APIRequestContext requests, separately labelled from actual rendered UI clicks.",
+    "Default attempts permit only UI login; an opt-in marked attempt permits one designated owner p99 figure note PUT.",
+    "No model requests, model-list provider requests, grading, generation, or draft saves are made.",
+    "Plan and mistake data have course-level read endpoints; no nonexistent individual GET is claimed.",
+    "Anonymous SPA routes render the login screen; API URLs return JSON 401 instead of an HTML redirect.",
+    "Resource IDs, credentials, textbook/user content and complete exceptions are kept private."
+  ],
+  "completed": true,
+  "passed": true
+}

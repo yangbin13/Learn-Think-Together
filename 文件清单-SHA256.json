@@ -1,0 +1,1313 @@
+{
+  "version": "2026-10-11",
+  "purpose": "辅助完整性核对清单，非比赛必需材料；路径相对于本仓库根目录。",
+  "manifest_self_excluded": true,
+  "file_count_without_manifest": 261,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 824,
+      "sha256": "e056f0539996bf0bfb9d8c1b4dac6aae61449801cd0296f15a8c7c58c1aaa830"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1561,
+      "sha256": "a455bee97644383fdf5f08a6ff08925b151a473bd7079d4642256c21572d699f"
+    },
+    {
+      "path": "01-技术文档/仓库目录与部署位置说明.md",
+      "bytes": 4358,
+      "sha256": "6ae1c6b9dc045062971329af08f6d4ec50c241ffbfe21b41f3b9f33c2d4a8b75"
+    },
+    {
+      "path": "01-技术文档/学思同行-项目技术与验收报告-20261011.docx",
+      "bytes": 348581,
+      "sha256": "29d210dc8e5256dd7b1ca4fe8e257e1d8649838089c6bc1bf61f545466a04d29"
+    },
+    {
+      "path": "01-技术文档/学思同行-项目技术与验收报告-20261011.md",
+      "bytes": 22640,
+      "sha256": "15d2ec0872bd325da7a6fc8abdb1a75f65ea753e4e19191df04a1411164acd99"
+    },
+    {
+      "path": "01-技术文档/学思同行-项目技术与验收报告-20261011.pdf",
+      "bytes": 495415,
+      "sha256": "7d4c5ecdc6009fd8bc188bea39c0b4b11604770a9079af70c0cd21488056c317"
+    },
+    {
+      "path": "02-源代码/学思同行/.dockerignore",
+      "bytes": 108,
+      "sha256": "9665496446e4f50e0295e6bd607750704066c74bd0843bec854ca164bf741db2"
+    },
+    {
+      "path": "02-源代码/学思同行/.env.example",
+      "bytes": 2581,
+      "sha256": "cd6deb38ce8b1c2bd4022c99e24ba2aede9e924514396c29d89c7cebbb736e2b"
+    },
+    {
+      "path": "02-源代码/学思同行/.github/workflows/ci.yml",
+      "bytes": 668,
+      "sha256": "1f5a581fda2293da2df604b4753786aa09f4a557c6296acea1e143fe9940f386"
+    },
+    {
+      "path": "02-源代码/学思同行/.gitignore",
+      "bytes": 7175,
+      "sha256": "815490dd5aaacbf2208c34a0768c22b8902615f303da9ba649941f56d852dc3c"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/__init__.py",
+      "bytes": 1102,
+      "sha256": "c18a72eae8b7941ec40c6409381e2b7829a8a3c3bf713334ab20776ac1fba6de"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/agent.py",
+      "bytes": 65600,
+      "sha256": "6a2cb47a0addaefedc8b7ee8137d387374adc67ab6ac3f94a8315eb32c5b2338"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/auth.py",
+      "bytes": 2719,
+      "sha256": "0134d0eafc738e62eb57bb06e12f18e35f6c7e29585af5723b137258ff6374e1"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/binary_search.py",
+      "bytes": 3864,
+      "sha256": "4fe9ce3921f7bdb7c87e4e786424ccf5830930463aa6a3bef59cb2e7523a9dc2"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/calculator.py",
+      "bytes": 3246,
+      "sha256": "2534fad0ca33ab77981562493d4574cfc97bd159fd1c9b55442fddfeb9cff378"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/chat_recovery.py",
+      "bytes": 14819,
+      "sha256": "248a1a98d45374eac2e0a8c7c2cf69d6a449fa38485bb7c8d37c20f63f4172d6"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/citation_locations.py",
+      "bytes": 6436,
+      "sha256": "1a4dd25ff5ee920bd89698865c8623b34d0c68e908d2de238c5e0533f2c35a3c"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/citations.py",
+      "bytes": 4313,
+      "sha256": "7b2c9eeb46de83693dd02166ec4ceab90011ac46d3c5b3af3f68fc9caf5dfb93"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/civil_tools.py",
+      "bytes": 5379,
+      "sha256": "25a4588698050daec75a16abcafdae41b723b29022c5ba2c3fa8db6945cd7a55"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/config.py",
+      "bytes": 5735,
+      "sha256": "68f1c9f40db54c82c63263594b2facba1c8b3bbdf7a51feea174c81dd105a034"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/db.py",
+      "bytes": 9279,
+      "sha256": "38d88c1cc2b34d5b9a20211eae6b6973079cb5495aac166f9a030c0a2220288f"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/fact_review.py",
+      "bytes": 67087,
+      "sha256": "7769bf2af1b511265fb32d2d04c014c23e67265806a8b12cdee31d3db055ec1a"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/figures.py",
+      "bytes": 14115,
+      "sha256": "702fdeec9278049e095192f3db0d69feb6c233e91c4360b5a2e60893a82fa653"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/grounded_reply.py",
+      "bytes": 12037,
+      "sha256": "963c3e68ce8fa1c310b1b46a0e335f29bf4d683838521eaf55eb98cf0140f22a"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/ingestion.py",
+      "bytes": 32390,
+      "sha256": "2edb3d06f0a43ad8ba357e7b1c9d2fae891648b45130680be08cb50d9ca3cfb3"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/knowledge_map.py",
+      "bytes": 43463,
+      "sha256": "434aeb94a3d877f55fd1b1b6df5906c91956e5cfd49a5b7618ee2baeacc88125"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/main.py",
+      "bytes": 46276,
+      "sha256": "715d1f51fc13c0d18731c8e5fc68a1dff6faa866724fb6b285e24d7df1ecc2ce"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/material_overview.py",
+      "bytes": 5333,
+      "sha256": "b7449f7156ba15f619d66203b1ca7da9f904731d6ee6aa60fd5b8fd17a3aca29"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/materials.py",
+      "bytes": 5010,
+      "sha256": "0846c795d3c3bcf4622b2d7cc0fa45a5406a845aef9600da14b98927decea642"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/paging.py",
+      "bytes": 4883,
+      "sha256": "2b08534d1a23708c165dd461dea5db18eb80868b4c026ce7c36155758c7c45be"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/plan_goals.py",
+      "bytes": 3021,
+      "sha256": "d4ad64572124195b86e4a936b1efda20e7d665dd43289dd814476e2a84c54164"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/practice.py",
+      "bytes": 41675,
+      "sha256": "b4845ba45277855b912ed502b1b13af97093da257ae65118c7763b3ca47e282f"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/provider.py",
+      "bytes": 40136,
+      "sha256": "6e0dc3481a4a8b0938424fec5ac626de207cdee12c420ecfd95b7e2b4716f228"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/question_scope.py",
+      "bytes": 7924,
+      "sha256": "6042ae3a8b1b5e2e110022986d5f4c95d8c11ea5d03516a878358e4d86ccbc58"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/quiz_application.py",
+      "bytes": 14071,
+      "sha256": "db6b80c1667452077892d2426081be996200a79e7e9b9f357acb35273f702000"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/quiz_concept_promotion.py",
+      "bytes": 7750,
+      "sha256": "2f14b4fa04cae88a0357d66d5f103d14fb02e0e3019a715992bb387e5c50619c"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/quiz_evidence.py",
+      "bytes": 7700,
+      "sha256": "5f8b15a3e8ce6907e70cb88ebe9c724cf99808169e904a3343a81545ecd3e9e8"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/quiz_review.py",
+      "bytes": 18436,
+      "sha256": "4030cd7fa8c9f7290681c59a649ed10ae6e0859ff71b6e760fc29547cd4d04b6"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/retrieval.py",
+      "bytes": 9605,
+      "sha256": "b26431a7e3c77bbe15aeb2ddd962b4250ff529fd01729a5a90fd620f72bb99a3"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/session_status.py",
+      "bytes": 1347,
+      "sha256": "18e301045bac11c239efb67cb0362a50bd753574fa27eec19ab3de434c2e8e9a"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/socratic_reply.py",
+      "bytes": 24995,
+      "sha256": "5375daad38aae780eef18c5b844712fea759c7702814da702a8c7e37019b46a4"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/teaching_prompts.py",
+      "bytes": 20795,
+      "sha256": "80da233f12b0328e7092123a64a16c64ad3c450b2005e3c8af9bb9e7f50fa7c0"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/teaching_route.py",
+      "bytes": 11162,
+      "sha256": "9c974eae3645ecd0306e3328479ab9e86f805d0d43b01b3558414afe1e1d6980"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/tools.py",
+      "bytes": 31543,
+      "sha256": "f5037b97c6d9540191a9473997a8e49c68197140aa8a2d6df5425951800cc4ff"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/vision_observations.py",
+      "bytes": 9609,
+      "sha256": "c6fe9c5fa4eb328e35007bff8367d9c898d923dd5b45d300f7305729545407e2"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/app/vision_question_projection.py",
+      "bytes": 6230,
+      "sha256": "14abce931d778fa1a1cfa60fddb7c8c7bc298c3cf973a5fb835d36637980798f"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/README.md",
+      "bytes": 13079,
+      "sha256": "cbd628752a4149a7fed9c5626d6ae59e094d5d2759a2f570aac11f501be006b3"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/requirements.lock.txt",
+      "bytes": 1223,
+      "sha256": "33b17fc872fd43fd480f9c9551618b4c045d8ea7d15436448cc0601057fce5b3"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/requirements.txt",
+      "bytes": 268,
+      "sha256": "a015416aa57953df97efca9c4a5e12acdf515e64b110094ea38e382406973ea7"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/quiz_review_helpers.py",
+      "bytes": 3485,
+      "sha256": "1c15627885675cf59bc89711f31b851a896d545e42eff934352769401242f792"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_agent_material_expansion.py",
+      "bytes": 10679,
+      "sha256": "f1bf689984677574d9c3b6ec4b0f9cf02da08fff885717d3bc97447dbd74e2f1"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_api.py",
+      "bytes": 33558,
+      "sha256": "b5ecddb715a42d42ca5baf70780021b9c7b070002c689e190388cefc0c64c91b"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_arithmetic_examples.py",
+      "bytes": 1721,
+      "sha256": "6fc818c733f019d0e10ffd785a0a85b3f0dc263d2ee666beec9faf64583434a6"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_binary_search_prose.py",
+      "bytes": 10615,
+      "sha256": "519d2204202e816b1d66c5bb563762ffaa09272317103119cdf2abea0b85946a"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_binary_search_trace.py",
+      "bytes": 19516,
+      "sha256": "94623eda027e7d7b1ff7d03460f8a19c2cbe5038b7463f96c0896bbdf14b3d27"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_calculator.py",
+      "bytes": 1954,
+      "sha256": "e82beebb4a796db021e7270cd7d96b1897685063f5b061aaa5814b064147cfda"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_caption_retrieval.py",
+      "bytes": 2344,
+      "sha256": "e2d176a07a3ac44a60de1c1c5d7df62c358b111fcb44bc31b70020a87b8e6997"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_chat_deadlines.py",
+      "bytes": 4316,
+      "sha256": "512af5ade761003002544cf8d7fb1859f1ac88e4f7e3dd7f942083e354464c4b"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_chat_recovery.py",
+      "bytes": 17619,
+      "sha256": "0d97501f294f56b1ba7a12e493f210713a03c089b76af4b83fa8cf6d288dd984"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_chat_recovery_api.py",
+      "bytes": 4042,
+      "sha256": "01a8ce4f07bc456f2b6bbab7d14827c146c7a28cc84fb26d3f0802e8e6b11670"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_citation_location_scope.py",
+      "bytes": 11708,
+      "sha256": "3e1c13596fe0231f1f184b0baf1b89474f1bdbea43f83e36a7e59008e7bea471"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_citation_repair.py",
+      "bytes": 8014,
+      "sha256": "28bf76050e59764e42c75e4e69e5ca6a39e6a5cfcf7737f637e6fc3c328814ae"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_civil_tools.py",
+      "bytes": 3119,
+      "sha256": "c61987730359d90b4135a74db0f24cf68f2c1920f11b554a6eef802a7e30a354"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_configuration.py",
+      "bytes": 4289,
+      "sha256": "1860e06358ecde90b84e334949e85fba544f975f9b91c7d225dff839ad42e6d0"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_default_quiz_evidence.py",
+      "bytes": 3486,
+      "sha256": "f37284389d6b43456d88de55ade0b76a33d0c36846f856bc7abc93d0b3eff13c"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_evidence_admissibility.py",
+      "bytes": 12458,
+      "sha256": "27e542a551c0097debc81df5b7d95f8c4e83fae67335b613ba75e107afe972ae"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_fact_review.py",
+      "bytes": 38461,
+      "sha256": "783a9c68a9d708ecc5a475030edbcddccf4f02a20fc554399c8c2b8e23dae182"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_figure_index.py",
+      "bytes": 23530,
+      "sha256": "c64bd6d1e07b4d377345c059c8ab21f4dbad17060612c6eeca893e42c92e6172"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_graph_structure.py",
+      "bytes": 25030,
+      "sha256": "20ffae5b20e170740d1c9d7b2b944f2b95bcaf06d9d7ae0129255165cde235ab"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_grounded_reply.py",
+      "bytes": 20197,
+      "sha256": "615468f413cd71650296b348cf45b306933ed8e30da7a969f8ee94ac78d3fb88"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_implementation_attribution.py",
+      "bytes": 10732,
+      "sha256": "8533ab3be3e52cdf67a4dc0f8c192619af7e3e7ecd4b22a9a6cd9f597dc94351"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_ingestion_quality.py",
+      "bytes": 7587,
+      "sha256": "769f045ebfc17ae967dfce82d8d94bdc5a6539ed34142a2557dcbe51bed31730"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_learning_export.py",
+      "bytes": 2804,
+      "sha256": "0cc6ae0f81a89f8ec3697e28c163e974e5e1c4321c4b1d26fcdf93436b4bbe10"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_material_overview.py",
+      "bytes": 6278,
+      "sha256": "2a22c150acc1dad3411b4b6b270216eed97e6359368b780383e99f58a9d6aa38"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_material_overview_retention.py",
+      "bytes": 1184,
+      "sha256": "54bab58fff0f64f0f6b9896f83c24b079c50807b3d05eb4fc2ddabb0e3b2b96d"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_material_tools.py",
+      "bytes": 26134,
+      "sha256": "46e1feb6820b948894fb0e4f1c1423ed2e9d9008005068b47ce6e87cb6dcd36b"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_mindmap_annotations.py",
+      "bytes": 16255,
+      "sha256": "444d693ccfdd80cc9d0d3daca04fc0e6793219f55232c947ec1e85c31b589d1c"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_mindmap_evidence.py",
+      "bytes": 7204,
+      "sha256": "089f3283b8de35c4fbc5924f7b76751542622c19409f3a88badfcaf0f3411b58"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_os_tools.py",
+      "bytes": 13361,
+      "sha256": "02870b4dc8387aecff8baadaa10feba6b9ae121838f111ead468f1295326d2da"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_paging.py",
+      "bytes": 5444,
+      "sha256": "fafd84ec5e6da5d3c006c63d1e6aa7a4d21aa53bcd247a303a19a644475e84e5"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_pdf_outline_consistency.py",
+      "bytes": 15383,
+      "sha256": "2d298559600084bf5bdd12dd114de18d52c5526950bb11dfc3c82a2b610b2470"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_plan_semantics.py",
+      "bytes": 10185,
+      "sha256": "8f664f47a549380eaab90035d4c23f447333f1708aa3273179afe4352794e394"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_provider_boundaries.py",
+      "bytes": 36594,
+      "sha256": "66edb54658b1a364375188f20cc789e5b62e679d5e2d99d775deee1791b858ee"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_provider_json_mode.py",
+      "bytes": 4461,
+      "sha256": "61cfabdbf24721599ef84dbfbdc6a03b49f1d2d683e470bb2871b856b735563b"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_question_scope.py",
+      "bytes": 17251,
+      "sha256": "770ff648fd008b840f4760150d49c9fbf51e670b9ed681eda024c0f3939f3034"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_application.py",
+      "bytes": 18975,
+      "sha256": "d4704861f79c8cc18c1105517abbfaf79a6bda829cda1279783113aa27a88485"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_blind_pipeline.py",
+      "bytes": 5688,
+      "sha256": "44bf6119397982c7b46332140dc70a7b795d68e7077403e394a2ac3c90a30bd8"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_blind_review.py",
+      "bytes": 6795,
+      "sha256": "8e3e0db3a9f85821d25b8b36550263e30d5360e14407c35bc456f311e8dd9464"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_concept_promotion.py",
+      "bytes": 9023,
+      "sha256": "97a328f2d18f17c16f68b7382bc6066733607a341022b52cc94d8b8b71d15e85"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_concept_scope.py",
+      "bytes": 14207,
+      "sha256": "2e30dd035a43b9df0a02f4b58d7b1f51604a3620b867ed479bd2162ea71b21c7"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_drafts.py",
+      "bytes": 16535,
+      "sha256": "c0d52da1730a972d1d361d262449153a2ebcfd8191113f2f6c56d43625bb2655"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_evidence_context.py",
+      "bytes": 9734,
+      "sha256": "b839e31e98dc75cc4e6c1be2df91953ebbdb9235e97cd95745842fe9e89330c8"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_explanation_math.py",
+      "bytes": 1326,
+      "sha256": "611ba0011f03f10f2034c8b769938fe1a0ffa49cd36effcd07a68e254f7fb1e5"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_generation_routing.py",
+      "bytes": 27098,
+      "sha256": "a453f6830689e8417c28d0eb874ead3f8abb251f5b72ca0aa0c43267c5c29dbc"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_model_evidence.py",
+      "bytes": 3913,
+      "sha256": "687a5810ecbd991a8dadb3e0b4459bf0002b6583b126e66f488f877b1df8610b"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_review.py",
+      "bytes": 11351,
+      "sha256": "e45064edc60a35e2c6334833c3c5b3bd452367d66b1f81703d573d32d58c8510"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_quiz_review_checks.py",
+      "bytes": 7718,
+      "sha256": "296e1c51f727b243b6c15b9d89716e8225092a5bf12ed491bc0639c8ec939f65"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_review_evidence_scope.py",
+      "bytes": 2026,
+      "sha256": "ff911e69ad06b043957321759765f394590413af207a90f3e21b3347787b574e"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_review_model_routing.py",
+      "bytes": 3332,
+      "sha256": "4d5690c4fd13792aed4b013e342c1a91e8f2c7fc3fe1121b63aa45d80f841d05"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_review_output_protocol.py",
+      "bytes": 8720,
+      "sha256": "eeb7c675249502d55c3c83c9f7720c019f9aa1f7fe66191386401bf7528cc524"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_session_status.py",
+      "bytes": 5207,
+      "sha256": "34256056a780cdbadd4b2f468fa8a157c5b5b43150ca2e6b5425ec21e96ef0d5"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_shortest_path_contract.py",
+      "bytes": 695,
+      "sha256": "bd0a3fc98daa389b2717940282519886135071eaa5af597f6ffca5ef7da139cf"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_socratic_arithmetic_claims.py",
+      "bytes": 1457,
+      "sha256": "f43dc915c852945c854fc2d3a0d8ed4772e73ba78915c278cfc009e4aa90f976"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_socratic_reply.py",
+      "bytes": 31875,
+      "sha256": "d5372c50008a233120c80e1e89e88e12dfdd36bc1e546bfb0e84cc0ba8a890d0"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_teaching_prompts.py",
+      "bytes": 19099,
+      "sha256": "a80c737dab3ae06a17a64762d7da87bceb05e8d8107654f3492dd894b0cecf5a"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_teaching_review_contract.py",
+      "bytes": 25459,
+      "sha256": "77f13b33540c551bc4adb6c0c369c698f9c04d58cf99459cf31165f86d811729"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_teaching_route.py",
+      "bytes": 10582,
+      "sha256": "2f3e2cd3d2014dc6b7b4951fef86aac8855c1c328342814b731f0ab9d41dd564"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_tool_execution_evidence.py",
+      "bytes": 9478,
+      "sha256": "14b979032deb96ccac3b0549641aab4db7610ef19b51742ea8bf4ae9b5edbe24"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_tool_verification_language.py",
+      "bytes": 4868,
+      "sha256": "6181add734f3818a972ccbad5369aa39e6b8df4f064ea0be503bc68a513b29ce"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_vision_observations.py",
+      "bytes": 11476,
+      "sha256": "4c35f8b421205b86f12ed8aedbadd9262ad786fb86a8168708b7afa2cee82ad0"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_vision_question_projection.py",
+      "bytes": 5826,
+      "sha256": "a1b24534334402751c1befce7a801ecf592e2a0b760c66441d1e75485f79b002"
+    },
+    {
+      "path": "02-源代码/学思同行/backend/tests/test_windows_platform.py",
+      "bytes": 647,
+      "sha256": "6ca062ecb5482260a93b7e26819bdd174fe86a1e3b8a013e2481f88fa76aefe6"
+    },
+    {
+      "path": "02-源代码/学思同行/compose.yaml",
+      "bytes": 234,
+      "sha256": "c53f82ac019d95c1804a95aa41e6f7f15e21e9003db0f292e7b1b79d3034f12a"
+    },
+    {
+      "path": "02-源代码/学思同行/content/408/computer-networks.md",
+      "bytes": 7626,
+      "sha256": "ee78f9c734d3c9809fc7d16293aae3eef3bc1be82fbd2d77317ad3e6745df7da"
+    },
+    {
+      "path": "02-源代码/学思同行/content/408/computer-organization.md",
+      "bytes": 7892,
+      "sha256": "f36abf404a30256fc44660a1c207d435a304c2df0e76df92e4510c3eb5247dad"
+    },
+    {
+      "path": "02-源代码/学思同行/content/408/data-structures.md",
+      "bytes": 9326,
+      "sha256": "a5b50c3a884afe96832d017176daa76259c1d813d75b2d3e509ffe68eee7567d"
+    },
+    {
+      "path": "02-源代码/学思同行/content/408/operating-systems.md",
+      "bytes": 7812,
+      "sha256": "d3718db4955e40f9d47bd3a8581a353e7ccfdb8de20d9d9e0fbc9af02366933d"
+    },
+    {
+      "path": "02-源代码/学思同行/content/catalog.json",
+      "bytes": 54585,
+      "sha256": "1a4c1c4dd77f1e39a060f856d984cf56adca05b44fd7584decaf2afc38618435"
+    },
+    {
+      "path": "02-源代码/学思同行/content/evaluation/retrieval.json",
+      "bytes": 2936,
+      "sha256": "1b668caaa10bd2288ddbe9eac2b94af1c12a719839ae00a314c7ad63acc60204"
+    },
+    {
+      "path": "02-源代码/学思同行/content/examples/跨专业课程-微观经济学.md",
+      "bytes": 2036,
+      "sha256": "285845107e13cd51e2a6dae0d5af5d5017a5f1275bb316062de5562b20932bf2"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/computer-networking-principles.pdf",
+      "bytes": 7670565,
+      "sha256": "f0b0d9672bf96c9df45130a3251ebde31a4da141f5dd40d63a54c9221fdd3060"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/computer-organization.pdf",
+      "bytes": 7474931,
+      "sha256": "f49dda3aee8906c60808315f29a4929535b1b53d5bf4ce621e7493ed81f1d201"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/licenses/CC-BY-2.5-CA.html",
+      "bytes": 41558,
+      "sha256": "3ba02764dac385ee11c9a55bc54dc55b5575c1ba143f728d87f9102d2d4cf501"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/licenses/CC-BY-3.0.html",
+      "bytes": 51105,
+      "sha256": "967a3670bcbfdc50614e71062b18effed899007a0e364541328ebdb863520132"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/licenses/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/licenses/CC-BY-SA-3.0.html",
+      "bytes": 54093,
+      "sha256": "c33d7ebdbcc5c8db073e69a794b2ac44805f5d7d9edcfb8b5181a71869a9b7d5"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/licenses/README.md",
+      "bytes": 1974,
+      "sha256": "f54ed3fce8cab3d8374cecca0644ed062f07d309b8c14295f9f437c9fc6f15c3"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/licenses/xv6-book-MIT.txt",
+      "bytes": 1149,
+      "sha256": "b89d7d05dcc62b854fc851ea49eb838740a9d5a36d2d62e810393da39922bc0e"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/manifest.json",
+      "bytes": 2981,
+      "sha256": "f8fd4af915a3fe27e9a539c378d8aa5f8f7bbdacbccc9435ec67b6a4bedb3664"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/open-data-structures.pdf",
+      "bytes": 1519810,
+      "sha256": "3fbbe5febd0e84f79c509cca28a0be93deef0ab045999b5efc78af9e913088f4"
+    },
+    {
+      "path": "02-源代码/学思同行/content/open-textbooks/xv6-riscv-book.pdf",
+      "bytes": 758480,
+      "sha256": "05c902ecc0a5c2fd147a3f77719b740ac454f9a28941d57d8cbce849c0539f49"
+    },
+    {
+      "path": "02-源代码/学思同行/Dockerfile",
+      "bytes": 760,
+      "sha256": "6c2632c758dbb8089ddb5c2c08785f07309c76045691f2a578a3d27860bde807"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/api-contract.md",
+      "bytes": 51787,
+      "sha256": "d1dbe91c605331b07268e27cad116aedec491541a77711e2972e6799f2f16d1b"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/architecture.md",
+      "bytes": 7184,
+      "sha256": "3d121d77056f404fd4413812922fce0b6551db877cc9cec82828534ebbd8962d"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/compliance.md",
+      "bytes": 7170,
+      "sha256": "e6baccb36be2253d44ee6ac6b005f5712dc31aa325eafd15c4d0d266552d2ba2"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/contest-submission-checklist.md",
+      "bytes": 6804,
+      "sha256": "cb5c700f0711d1e60fd435d936cb00acb8338d47138e081297a2303f210353d6"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/defense-and-interview.md",
+      "bytes": 4797,
+      "sha256": "c9fc77fdb139601750bf1c5eca853df169d17fba2e1b529a9c7eea1a45737874"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/demo/README.md",
+      "bytes": 1014,
+      "sha256": "b1e09979718fa41488051a920f926a4f25e8e4a5f7ff1babd656d9aab595bdb4"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/demo/学思同行-最终演示-20261011.mp4",
+      "bytes": 6345478,
+      "sha256": "c8883e27adaaec8d890c05930c9bd10defb6dfe25917c21ab4f13ac38b55a317"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/demo/学思同行-最终演示-20261011.srt",
+      "bytes": 4114,
+      "sha256": "521bc81809eb7259a354d9f43c01930c56478ecd2c6709f803b01537c494ab93"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/demo/学思同行-演示解说与复现-20261011.md",
+      "bytes": 4329,
+      "sha256": "26cec8c84bc2024cb7208d4fd84bc425bb91ba952f0a9f66cc04d699c26da564"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/mindmap-design.md",
+      "bytes": 3476,
+      "sha256": "dddaa16738576bfb6b359422005fd91bd977c7fddc76e1f7b3f41080f7fadf19"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/mindmap-learning-guide.md",
+      "bytes": 4196,
+      "sha256": "fd03bdae21fa124065181f45cefaf058fc261a03d1577461f0a65e8b925de1b3"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/project-study-guide.md",
+      "bytes": 10391,
+      "sha256": "28ec3a94fa2e818783f48ccba7f3ab1b6eda9e9099c84d811faf437fabd07aed"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/reference-licenses/Dagre-MIT.txt",
+      "bytes": 1062,
+      "sha256": "6a349742a6cb219d5a2fc8d0844f6d89a6efc62e20c664450d884fc7ff2d6015"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/reference-licenses/frontend-dependencies-manifest.json",
+      "bytes": 82613,
+      "sha256": "fa4b86b8778f74d7ed05e4c06a71b262860183e00c1b9a91485865a5f42abf7c"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/reference-licenses/frontend-dependencies.txt",
+      "bytes": 207073,
+      "sha256": "fe0a972c2d403069ca9dfdae37a376f9fca27cd05c71e19351a0138c8f3b6207"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/reference-licenses/Graphlib-MIT.txt",
+      "bytes": 1062,
+      "sha256": "6a349742a6cb219d5a2fc8d0844f6d89a6efc62e20c664450d884fc7ff2d6015"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/reference-licenses/React-Flow-MIT.txt",
+      "bytes": 1073,
+      "sha256": "023119ac20fb1c8c9930abe0bcd196989a1960388529a96fc43cebf96f07c9ff"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/reference-licenses/rehype-katex-7.0.1-MIT.txt",
+      "bytes": 1098,
+      "sha256": "cb992262f361a5359e6771c28740d33c7041e15332ae8537fae40538992591a9"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/reference-licenses/remark-math-6.0.0-MIT.txt",
+      "bytes": 1098,
+      "sha256": "cb992262f361a5359e6771c28740d33c7041e15332ae8537fae40538992591a9"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/release-assets/architecture-20261011.png",
+      "bytes": 212431,
+      "sha256": "b22a6642b9791785e05f541443d3246249750e3d48580f701404954fe6a67f47"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/release-assets/map-workspace-20261011.png",
+      "bytes": 75998,
+      "sha256": "e937dd8f7e750404e8631f722133757b024fb8392af6ce320aebe8fc2f214288"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/release-assets/plan-workspace-20261011.png",
+      "bytes": 67957,
+      "sha256": "4be0a965caa1847801ef93dd196af4dee695aa3d1e83e5b4e543c5517a0d7b4d"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/release-assets/practice-workspace-20261011.png",
+      "bytes": 49071,
+      "sha256": "5dfbb1bf7d9a12b724f4ab90dfdab4deb688f5f41ecb18e5d879f800520a1e71"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/release-assets/socratic-workspace-20261011.png",
+      "bytes": 69779,
+      "sha256": "10dc77ab96cfcd1b79344c8a361736e72d9a9880f76ae87d5b06347149fb157e"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/release-assets/teaching-workspace-20261011.png",
+      "bytes": 81903,
+      "sha256": "9f65bef82e7f854004bc69d280a889569a6b50d135949e18d11aeb449c7e15c7"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/requirements-evidence.md",
+      "bytes": 12038,
+      "sha256": "6fb93f2882f5a4feedf3d12beddf0008eaf7eba720dbb9c5b28ddad8e7f65319"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/requirements.md",
+      "bytes": 5977,
+      "sha256": "1df27e2330e888b518a04876305da3dae412e3f1bc87ea6d18f74b74e5fb417d"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/starter-prompts-20261011.md",
+      "bytes": 10120,
+      "sha256": "0752ff2c1a2376ab68e7d74d43e0092a3d98dd43f0ac4ba5c8edd788f013e32f"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/submission-checklist.md",
+      "bytes": 6852,
+      "sha256": "6369db6fecb5783849a76b9fcbc22216cec7972682f3acecae44200cc0c3ed5f"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/submission-report.md",
+      "bytes": 21955,
+      "sha256": "aca8f93a29fb9ef98dc6bb1ef85e3b8edb127d1d7a8a25abf19e424c7a4a55a7"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/technical-report.md",
+      "bytes": 8466,
+      "sha256": "648d678f58e6efeb019508177a63fa6995b64c7ef978d462ce46a7cb533b2dd6"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/test-cases-final.md",
+      "bytes": 36463,
+      "sha256": "1a5c84101eb782bca7ac3eb571d4f5fa2543095a922123b0f7349a58cab816ee"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/test-cases.md",
+      "bytes": 659,
+      "sha256": "764bf50da3a66280f38799e9b579c19b5e80c72b6f126167d082897a2a70dbfb"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/textbook-provenance.md",
+      "bytes": 7127,
+      "sha256": "8d8b6252e9b473098581c2079965f465548cf1d771b72dc7f791eb6d96abc61a"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/ui-design-guidelines.md",
+      "bytes": 8074,
+      "sha256": "c23ae944ef37c47566cecb8190b814107b39fa7e00faafaf88d4ef91c26a99a5"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/clean-release-runtime-20261011.json",
+      "bytes": 5471,
+      "sha256": "46ba3ef081af3e74856b3e2af800cbba71ae05f1fd0dcf7b98075140d8103080"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/compliance-document-verification-20261011.json",
+      "bytes": 2525,
+      "sha256": "51837f7d1193971afa9e77e33a3f550527df14568138e7a838e9619b111b5325"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/demo-final-verification-20261011.json",
+      "bytes": 7167,
+      "sha256": "6425169ab826cbbb042350f2cee6c0b894d60422b44ce26448130216aab3493d"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/demo-ui-learning-20261011.json",
+      "bytes": 8311,
+      "sha256": "eb1ddbec5dda066cbf40186fca1c12ceecc0375e1b1716d2e492070df9f6851a"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/ds-account-boundaries-results.json",
+      "bytes": 82513,
+      "sha256": "87ff94d9e5a3fdbcc857e17de0cfa724fdd8198dc6a90cc141b9bfc18d459b7a"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/ds-mindmap-browser-results.json",
+      "bytes": 82857,
+      "sha256": "73a2ecbf0751e9cd2a397c0994a4c0787adea9b5e19c2461e24f7fe09a0abaea"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/ds-stream-cancel-results.json",
+      "bytes": 5978,
+      "sha256": "9d6a5e9a105858ad1dbfca8724db338de3e135a083e637928a6ca967e0051f1a"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/extracted-release-runtime-20261011.json",
+      "bytes": 5471,
+      "sha256": "a842f09a1c4727a46b3357fb86a2f7c7e383b57fcfbcc267a33ebdf1dcb484de"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/mimo-release-learning-loop-20261011.json",
+      "bytes": 6176,
+      "sha256": "2d3474931cbd919bacf43837bbe38e1e51247a9593aa63d5f0e3c4f3570ec9d4"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/mindmap-export-browser-results.json",
+      "bytes": 1007,
+      "sha256": "e0a563f2fe2c09d4abb0243fbc4954894baa78278a9ae563c57d83eec417416b"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/pytest-release-deadlines-20261011.xml",
+      "bytes": 18912,
+      "sha256": "62a7e46b1ec18a7ac793022cf4d8401fde6308aa980ecaa0af8c817d70573406"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/pytest-release-export-20261011.xml",
+      "bytes": 9060,
+      "sha256": "3c3805d7131f3dea2580b6659f16258fadc33e26e01cfd878a027aa7bebce398"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/pytest-release-final-20261011.xml",
+      "bytes": 451911,
+      "sha256": "ef32740c77fdd2364400362e275e7c8b3ef379c3a7c0a09eca3887171a90e5cc"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/pytest-release-final-student-20261011.xml",
+      "bytes": 101454,
+      "sha256": "e75fc733a5316b198570769a733c159b696d2e35d478dfd851c98c63c5546cdd"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/release-requirements-20261011.json",
+      "bytes": 8046,
+      "sha256": "6e52519bb08fe49ca758ae714c8718e22d8e779da26a26024829933178f5cf70"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/release-verification-20261011.json",
+      "bytes": 32238,
+      "sha256": "b610e4f14287aeebc4e842164a652afd6d711029993159a8a4393928a50f4cfe"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/report-final-verification-20261011.json",
+      "bytes": 7129,
+      "sha256": "43e012c1adc561eb1b7344717e09ebb7f5dc02ac64013440fa04f0deb0552a83"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/source-archive-reproduction-20261011.json",
+      "bytes": 1395,
+      "sha256": "6a787a09d6ec0a5dbe0086c36500cbcb87fe17ce866f1d975d3795ec3e5c33dc"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/starter-prompts-20261011-results.json",
+      "bytes": 9408,
+      "sha256": "afd68e7ec79a0d46f594657beae0358644e6f8bedc257489f4b96b6404d233e6"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/startup-port-safety-20261011.json",
+      "bytes": 1735,
+      "sha256": "638f8511f889f83ce998d4b7bddeeb516b1d1b4f754a4d81c0d87116b12a86c2"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/validation/test-case-coverage-20261011.json",
+      "bytes": 75317,
+      "sha256": "20c9e73c8e51491bd151afe0916653c7314772847981b5cd399a716ab4c38317"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/学思同行-项目技术与验收报告-20261011.docx",
+      "bytes": 348581,
+      "sha256": "29d210dc8e5256dd7b1ca4fe8e257e1d8649838089c6bc1bf61f545466a04d29"
+    },
+    {
+      "path": "02-源代码/学思同行/docs/学思同行-项目技术与验收报告-20261011.pdf",
+      "bytes": 495415,
+      "sha256": "7d4c5ecdc6009fd8bc188bea39c0b4b11604770a9079af70c0cd21488056c317"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/index.html",
+      "bytes": 727,
+      "sha256": "dba6554de966e0b67dcb25b90a03657831db1d35f6b89a399ced123f103ac6cd"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/package-lock.json",
+      "bytes": 143591,
+      "sha256": "fcd6658439b35f212052bf173ff44b03a57e628bf9bdb3d7cd251d2ff9dd0e66"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/package.json",
+      "bytes": 1016,
+      "sha256": "3a2c9afbf63981e8ed8cc88d0c636f79a77fe0ecdcfaad4584957ede61d1e75e"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/public/apple-touch-icon.png",
+      "bytes": 4748,
+      "sha256": "a91b8cbd5385c96329fbd47229c08149d223d4f92ba3bc935c6ffef5fd7eefb8"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/public/favicon.ico",
+      "bytes": 3095,
+      "sha256": "e6b9cd1979adb8ac6f65c61a7e423d0ac747bd1b8612746b56da090b8a838bce"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/public/favicon.svg",
+      "bytes": 473,
+      "sha256": "017ebb8ae14bbbd8778cd62f57bb2c2a22121e6f9c8d8f78b78effce7057d762"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/README.md",
+      "bytes": 2273,
+      "sha256": "5cc7e101a93e60bd2d18d3ad5da249f968b1455a5aca7e147309604373fc831e"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/scripts/test-document-status.cjs",
+      "bytes": 3917,
+      "sha256": "f801b670f475ae8d6466cd6c138d90075692b042aa9310094b13ffba6ccd8398"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/scripts/test-knowledge-map.cjs",
+      "bytes": 4081,
+      "sha256": "bb20cfd0e90968a2516082d4230be8ac728f1aff353bd7ecdfc36f2d4eb22275"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/scripts/test-mind-map.cjs",
+      "bytes": 8994,
+      "sha256": "ba5a242ac20517e97971143b813597ed362b9b96acff3f09c1c46d147215ea90"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/scripts/test-question-draft.cjs",
+      "bytes": 3922,
+      "sha256": "54923bcc3bc4c00c2c09665698040ee1cc4e273eff31fee22735a1ae7f31b437"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/scripts/test-quiz-draft.cjs",
+      "bytes": 4740,
+      "sha256": "441e77c94b01e93946cf229b98fd8c4c4d0d72c1ec4f84a600d924995e027b33"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/scripts/test-starter-prompts.cjs",
+      "bytes": 1327,
+      "sha256": "458d64489ef3070198e0a64ea144b796b9b6f9625b8e2518b60577c56e07ac99"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/scripts/test-trace-status.cjs",
+      "bytes": 4159,
+      "sha256": "e91e08485af2e4172b18dffe3944fb50591ecb14f1a6191e476af4e145c7e58a"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/api.ts",
+      "bytes": 14860,
+      "sha256": "91a03e2d85a162a3b043578570581827ef6b0564a15921944c3f6239a8115bfe"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/App.tsx",
+      "bytes": 10860,
+      "sha256": "539bf2574c69b8eb3ba1a307a394f00c33fd2c2a0969e2e34d66f89be5a0b053"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/components/DocumentStatus.tsx",
+      "bytes": 6882,
+      "sha256": "044539c117b4f7ae70d01183b154873303055b13160dafe4118bade298355da0"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/components/FigureMarkerDialog.tsx",
+      "bytes": 3273,
+      "sha256": "b57a5203cd691f2037b7cff03a9edcc0f9f2d00d33299bbb551958f041d4c1e0"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/components/Markdown.tsx",
+      "bytes": 1286,
+      "sha256": "1517df41a367847422ef1ab4f93466ffde91e68c342c81a29d564e454f8530f3"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/components/MindMapCanvas.tsx",
+      "bytes": 13088,
+      "sha256": "93a141fbea43f0028229b369479ac18dbb71f81addcfc43fd5b6a528c77274e6"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/components/MindMapFigure.tsx",
+      "bytes": 4181,
+      "sha256": "05bacc9da5212550f38a53dcdf3991d25d80b8412e61b6ff35da876740474cf9"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/components/RelationshipGraph.tsx",
+      "bytes": 5603,
+      "sha256": "dafe82ddba32553c429fe2d6fad6ed8844b40e0f5e759ce3cb8798f24e68b5ef"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/components/ui.tsx",
+      "bytes": 4682,
+      "sha256": "de6dc21bf5cc1674b10b7e5a8938712981216f557b8966be04ff7c0b766273ef"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/lib/knowledge-map.ts",
+      "bytes": 4029,
+      "sha256": "a4a426f1096b3235cfb30013cb26b20144146a1d960502bf74ef8cb62a49213d"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/lib/mind-map-export.ts",
+      "bytes": 2600,
+      "sha256": "e35626a3423ee848fb96fcd2036ad0b82fdfce9637c9ab95a85c156add020981"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/lib/mind-map.ts",
+      "bytes": 10450,
+      "sha256": "5d2df05fe82e748dbc6e97aa669b2b48f39139917f9961e242ee667604592fba"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/lib/question-draft.ts",
+      "bytes": 795,
+      "sha256": "dde64f96a04a6ad38e6b9466c52e7b7c23bcaf648fc3266f89a0e3b9b93bdce6"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/lib/quiz-draft.ts",
+      "bytes": 966,
+      "sha256": "09759ad30863bb4dd0bc2d691ade332894a61b3af4f62f9a12d817b8997d9ae4"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/lib/starter-prompts.ts",
+      "bytes": 1529,
+      "sha256": "21c6810952986535d9b00f62ac0871c4f86966fab98101a9ba9adcc82c898dc1"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/lib/trace-status.ts",
+      "bytes": 1274,
+      "sha256": "c85b89e343a0dbd3e4fca29f588184226a0bde83c2e905928483876039c902f5"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/main.tsx",
+      "bytes": 213,
+      "sha256": "1b7dfef3f422f438201ea785c2ec703c95e33794ef134601313bf3c7a455f0b2"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/styles.css",
+      "bytes": 96452,
+      "sha256": "58431fb8324902e89ecf5be63656c36be1e441df12214cdf5f9e4ac08f0f394e"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Auth.tsx",
+      "bytes": 4435,
+      "sha256": "91d0dd286da1e696266d4dd867c1b92d50f980ad703de6a13183b16b608cfed6"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Chat.tsx",
+      "bytes": 15620,
+      "sha256": "f7f925fa26561fa9c963a81b68fe28c11f044e168c29b1ad3b43118d0aa5d209"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/CourseSpace.tsx",
+      "bytes": 4770,
+      "sha256": "adc3b3deba00ca4477d3f478ac0d5c93f546150bafa75f42b44cfc23d70fe9f4"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Dashboard.tsx",
+      "bytes": 4616,
+      "sha256": "0d404bdd50d38bd1800c1e2e508eb562cb68117ad897f6688a2c7ee6d7de0e55"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Graph.tsx",
+      "bytes": 25476,
+      "sha256": "a6290b4ff76447eede3836178426122f3cf3a73f53e4b32bc523071e14457b31"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/knowledge-map.css",
+      "bytes": 9222,
+      "sha256": "641323cfb3a65ee02bdf9c17b58a0a56a39ff3c623ea36a3549fa33bfd2251ac"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Library.tsx",
+      "bytes": 6869,
+      "sha256": "cf524b1233fbbf113f07d7fb68e1038bcfc5abfb88157bad3983a138eb8eef89"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Materials.tsx",
+      "bytes": 16675,
+      "sha256": "416102991ea2e0846cafab64d2e832de743f3f6acacdb5cf012b526817a5e3d7"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/mind-map.css",
+      "bytes": 12407,
+      "sha256": "03adcc9ad15302d2c7f80e46d414dfe8715d78de44b819e45b1bada422e2f86c"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Plans.tsx",
+      "bytes": 7206,
+      "sha256": "6810331779c9ab6c3994ae10f11be0731420c67d541229360142133eb6b8916c"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/src/views/Practice.tsx",
+      "bytes": 15410,
+      "sha256": "863c7efe6fe29364b2cee3b032e192a6c9acd684b5af829135fe297ad6edd429"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/tsconfig.json",
+      "bytes": 424,
+      "sha256": "3d7e1653f8aa8c142225aca30b26e45417666ba50d34dab525538aedfaafd505"
+    },
+    {
+      "path": "02-源代码/学思同行/frontend/vite.config.ts",
+      "bytes": 398,
+      "sha256": "b2b2ea3bab03e0d877d37dabff98dda4cb8704d8ca82d47c9735934b65f8423a"
+    },
+    {
+      "path": "02-源代码/学思同行/README.md",
+      "bytes": 16062,
+      "sha256": "d066ad7e933fe52030390ab4b1216d712ede09668f2648b1fb0c6fe39165c092"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/build_catalog.py",
+      "bytes": 33872,
+      "sha256": "c99c14cbe978673156fe781d1f0e6e065550a96744bcbc55248bec804479a7fc"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/evaluate_retrieval.py",
+      "bytes": 2464,
+      "sha256": "644d7f237646a3773d586c2312a3befe15b58cf57d0d0accfac0f13764c71544"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/README.md",
+      "bytes": 2978,
+      "sha256": "8721e08ee4b45fb2cc65a8a2cf0f1631770a13f9ebf114f5335748254f49b460"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/start.ps1",
+      "bytes": 1716,
+      "sha256": "39eb271018a9f123fa4636dbde8b7fbb08c79e8f64cd8205095e820d78a23495"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/start.sh",
+      "bytes": 326,
+      "sha256": "e3663133b527aac6b9a0324b16e75c616f41fb5008dc233146640b56c4236879"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/verify_clean_release.py",
+      "bytes": 15763,
+      "sha256": "07dc69c3b7501cfbb626e53562f030ddbe1f1598574f8f29a2155c6b0f2883c1"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/verify_ds_practice.py",
+      "bytes": 1828,
+      "sha256": "1f537c2d801e722e1fe2b3e2953d530d0912bef88e16551b2f08b360e37be7e8"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/verify_mimo_release_loop.py",
+      "bytes": 18692,
+      "sha256": "6de4c8b4e41b4935e13383f3fc047863300241173ac8d0c6957c5472d4380363"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/verify_mindmap_export_browser.py",
+      "bytes": 5316,
+      "sha256": "dc4558cbbb4e19931f56320e1462dbb4dcfc7b5f3fee858ef669193e166cf33b"
+    },
+    {
+      "path": "02-源代码/学思同行/scripts/verify_windows_startup.py",
+      "bytes": 7234,
+      "sha256": "76217417a6a5badb21acd09b69ae881326bc98e6446cd1a5a03509a92f325fa3"
+    },
+    {
+      "path": "02-源代码/学思同行/THIRD_PARTY_NOTICES.md",
+      "bytes": 4279,
+      "sha256": "8bcff354fd74dd39ddc6185e0589ad7864be34933f168509732913ec9ae4167b"
+    },
+    {
+      "path": "02-源代码/学思同行/tools/assemble_release_demo.py",
+      "bytes": 12230,
+      "sha256": "96f843422f17852f4d8e479b32ac51aa4fbff79785961349205ade816a597c77"
+    },
+    {
+      "path": "02-源代码/学思同行/tools/build_submission_report.py",
+      "bytes": 17668,
+      "sha256": "cb502a4cde443c96333d407429816dcae2b70945c946422afb282b0e9cc9b71b"
+    },
+    {
+      "path": "02-源代码/学思同行/tools/make_release_narration.ps1",
+      "bytes": 1518,
+      "sha256": "19885d58ae1e0695c6f2639d340353231aef16adf5d4a0b5b3ef6f5cdf5740d4"
+    },
+    {
+      "path": "02-源代码/学思同行/tools/README.md",
+      "bytes": 1470,
+      "sha256": "ffe269fe5ecf54801adf86e949b55c5b3d32c09b26cc936c57f3615ccf230fec"
+    },
+    {
+      "path": "02-源代码/学思同行/tools/release_source.py",
+      "bytes": 11009,
+      "sha256": "8ba6e223aa3876d7f1e3dec269fcd5fb8da6f739ac13c8001f4c77091c3c59ad"
+    },
+    {
+      "path": "03-测试用例/README.md",
+      "bytes": 1246,
+      "sha256": "3a95dff268a4dc4ddd02bc6a09e41de6bbc2afe89c1e7bec83897de7e376638d"
+    },
+    {
+      "path": "03-测试用例/正常-异常-边界测试用例.md",
+      "bytes": 37764,
+      "sha256": "79bf85e26c53d817a03205247d0aba0536ea80015c2a1a707ad27e96a0f90242"
+    },
+    {
+      "path": "04-演示视频/README.md",
+      "bytes": 1057,
+      "sha256": "86a2a296ba291298596f282738042b558c3ea6d8e9fa0dd1d24cbc50aa96b3ab"
+    },
+    {
+      "path": "04-演示视频/学思同行-最终演示-20261011.mp4",
+      "bytes": 6345478,
+      "sha256": "c8883e27adaaec8d890c05930c9bd10defb6dfe25917c21ab4f13ac38b55a317"
+    },
+    {
+      "path": "04-演示视频/学思同行-最终演示-20261011.srt",
+      "bytes": 4114,
+      "sha256": "521bc81809eb7259a354d9f43c01930c56478ecd2c6709f803b01537c494ab93"
+    },
+    {
+      "path": "04-演示视频/学思同行-演示解说与复现-20261011.md",
+      "bytes": 4339,
+      "sha256": "f0705523fce539786f8d1ee1df1a4750f1815d7ee31bddcac349e53e715c34f6"
+    },
+    {
+      "path": "05-合规说明/数据来源与隐私合规.md",
+      "bytes": 7436,
+      "sha256": "f5b83f7c5fc0a5ade9d01da036be5b056a2ebf28e487a39ebed1ccb3a919d883"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9747,
+      "sha256": "5cd48ea39792a18d8a81b8b0d4615854fcc4a0a2c86f7a6ead824db6768debc0"
+    }
+  ]
+}

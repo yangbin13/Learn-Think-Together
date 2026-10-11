@@ -1,0 +1,212 @@
+{
+  "started_at_utc": "2026-10-10T19:50:39.959537+00:00",
+  "scope": "Fresh data directory and owned Uvicorn process; real HTTP, real files, no model or embedding provider calls",
+  "port": 8791,
+  "checks": [
+    {
+      "name": "fresh_service_health",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "public_config_hides_credentials_and_disables_paid_providers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "same_port_frontend_matches_current_build",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_js_and_css_match_current_build",
+      "passed": true,
+      "details": [
+        {
+          "path": "/assets/index-l2p1WpvJ.js",
+          "status": 200,
+          "bytes": 314036,
+          "sha256_matches_build": true
+        },
+        {
+          "path": "/assets/markdown-DeL7PNIY.js",
+          "status": 200,
+          "bytes": 166944,
+          "sha256_matches_build": true
+        },
+        {
+          "path": "/assets/react-fDSqGe4k.js",
+          "status": 200,
+          "bytes": 4212,
+          "sha256_matches_build": true
+        },
+        {
+          "path": "/assets/math-DT9yFk3z.js",
+          "status": 200,
+          "bytes": 276102,
+          "sha256_matches_build": true
+        },
+        {
+          "path": "/assets/index-DltLE1mF.css",
+          "status": 200,
+          "bytes": 109665,
+          "sha256_matches_build": true
+        }
+      ]
+    },
+    {
+      "name": "anonymous_api_is_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fresh_demo_has_four_course_assistants",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "blank_course_title_is_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "upload_requires_rights_confirmation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unsupported_upload_extension_is_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty_upload_is_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "one_mib_upload_boundary_is_enforced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_markdown_is_ingested_without_embedding",
+      "passed": true,
+      "details": {
+        "chunks": 3,
+        "embedding_status": "lexical"
+      }
+    },
+    {
+      "name": "uploaded_source_download_is_byte_identical",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_material_creates_persisted_concept_nodes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_pdf_page_renders_to_png",
+      "passed": true,
+      "details": {
+        "physical_pages": 116,
+        "png_bytes": 50221
+      }
+    },
+    {
+      "name": "curated_quiz_hides_answers_before_submission",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "quiz_draft_is_saved_without_grading",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "stale_draft_version_is_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_submission_is_idempotent",
+      "passed": true,
+      "details": {
+        "total": 3,
+        "correct": 0
+      }
+    },
+    {
+      "name": "review_plan_lower_minutes_boundary_is_enforced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_plan_completion_is_persisted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_learning_record_export_is_downloadable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "foreign_student_cannot_read_private_resources",
+      "passed": true,
+      "details": {
+        "course": 404,
+        "document": 404,
+        "quiz": 404
+      }
+    },
+    {
+      "name": "no_key_returns_honest_learning_continuation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "restart_keeps_owned_student_session",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "restart_keeps_uploaded_source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "restart_keeps_quiz_result",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "restart_keeps_completed_review_task",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "isolated_database_integrity_and_foreign_keys",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "paid_provider_requests": 0,
+  "mocked_api_responses": 0,
+  "original_database_used": false,
+  "original_service_modified": false,
+  "completed": true,
+  "passed": true,
+  "boundaries": [
+    "Uses the available Python interpreter and installed dependencies, not a newly downloaded runtime.",
+    "Frontend resources are served and hash-checked over HTTP; this is not rendered browser interaction.",
+    "Curated-bank grading checks actual persistence and idempotence, not independent question semantic correctness.",
+    "No-key continuation is an honest static teaching prompt, never a fabricated model answer."
+  ],
+  "finished_at_utc": "2026-10-10T19:52:00.401777+00:00",
+  "passed_checks": 29,
+  "total_checks": 29,
+  "owned_process_stopped": true
+}

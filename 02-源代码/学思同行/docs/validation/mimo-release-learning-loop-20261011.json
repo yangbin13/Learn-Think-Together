@@ -1,0 +1,198 @@
+{
+  "started_at_utc": "2026-10-10T19:52:19.198433+00:00",
+  "scope": "New isolated demonstration student; original stack/queue Markdown; one real Mimo textbook question",
+  "checks": [
+    {
+      "name": "public_configuration_is_current_mimo",
+      "passed": true,
+      "details": {
+        "quiz_model": "mimo-v2.6-flash",
+        "review_model": "mimo-v2.6-flash"
+      }
+    },
+    {
+      "name": "original_material_is_ready",
+      "passed": true,
+      "details": {
+        "chunks": 3,
+        "source_type": "uploaded_md"
+      }
+    },
+    {
+      "name": "actual_mimo_generated_and_reviewed_one_textbook_question",
+      "passed": true,
+      "details": {
+        "generation_model": "mimo-v2.6-flash",
+        "review_model": "mimo-v2.6-flash",
+        "seconds": 27.86
+      }
+    },
+    {
+      "name": "student_view_hides_unsubmitted_answer",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "existing_generated_quiz_is_read_without_new_generation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "persisted_question_uses_only_uploaded_original_sources",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "captured_existing_quiz_remains_unsubmitted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "independent_semantic_review_matches_generated_key",
+      "passed": true,
+      "details": {
+        "question_count": 1,
+        "review_note": "独立逐步推演：空栈依次压入D/E/F成为[D,E,F]；两次出栈移除F、E，剩[D]；压入G成为[D,G]，栈顶只能是G。四个选项唯一，A正确；解析逐步一致，唯一来源为原创讲义的栈正文，不需要缺省假设。",
+        "basis": "Original material and each option, checked independently after generation"
+      }
+    },
+    {
+      "name": "only_the_new_validation_student_is_authenticated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "deliberately_wrong_answer_is_actually_graded_wrong",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "repeat_submit_returns_the_same_authoritative_result",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "one_actual_mistake_contains_the_correct_answer_and_explanation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_seven_day_review_plan_has_usable_tasks",
+      "passed": true,
+      "details": {
+        "tasks": 7,
+        "basis": "依据 1 个已有练习概念的正确率，优先 1 个真实薄弱概念，其次 0 个已存在的目标相关概念；未练习概念仍为待测。本计划在第 6 天复习之前的薄弱/目标概念；已引入的多个薄弱点合并复习并共享当日分钟数。未提供可匹配目标时按现有课程结构安排。计划为确定性规则生成，可自行调整。",
+        "concept_measured": true
+      }
+    },
+    {
+      "name": "actual_review_completion_survives_readback",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "final_readback_uses_only_the_new_validation_student",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "graded_result_survives_readback",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_mistake_survives_readback",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual_completed_review_plan_survives_readback",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "export_contains_the_actual_wrong_answer_and_review_record",
+      "passed": true,
+      "details": {
+        "downloaded_bytes": 1522,
+        "question_stem_present": true
+      }
+    }
+  ],
+  "completed": true,
+  "passed": true,
+  "browser_login_changed": false,
+  "original_student_modified": false,
+  "boundaries": [
+    "One basic generated question is an acceptance case, not a question-bank accuracy evaluation.",
+    "A separate human-style review precedes the deliberately incorrect submission.",
+    "Input material is original synthetic teaching content; cookies and hidden keys remain private."
+  ],
+  "updated_at_utc": "2026-10-10T20:12:15.769187+00:00",
+  "passed_checks": 19,
+  "total_checks": 19,
+  "generation_model": "mimo-v2.6-flash",
+  "review_model": "mimo-v2.6-flash",
+  "requires_independent_semantic_review": false,
+  "harness_correction": "Read-only SQL capture corrected to actual section/page columns; no model request or business mutation repeated",
+  "independent_question_review": {
+    "stem": "在空栈中依次压入 D、E、F 后，再连续执行两次出栈，最后压入 G。此时栈顶元素是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "G"
+      },
+      {
+        "key": "B",
+        "text": "F"
+      },
+      {
+        "key": "C",
+        "text": "E"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "压入 D、E、F 后栈顶为 F；出栈两次依次移除 F、E，栈顶变为 D；再压入 G，G 成为新的栈顶元素。",
+    "concept": "栈",
+    "source_kind": "original_synthetic_uploaded_md",
+    "unique_correct_option": true,
+    "conditions_complete": true,
+    "source_is_actual_stack_body": true,
+    "independent_stack_states": [
+      [],
+      [
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "D",
+        "E",
+        "F"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "D"
+      ],
+      [
+        "D",
+        "G"
+      ]
+    ],
+    "answer_or_review_gold_sent_to_generation": false,
+    "semantic_verdict": "passed"
+  },
+  "real_generation_groups": 1,
+  "actual_model_request_count": "not_exposed_by_quiz_api",
+  "historical_harness_export_correction": "Export contract contains assessed choices/explanations and plans; it currently omits the question stem. No write or model request repeated.",
+  "latest_export_contains_submitted_question_context": true
+}

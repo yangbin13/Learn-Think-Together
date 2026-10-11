@@ -1,0 +1,171 @@
+{
+  "account": "demo_5aa71ec844d9",
+  "surface": "Standalone Chromium, not Codex IAB",
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at": "2026-10-04T02:29:13.493109+00:00",
+      "completed": true,
+      "passed": false,
+      "checks": [
+        {
+          "name": "new cancellation scenario belongs to the original account",
+          "passed": true
+        },
+        {
+          "name": "sending clears the owned unsent question draft",
+          "passed": true
+        },
+        {
+          "name": "competing real page request is rejected before generation",
+          "passed": true
+        },
+        {
+          "name": "another page cannot delete the actively generating session",
+          "passed": true
+        },
+        {
+          "name": "initial request is still live when the student stops it",
+          "passed": true
+        },
+        {
+          "name": "student stop has no remaining spinner",
+          "passed": true
+        },
+        {
+          "name": "cancellation and rejected concurrency have not saved a completed assistant",
+          "passed": true
+        },
+        {
+          "name": "reload shows the persisted user-only cancellation history",
+          "passed": false
+        }
+      ],
+      "chat_posts": 2,
+      "page_errors": [],
+      "session_id": "1bdd1b9dd2894eedaa02f2eff0042fc6",
+      "failure_type": "AssertionError"
+    },
+    {
+      "attempt": 2,
+      "started_at": "2026-10-04T04:10:49.350355+00:00",
+      "scope": "stop-recovery",
+      "completed": true,
+      "passed": false,
+      "checks": [
+        {
+          "name": "targeted resume validates previous seven stop checks and current original-account course/history ownership",
+          "passed": true
+        },
+        {
+          "name": "targeted resume has not sent stop or concurrency requests again",
+          "passed": true
+        },
+        {
+          "name": "reload shows the persisted user-only cancellation history",
+          "passed": true
+        },
+        {
+          "name": "same session accepts the next intentional request after stop",
+          "passed": true
+        },
+        {
+          "name": "continuation finishes and persists exactly one assistant",
+          "passed": false
+        }
+      ],
+      "chat_posts": 1,
+      "expected_chat_posts": 1,
+      "page_error_count": 0,
+      "session_id": "1bdd1b9dd2894eedaa02f2eff0042fc6",
+      "continued_from_attempt": 1,
+      "inherited_stop_check_count": 7,
+      "failure_type": "AssertionError",
+      "completed_at_utc": "2026-10-04T04:11:02.413774+00:00"
+    },
+    {
+      "attempt": 3,
+      "started_at": "2026-10-04T04:37:13.464598+00:00",
+      "account": "demo_5aa71ec844d9",
+      "course_id": "ee1d3e21e4db4a2f94975ca795f4d729",
+      "scope": "stop-recovery",
+      "completed": true,
+      "passed": true,
+      "checks": [
+        {
+          "name": "targeted resume validates previous seven stop checks and current original-account course/history ownership",
+          "passed": true
+        },
+        {
+          "name": "targeted resume has not sent stop or concurrency requests again",
+          "passed": true
+        },
+        {
+          "name": "reload shows the persisted user-only cancellation history",
+          "passed": true
+        },
+        {
+          "name": "same session accepts the next intentional request after stop",
+          "passed": true
+        },
+        {
+          "name": "continuation finishes and persists exactly one assistant",
+          "passed": true
+        },
+        {
+          "name": "continuation confirms server session status with zero reported usage and no model retrieval or tool stages",
+          "passed": true
+        },
+        {
+          "name": "server status UI labels saved acknowledgment without a missing-textbook warning",
+          "passed": true
+        },
+        {
+          "name": "targeted recovery sends exactly one intentional continuation POST",
+          "passed": true
+        },
+        {
+          "name": "server status reload preserves exact saved model grounding trace and content",
+          "passed": true
+        },
+        {
+          "name": "completed follow-up reload is free of live indicators",
+          "passed": true
+        },
+        {
+          "name": "cancellation controls have no uncaught browser error",
+          "passed": true
+        }
+      ],
+      "chat_posts": 1,
+      "expected_chat_posts": 1,
+      "page_error_count": 0,
+      "session_id": "1bdd1b9dd2894eedaa02f2eff0042fc6",
+      "continued_from_attempt": 2,
+      "inherited_stop_check_count": 7,
+      "origin_stop_attempt": 1,
+      "recovery_chain_attempts": [
+        1,
+        2
+      ],
+      "users_before_continuation": 2,
+      "continuation_kind": "server_session_status",
+      "continuation_model": "server/session-status",
+      "continuation_reported_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "continuation_grounded": null,
+      "continuation_trace_nodes": [
+        "session_ack",
+        "citation_validation"
+      ],
+      "upstream_model_health_verified": false,
+      "completed_at_utc": "2026-10-04T04:37:17.652438+00:00"
+    }
+  ],
+  "boundary": "UI and persisted-message recovery are observed. Upstream generator closure and lock/semaphore cleanup are additionally checked by isolated ASGI unit tests; the billing platform is not observable here.",
+  "latest_attempt_scope": "stop-recovery",
+  "latest_evidence_boundary": "Targeted reload and one server status acknowledgment only; seven earlier stop/concurrency/deletion checks are inherited from the original chain anchor and were not rerun. Exact private history is checked before sending. Original failures remain; upstream model health is not tested."
+}

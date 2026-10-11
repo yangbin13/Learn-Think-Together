@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-10-10T20:37:00.466057+00:00",
+  "scope": "Actually compressed latest allowlisted source stage, verified CRC, extracted to independent directory, exact frozen application/test/frontend/dist bytes; formal document totals finalized separately",
+  "source_fingerprint": "1ac0ef870e90f80427e842ff9396d8a3d1b441b70ab2a7b10ed23a4e97f63f5a",
+  "archive_sha256": "b8e25e0b2f6506009fe46810f0ebde5cf6ea1e0e8919b3595163f28f53c593ad",
+  "archive_bytes": 19270887,
+  "checks": {
+    "files_count": 305,
+    "archive_crc_passed": true,
+    "all_archive_files_match_stage": true,
+    "app_test_frontend_dist_comparison_count": 209,
+    "missing_current_files": [],
+    "differing_current_files": [],
+    "frozen_source_file_count": 141,
+    "frozen_source_files_match": true,
+    "private_env_absent": true,
+    "runtime_data_absent": true,
+    "git_history_absent": true
+  },
+  "passed": true,
+  "runtime_check": "passed",
+  "runtime_artifact": "docs/validation/extracted-release-runtime-20261011.json",
+  "runtime_checks_passed": 29,
+  "runtime_checks_total": 29,
+  "runtime_scope": "Actual compressed-then-extracted latest project, new isolated database, independent 8793, no Key or embedding provider, supplied existing Python runtime; restarted owned process and verified retained records",
+  "completed_at_utc": "2026-10-10T20:38:59.314691+00:00"
+}

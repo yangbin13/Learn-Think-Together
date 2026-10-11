@@ -1,0 +1,1991 @@
+[
+  {
+    "id": "data-structures",
+    "title": "数据结构",
+    "code": "408 · DS",
+    "assistant_name": "知序",
+    "color": "#d69a50",
+    "icon": "network",
+    "description": "从抽象结构到算法选择，理解每一步为什么成立。",
+    "documents": [
+      {
+        "path": "content/408/data-structures.md",
+        "title": "数据结构 · 408 原创导学手册",
+        "license": "CC BY 4.0 · 项目原创",
+        "source_type": "original",
+        "source_url": ""
+      },
+      {
+        "path": "content/open-textbooks/open-data-structures.pdf",
+        "title": "Open Data Structures (C++ Edition)",
+        "author": "Pat Morin",
+        "source_type": "open_textbook",
+        "license": "CC BY 2.5 Canada",
+        "source_url": "https://www.opendatastructures.org/ods-cpp.pdf",
+        "publisher_url": "https://www.opendatastructures.org/",
+        "license_url": "https://creativecommons.org/licenses/by/2.5/ca/",
+        "bytes": 1519810,
+        "sha256": "3fbbe5febd0e84f79c509cca28a0be93deef0ab045999b5efc78af9e913088f4",
+        "pages": 336,
+        "downloaded_at": "2026-10-02",
+        "modified": false
+      }
+    ],
+    "concepts": [
+      {
+        "id": "data-structures-1",
+        "label": "复杂度分析",
+        "chapter": "第1章"
+      },
+      {
+        "id": "data-structures-2",
+        "label": "线性表",
+        "chapter": "第2章"
+      },
+      {
+        "id": "data-structures-3",
+        "label": "栈与队列",
+        "chapter": "第3章"
+      },
+      {
+        "id": "data-structures-4",
+        "label": "串与KMP",
+        "chapter": "第4章"
+      },
+      {
+        "id": "data-structures-5",
+        "label": "二叉树与遍历",
+        "chapter": "第5章"
+      },
+      {
+        "id": "data-structures-6",
+        "label": "二叉搜索树与AVL",
+        "chapter": "第6章"
+      },
+      {
+        "id": "data-structures-7",
+        "label": "堆与优先队列",
+        "chapter": "第7章"
+      },
+      {
+        "id": "data-structures-8",
+        "label": "图的存储与遍历",
+        "chapter": "第8章"
+      },
+      {
+        "id": "data-structures-9",
+        "label": "最短路径",
+        "chapter": "第9章"
+      },
+      {
+        "id": "data-structures-10",
+        "label": "最小生成树与拓扑排序",
+        "chapter": "第10章"
+      },
+      {
+        "id": "data-structures-11",
+        "label": "查找与散列",
+        "chapter": "第11章"
+      },
+      {
+        "id": "data-structures-12",
+        "label": "排序与稳定性",
+        "chapter": "第12章"
+      }
+    ],
+    "edges": [
+      {
+        "source": "data-structures-1",
+        "target": "data-structures-2",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-2",
+        "target": "data-structures-3",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-3",
+        "target": "data-structures-4",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-4",
+        "target": "data-structures-5",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-5",
+        "target": "data-structures-6",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-6",
+        "target": "data-structures-7",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-7",
+        "target": "data-structures-8",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-8",
+        "target": "data-structures-9",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-9",
+        "target": "data-structures-10",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-10",
+        "target": "data-structures-11",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-11",
+        "target": "data-structures-12",
+        "relation": "学习关联"
+      },
+      {
+        "source": "data-structures-1",
+        "target": "data-structures-7",
+        "relation": "知识关联"
+      },
+      {
+        "source": "data-structures-3",
+        "target": "data-structures-8",
+        "relation": "知识关联"
+      },
+      {
+        "source": "data-structures-5",
+        "target": "data-structures-6",
+        "relation": "知识关联"
+      },
+      {
+        "source": "data-structures-8",
+        "target": "data-structures-9",
+        "relation": "知识关联"
+      },
+      {
+        "source": "data-structures-8",
+        "target": "data-structures-10",
+        "relation": "知识关联"
+      },
+      {
+        "source": "data-structures-1",
+        "target": "data-structures-12",
+        "relation": "知识关联"
+      }
+    ],
+    "questions": [
+      {
+        "id": "data-structures-q1",
+        "stem": "在顺序表中按下标访问一个元素的时间复杂度通常是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "O(1)"
+          },
+          {
+            "key": "B",
+            "text": "O(log n)"
+          },
+          {
+            "key": "C",
+            "text": "O(n)"
+          },
+          {
+            "key": "D",
+            "text": "O(n²)"
+          }
+        ],
+        "answer": "A",
+        "explanation": "连续存储允许直接计算地址，因此按下标访问为 O(1)。这不代表插入也是 O(1)。",
+        "concept": "线性表",
+        "difficulty": "基础"
+      },
+      {
+        "id": "data-structures-q2",
+        "stem": "数组长度为8的循环队列预留一个空位，有效容量是多少？",
+        "options": [
+          {
+            "key": "A",
+            "text": "8"
+          },
+          {
+            "key": "B",
+            "text": "7"
+          },
+          {
+            "key": "C",
+            "text": "9"
+          },
+          {
+            "key": "D",
+            "text": "4"
+          }
+        ],
+        "answer": "B",
+        "explanation": "预留一槽用于区分空满，有效容量是 m-1=7。",
+        "concept": "栈与队列",
+        "difficulty": "基础"
+      },
+      {
+        "id": "data-structures-q3",
+        "stem": "用邻接表遍历具有 V 个顶点、E 条边的图，复杂度为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "O(V²)"
+          },
+          {
+            "key": "B",
+            "text": "O(E²)"
+          },
+          {
+            "key": "C",
+            "text": "O(V+E)"
+          },
+          {
+            "key": "D",
+            "text": "O(log V)"
+          }
+        ],
+        "answer": "C",
+        "explanation": "每个顶点和每条邻接边常数次访问，合计 Θ(V+E)。",
+        "concept": "图的存储与遍历",
+        "difficulty": "基础"
+      },
+      {
+        "id": "data-structures-q4",
+        "stem": "Dijkstra 算法通常要求边权满足什么条件？",
+        "options": [
+          {
+            "key": "A",
+            "text": "所有边权相等"
+          },
+          {
+            "key": "B",
+            "text": "允许任意负边"
+          },
+          {
+            "key": "C",
+            "text": "必须是整数"
+          },
+          {
+            "key": "D",
+            "text": "非负"
+          }
+        ],
+        "answer": "D",
+        "explanation": "贪心确定最短距离依赖非负边权；负边可能让已确定距离继续降低。",
+        "concept": "最短路径",
+        "difficulty": "基础"
+      },
+      {
+        "id": "data-structures-q5",
+        "stem": "自底向上建立二叉堆的时间复杂度是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "O(n)"
+          },
+          {
+            "key": "B",
+            "text": "O(n log n)"
+          },
+          {
+            "key": "C",
+            "text": "O(n²)"
+          },
+          {
+            "key": "D",
+            "text": "O(log n)"
+          }
+        ],
+        "answer": "A",
+        "explanation": "按节点高度加权求和得到 O(n)，多数节点下沉很少。",
+        "concept": "堆与优先队列",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "data-structures-q6",
+        "stem": "哪种常见排序通常不稳定？",
+        "options": [
+          {
+            "key": "A",
+            "text": "归并排序"
+          },
+          {
+            "key": "B",
+            "text": "堆排序"
+          },
+          {
+            "key": "C",
+            "text": "插入排序"
+          },
+          {
+            "key": "D",
+            "text": "冒泡排序"
+          }
+        ],
+        "answer": "B",
+        "explanation": "堆中的远距离交换可能改变等键记录的相对顺序。",
+        "concept": "排序与稳定性",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "data-structures-q7",
+        "stem": "非空二叉树有7个度为2的节点，叶子节点数是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "7"
+          },
+          {
+            "key": "B",
+            "text": "6"
+          },
+          {
+            "key": "C",
+            "text": "8"
+          },
+          {
+            "key": "D",
+            "text": "14"
+          }
+        ],
+        "answer": "C",
+        "explanation": "n₀=n₂+1=8，来自树的节点数与边数关系。",
+        "concept": "二叉树与遍历",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "data-structures-q8",
+        "stem": "以下哪种遍历能得到二叉搜索树键值的有序序列？",
+        "options": [
+          {
+            "key": "A",
+            "text": "层序"
+          },
+          {
+            "key": "B",
+            "text": "后序"
+          },
+          {
+            "key": "C",
+            "text": "前序"
+          },
+          {
+            "key": "D",
+            "text": "中序"
+          }
+        ],
+        "answer": "D",
+        "explanation": "中序先访问较小的左子树，再根，再较大的右子树。",
+        "concept": "二叉搜索树与AVL",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "data-structures-q9",
+        "stem": "BFS 能直接保证最少边数路径的适用图是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "无权图"
+          },
+          {
+            "key": "B",
+            "text": "任意负权图"
+          },
+          {
+            "key": "C",
+            "text": "任意加权图"
+          },
+          {
+            "key": "D",
+            "text": "只限树"
+          }
+        ],
+        "answer": "A",
+        "explanation": "BFS按距离层扩展，在无权图中距离是边数。",
+        "concept": "图的存储与遍历",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "data-structures-q10",
+        "stem": "有向图拓扑排序未能输出所有顶点，通常说明？",
+        "options": [
+          {
+            "key": "A",
+            "text": "顶点没有编号"
+          },
+          {
+            "key": "B",
+            "text": "存在有向环"
+          },
+          {
+            "key": "C",
+            "text": "所有边权为负"
+          },
+          {
+            "key": "D",
+            "text": "图是完全图"
+          }
+        ],
+        "answer": "B",
+        "explanation": "环上节点彼此等待前驱入度清零，因此无法全部输出。",
+        "concept": "最小生成树与拓扑排序",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "data-structures-q11",
+        "stem": "长度 n 的有序数组进行二分查找，最坏时间为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "O(n)"
+          },
+          {
+            "key": "B",
+            "text": "O(n²)"
+          },
+          {
+            "key": "C",
+            "text": "O(log n)"
+          },
+          {
+            "key": "D",
+            "text": "O(1)"
+          }
+        ],
+        "answer": "C",
+        "explanation": "每次将候选范围约减半，至多对数次比较。",
+        "concept": "查找与散列",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "data-structures-q12",
+        "stem": "递归 T(n)=2T(n/2)+Θ(n) 的紧确界为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "Θ(n²)"
+          },
+          {
+            "key": "B",
+            "text": "Θ(log n)"
+          },
+          {
+            "key": "C",
+            "text": "Θ(n)"
+          },
+          {
+            "key": "D",
+            "text": "Θ(n log n)"
+          }
+        ],
+        "answer": "D",
+        "explanation": "每层工作量 Θ(n)，共有 Θ(log n) 层。",
+        "concept": "复杂度分析",
+        "difficulty": "挑战"
+      }
+    ]
+  },
+  {
+    "id": "computer-organization",
+    "title": "计算机组成原理",
+    "code": "408 · CO",
+    "assistant_name": "芯知",
+    "color": "#809989",
+    "icon": "cpu",
+    "description": "把指令、数据通路和存储层次连成一张可解释的系统图。",
+    "documents": [
+      {
+        "path": "content/408/computer-organization.md",
+        "title": "计算机组成原理 · 408 原创导学手册",
+        "license": "CC BY 4.0 · 项目原创",
+        "source_type": "original",
+        "source_url": ""
+      },
+      {
+        "path": "content/open-textbooks/computer-organization.pdf",
+        "title": "Computer Organization (2021)",
+        "author": "Suk Jin Lee",
+        "source_type": "open_textbook",
+        "license": "CC BY 4.0",
+        "source_url": "https://cdn.alg.manifoldapp.org/store/actioncallout/9/7/0/970f49e0-fd75-4e2f-8685-25ac473ad767/attachment/eef4257951b0e08432216ab0cfcd3fb0.pdf",
+        "publisher_url": "https://alg.manifoldapp.org/projects/computer-organization",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "bytes": 7474931,
+        "sha256": "f49dda3aee8906c60808315f29a4929535b1b53d5bf4ce621e7493ed81f1d201",
+        "pages": 171,
+        "downloaded_at": "2026-10-02",
+        "modified": false
+      }
+    ],
+    "concepts": [
+      {
+        "id": "computer-organization-1",
+        "label": "性能与CPU时间",
+        "chapter": "第1章"
+      },
+      {
+        "id": "computer-organization-2",
+        "label": "补码与整数运算",
+        "chapter": "第2章"
+      },
+      {
+        "id": "computer-organization-3",
+        "label": "浮点数",
+        "chapter": "第3章"
+      },
+      {
+        "id": "computer-organization-4",
+        "label": "指令与寻址方式",
+        "chapter": "第4章"
+      },
+      {
+        "id": "computer-organization-5",
+        "label": "数据通路与控制",
+        "chapter": "第5章"
+      },
+      {
+        "id": "computer-organization-6",
+        "label": "流水线",
+        "chapter": "第6章"
+      },
+      {
+        "id": "computer-organization-7",
+        "label": "Cache与局部性",
+        "chapter": "第7章"
+      },
+      {
+        "id": "computer-organization-8",
+        "label": "Cache性能",
+        "chapter": "第8章"
+      },
+      {
+        "id": "computer-organization-9",
+        "label": "主存与虚拟存储",
+        "chapter": "第9章"
+      },
+      {
+        "id": "computer-organization-10",
+        "label": "总线与I/O",
+        "chapter": "第10章"
+      },
+      {
+        "id": "computer-organization-11",
+        "label": "中断与异常",
+        "chapter": "第11章"
+      },
+      {
+        "id": "computer-organization-12",
+        "label": "Amdahl定律",
+        "chapter": "第12章"
+      }
+    ],
+    "edges": [
+      {
+        "source": "computer-organization-1",
+        "target": "computer-organization-2",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-2",
+        "target": "computer-organization-3",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-3",
+        "target": "computer-organization-4",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-4",
+        "target": "computer-organization-5",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-5",
+        "target": "computer-organization-6",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-6",
+        "target": "computer-organization-7",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-7",
+        "target": "computer-organization-8",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-8",
+        "target": "computer-organization-9",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-9",
+        "target": "computer-organization-10",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-10",
+        "target": "computer-organization-11",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-11",
+        "target": "computer-organization-12",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-organization-2",
+        "target": "computer-organization-3",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-organization-4",
+        "target": "computer-organization-5",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-organization-5",
+        "target": "computer-organization-6",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-organization-7",
+        "target": "computer-organization-8",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-organization-8",
+        "target": "computer-organization-12",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-organization-9",
+        "target": "computer-organization-10",
+        "relation": "知识关联"
+      }
+    ],
+    "questions": [
+      {
+        "id": "computer-organization-q1",
+        "stem": "10⁶条指令、CPI=2、时钟频率1GHz，CPU时间是多少？",
+        "options": [
+          {
+            "key": "A",
+            "text": "2ms"
+          },
+          {
+            "key": "B",
+            "text": "2s"
+          },
+          {
+            "key": "C",
+            "text": "0.5ms"
+          },
+          {
+            "key": "D",
+            "text": "1μs"
+          }
+        ],
+        "answer": "A",
+        "explanation": "10⁶×2/10⁹ 秒=0.002秒=2ms。",
+        "concept": "性能与CPU时间",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-organization-q2",
+        "stem": "8位补码可表示的范围是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "-127到127"
+          },
+          {
+            "key": "B",
+            "text": "-128到127"
+          },
+          {
+            "key": "C",
+            "text": "0到255"
+          },
+          {
+            "key": "D",
+            "text": "-128到128"
+          }
+        ],
+        "answer": "B",
+        "explanation": "范围 [-2⁷,2⁷-1]=[-128,127]。",
+        "concept": "补码与整数运算",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-organization-q3",
+        "stem": "理想5级流水线运行10条指令需要几个周期？",
+        "options": [
+          {
+            "key": "A",
+            "text": "50"
+          },
+          {
+            "key": "B",
+            "text": "10"
+          },
+          {
+            "key": "C",
+            "text": "14"
+          },
+          {
+            "key": "D",
+            "text": "15"
+          }
+        ],
+        "answer": "C",
+        "explanation": "k+n-1=5+10-1=14，假设等时且无停顿。",
+        "concept": "流水线",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-organization-q4",
+        "stem": "命中时间2ns，缺失率5%，缺失额外代价80ns，AMAT为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "82ns"
+          },
+          {
+            "key": "B",
+            "text": "4ns"
+          },
+          {
+            "key": "C",
+            "text": "80ns"
+          },
+          {
+            "key": "D",
+            "text": "6ns"
+          }
+        ],
+        "answer": "D",
+        "explanation": "AMAT=2+0.05×80=6ns，80ns为额外代价。",
+        "concept": "Cache性能",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-organization-q5",
+        "stem": "字节寻址、Cache块大小64B，块内偏移位数为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "6"
+          },
+          {
+            "key": "B",
+            "text": "8"
+          },
+          {
+            "key": "C",
+            "text": "4"
+          },
+          {
+            "key": "D",
+            "text": "64"
+          }
+        ],
+        "answer": "A",
+        "explanation": "64=2⁶，偏移需要6位。",
+        "concept": "Cache与局部性",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-organization-q6",
+        "stem": "CPU大量重复访问刚使用的数据体现？",
+        "options": [
+          {
+            "key": "A",
+            "text": "空间局部性"
+          },
+          {
+            "key": "B",
+            "text": "时间局部性"
+          },
+          {
+            "key": "C",
+            "text": "均匀随机访问"
+          },
+          {
+            "key": "D",
+            "text": "全局共享"
+          }
+        ],
+        "answer": "B",
+        "explanation": "近期访问数据再次使用是时间局部性。",
+        "concept": "Cache与局部性",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-organization-q7",
+        "stem": "某部分占程序原执行时间的80%，仅将这部分加速4倍，其余部分执行时间不变，整体加速比为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "4"
+          },
+          {
+            "key": "B",
+            "text": "3.2"
+          },
+          {
+            "key": "C",
+            "text": "2.5"
+          },
+          {
+            "key": "D",
+            "text": "5"
+          }
+        ],
+        "answer": "C",
+        "explanation": "1/(0.2+0.8/4)=2.5。",
+        "concept": "Amdahl定律",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-organization-q8",
+        "stem": "TLB未命中意味着什么？",
+        "options": [
+          {
+            "key": "A",
+            "text": "一定发生缺页"
+          },
+          {
+            "key": "B",
+            "text": "必须读磁盘"
+          },
+          {
+            "key": "C",
+            "text": "进程必然结束"
+          },
+          {
+            "key": "D",
+            "text": "需要进一步查页表，不一定缺页"
+          }
+        ],
+        "answer": "D",
+        "explanation": "页表项可能表明页面已在主存，失配仅增加地址转换访问。",
+        "concept": "主存与虚拟存储",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-organization-q9",
+        "stem": "通常需要周期刷新的是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "DRAM"
+          },
+          {
+            "key": "B",
+            "text": "SRAM"
+          },
+          {
+            "key": "C",
+            "text": "寄存器"
+          },
+          {
+            "key": "D",
+            "text": "ROM"
+          }
+        ],
+        "answer": "A",
+        "explanation": "DRAM用电容存储电荷，会泄漏，需要刷新。",
+        "concept": "主存与虚拟存储",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "computer-organization-q10",
+        "stem": "IEEE754单精度正规数的阶码偏置为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "128"
+          },
+          {
+            "key": "B",
+            "text": "127"
+          },
+          {
+            "key": "C",
+            "text": "1023"
+          },
+          {
+            "key": "D",
+            "text": "15"
+          }
+        ],
+        "answer": "B",
+        "explanation": "8位阶码的偏置为127，特殊阶码要另行解释。",
+        "concept": "浮点数",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "computer-organization-q11",
+        "stem": "DMA传输期间CPU的合理角色是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "逐字节搬运全部数据"
+          },
+          {
+            "key": "B",
+            "text": "从不参与"
+          },
+          {
+            "key": "C",
+            "text": "设置传输并处理完成事件"
+          },
+          {
+            "key": "D",
+            "text": "关闭所有中断"
+          }
+        ],
+        "answer": "C",
+        "explanation": "DMA控制器搬运数据，CPU仍负责配置和完成处理。",
+        "concept": "总线与I/O",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "computer-organization-q12",
+        "stem": "补码同号整数相加而结果异号，通常说明？",
+        "options": [
+          {
+            "key": "A",
+            "text": "没有进位"
+          },
+          {
+            "key": "B",
+            "text": "结果总是正确"
+          },
+          {
+            "key": "C",
+            "text": "只发生无符号溢出"
+          },
+          {
+            "key": "D",
+            "text": "带符号溢出"
+          }
+        ],
+        "answer": "D",
+        "explanation": "同号加法不可能在可表示范围内得到异号，因此发生带符号溢出。",
+        "concept": "补码与整数运算",
+        "difficulty": "挑战"
+      }
+    ]
+  },
+  {
+    "id": "operating-systems",
+    "title": "操作系统",
+    "code": "408 · OS",
+    "assistant_name": "序衡",
+    "color": "#8d94bc",
+    "icon": "layers",
+    "description": "用可验证的状态变化理解进程、内存、文件与并发。",
+    "documents": [
+      {
+        "path": "content/408/operating-systems.md",
+        "title": "操作系统 · 408 原创导学手册",
+        "license": "CC BY 4.0 · 项目原创",
+        "source_type": "original",
+        "source_url": ""
+      },
+      {
+        "path": "content/open-textbooks/xv6-riscv-book.pdf",
+        "title": "xv6: a simple, Unix-like teaching operating system (RISC-V rev5)",
+        "author": "Russ Cox, Frans Kaashoek, Robert Morris",
+        "source_type": "open_textbook",
+        "license": "MIT (book sources and associated documentation)",
+        "source_url": "https://pdos.csail.mit.edu/6.1810/2025/xv6/book-riscv-rev5.pdf",
+        "publisher_url": "https://pdos.csail.mit.edu/6.828/2025/xv6.html",
+        "license_url": "https://github.com/mit-pdos/xv6-riscv-book/blob/xv6-riscv/LICENSE",
+        "bytes": 758480,
+        "sha256": "05c902ecc0a5c2fd147a3f77719b740ac454f9a28941d57d8cbce849c0539f49",
+        "pages": 116,
+        "downloaded_at": "2026-10-02",
+        "modified": false
+      }
+    ],
+    "concepts": [
+      {
+        "id": "operating-systems-1",
+        "label": "进程与线程",
+        "chapter": "第1章"
+      },
+      {
+        "id": "operating-systems-2",
+        "label": "调度算法",
+        "chapter": "第2章"
+      },
+      {
+        "id": "operating-systems-3",
+        "label": "互斥与同步",
+        "chapter": "第3章"
+      },
+      {
+        "id": "operating-systems-4",
+        "label": "信号量与生产消费",
+        "chapter": "第4章"
+      },
+      {
+        "id": "operating-systems-5",
+        "label": "死锁",
+        "chapter": "第5章"
+      },
+      {
+        "id": "operating-systems-6",
+        "label": "分页与地址转换",
+        "chapter": "第6章"
+      },
+      {
+        "id": "operating-systems-7",
+        "label": "TLB与缺页",
+        "chapter": "第7章"
+      },
+      {
+        "id": "operating-systems-8",
+        "label": "页面置换",
+        "chapter": "第8章"
+      },
+      {
+        "id": "operating-systems-9",
+        "label": "工作集与抖动",
+        "chapter": "第9章"
+      },
+      {
+        "id": "operating-systems-10",
+        "label": "文件系统",
+        "chapter": "第10章"
+      },
+      {
+        "id": "operating-systems-11",
+        "label": "磁盘与I/O调度",
+        "chapter": "第11章"
+      },
+      {
+        "id": "operating-systems-12",
+        "label": "权限与系统调用",
+        "chapter": "第12章"
+      }
+    ],
+    "edges": [
+      {
+        "source": "operating-systems-1",
+        "target": "operating-systems-2",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-2",
+        "target": "operating-systems-3",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-3",
+        "target": "operating-systems-4",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-4",
+        "target": "operating-systems-5",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-5",
+        "target": "operating-systems-6",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-6",
+        "target": "operating-systems-7",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-7",
+        "target": "operating-systems-8",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-8",
+        "target": "operating-systems-9",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-9",
+        "target": "operating-systems-10",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-10",
+        "target": "operating-systems-11",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-11",
+        "target": "operating-systems-12",
+        "relation": "学习关联"
+      },
+      {
+        "source": "operating-systems-1",
+        "target": "operating-systems-2",
+        "relation": "知识关联"
+      },
+      {
+        "source": "operating-systems-3",
+        "target": "operating-systems-4",
+        "relation": "知识关联"
+      },
+      {
+        "source": "operating-systems-4",
+        "target": "operating-systems-5",
+        "relation": "知识关联"
+      },
+      {
+        "source": "operating-systems-6",
+        "target": "operating-systems-7",
+        "relation": "知识关联"
+      },
+      {
+        "source": "operating-systems-7",
+        "target": "operating-systems-8",
+        "relation": "知识关联"
+      },
+      {
+        "source": "operating-systems-8",
+        "target": "operating-systems-9",
+        "relation": "知识关联"
+      },
+      {
+        "source": "operating-systems-10",
+        "target": "operating-systems-11",
+        "relation": "知识关联"
+      }
+    ],
+    "questions": [
+      {
+        "id": "operating-systems-q1",
+        "stem": "正在运行的进程等待I/O完成时转为什么状态？",
+        "options": [
+          {
+            "key": "A",
+            "text": "阻塞"
+          },
+          {
+            "key": "B",
+            "text": "就绪"
+          },
+          {
+            "key": "C",
+            "text": "运行"
+          },
+          {
+            "key": "D",
+            "text": "终止"
+          }
+        ],
+        "answer": "A",
+        "explanation": "等待外部事件时无法继续运行，进入阻塞，完成后通常进入就绪。",
+        "concept": "进程与线程",
+        "difficulty": "基础"
+      },
+      {
+        "id": "operating-systems-q2",
+        "stem": "4KiB页面在字节地址中需要多少位页内偏移？",
+        "options": [
+          {
+            "key": "A",
+            "text": "10"
+          },
+          {
+            "key": "B",
+            "text": "12"
+          },
+          {
+            "key": "C",
+            "text": "20"
+          },
+          {
+            "key": "D",
+            "text": "32"
+          }
+        ],
+        "answer": "B",
+        "explanation": "4KiB=4096=2¹²字节，偏移占12位。",
+        "concept": "分页与地址转换",
+        "difficulty": "基础"
+      },
+      {
+        "id": "operating-systems-q3",
+        "stem": "哪一种页面置换算法可能出现Belady异常？",
+        "options": [
+          {
+            "key": "A",
+            "text": "LRU"
+          },
+          {
+            "key": "B",
+            "text": "OPT"
+          },
+          {
+            "key": "C",
+            "text": "FIFO"
+          },
+          {
+            "key": "D",
+            "text": "上述都不会"
+          }
+        ],
+        "answer": "C",
+        "explanation": "FIFO不是栈算法，增加页框可能增加缺页次数。",
+        "concept": "页面置换",
+        "difficulty": "基础"
+      },
+      {
+        "id": "operating-systems-q4",
+        "stem": "银行家算法判定不安全状态，可以推断？",
+        "options": [
+          {
+            "key": "A",
+            "text": "已经发生死锁"
+          },
+          {
+            "key": "B",
+            "text": "所有进程立即终止"
+          },
+          {
+            "key": "C",
+            "text": "没有资源分配"
+          },
+          {
+            "key": "D",
+            "text": "不能保证存在完成所有进程的安全序列"
+          }
+        ],
+        "answer": "D",
+        "explanation": "不安全不等于已死锁，而是无法证明存在安全序列。",
+        "concept": "死锁",
+        "difficulty": "基础"
+      },
+      {
+        "id": "operating-systems-q5",
+        "stem": "容量N的生产者消费者缓冲区，empty初值是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "N"
+          },
+          {
+            "key": "B",
+            "text": "0"
+          },
+          {
+            "key": "C",
+            "text": "1"
+          },
+          {
+            "key": "D",
+            "text": "N-1"
+          }
+        ],
+        "answer": "A",
+        "explanation": "empty记录空槽，初始缓冲区为空，共N个空槽。",
+        "concept": "信号量与生产消费",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "operating-systems-q6",
+        "stem": "TLB10ns、内存100ns、命中率90%，失配读页表再读数据、无缺页，EAT为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "110ns"
+          },
+          {
+            "key": "B",
+            "text": "120ns"
+          },
+          {
+            "key": "C",
+            "text": "200ns"
+          },
+          {
+            "key": "D",
+            "text": "210ns"
+          }
+        ],
+        "answer": "B",
+        "explanation": "0.9×(10+100)+0.1×(10+100+100)=120ns。",
+        "concept": "TLB与缺页",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "operating-systems-q7",
+        "stem": "进程到达时刻2、完成时刻11，其周转时间为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "11"
+          },
+          {
+            "key": "B",
+            "text": "13"
+          },
+          {
+            "key": "C",
+            "text": "9"
+          },
+          {
+            "key": "D",
+            "text": "2"
+          }
+        ],
+        "answer": "C",
+        "explanation": "周转=完成-到达=11-2=9，尚不能仅凭此确定等待时间。",
+        "concept": "调度算法",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "operating-systems-q8",
+        "stem": "分页内存管理通常可能产生哪种碎片？",
+        "options": [
+          {
+            "key": "A",
+            "text": "只产生外部碎片"
+          },
+          {
+            "key": "B",
+            "text": "完全没有碎片"
+          },
+          {
+            "key": "C",
+            "text": "磁盘碎片"
+          },
+          {
+            "key": "D",
+            "text": "内部碎片"
+          }
+        ],
+        "answer": "D",
+        "explanation": "末页未使用空间形成页内内部碎片，物理页无需连续。",
+        "concept": "分页与地址转换",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "operating-systems-q9",
+        "stem": "同一进程的多个线程一般共享什么？",
+        "options": [
+          {
+            "key": "A",
+            "text": "地址空间"
+          },
+          {
+            "key": "B",
+            "text": "每个线程独立栈"
+          },
+          {
+            "key": "C",
+            "text": "全部寄存器状态"
+          },
+          {
+            "key": "D",
+            "text": "程序计数器"
+          }
+        ],
+        "answer": "A",
+        "explanation": "同一进程线程共享地址空间，各自有执行寄存器和栈。",
+        "concept": "进程与线程",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "operating-systems-q10",
+        "stem": "LRU，3个页框，引用1,2,3,1,4，装入4时淘汰谁？",
+        "options": [
+          {
+            "key": "A",
+            "text": "1"
+          },
+          {
+            "key": "B",
+            "text": "2"
+          },
+          {
+            "key": "C",
+            "text": "3"
+          },
+          {
+            "key": "D",
+            "text": "4"
+          }
+        ],
+        "answer": "B",
+        "explanation": "最后访问1更新其最近性，2是最长时间未访问的页。",
+        "concept": "页面置换",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "operating-systems-q11",
+        "stem": "频繁调页导致CPU利用率下降通常称为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "缓存命中"
+          },
+          {
+            "key": "B",
+            "text": "中断屏蔽"
+          },
+          {
+            "key": "C",
+            "text": "抖动"
+          },
+          {
+            "key": "D",
+            "text": "安全状态"
+          }
+        ],
+        "answer": "C",
+        "explanation": "活跃工作集无法容纳时，进程大量时间耗在分页I/O。",
+        "concept": "工作集与抖动",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "operating-systems-q12",
+        "stem": "以下哪项不是死锁四个必要条件之一？",
+        "options": [
+          {
+            "key": "A",
+            "text": "互斥"
+          },
+          {
+            "key": "B",
+            "text": "占有并等待"
+          },
+          {
+            "key": "C",
+            "text": "循环等待"
+          },
+          {
+            "key": "D",
+            "text": "资源可无限复制"
+          }
+        ],
+        "answer": "D",
+        "explanation": "必要条件为互斥、占有并等待、不可剥夺、循环等待。",
+        "concept": "死锁",
+        "difficulty": "挑战"
+      }
+    ]
+  },
+  {
+    "id": "computer-networks",
+    "title": "计算机网络",
+    "code": "408 · CN",
+    "assistant_name": "联知",
+    "color": "#69a2ba",
+    "icon": "globe",
+    "description": "从链路到应用，用协议过程与计算校验建立网络直觉。",
+    "documents": [
+      {
+        "path": "content/408/computer-networks.md",
+        "title": "计算机网络 · 408 原创导学手册",
+        "license": "CC BY 4.0 · 项目原创",
+        "source_type": "original",
+        "source_url": ""
+      },
+      {
+        "path": "content/open-textbooks/computer-networking-principles.pdf",
+        "title": "Computer Networking: Principles, Protocols and Practice (3rd Edition)",
+        "author": "Olivier Bonaventure and listed collaborators",
+        "source_type": "open_textbook",
+        "license": "CC BY 3.0 (2021 PDF, copyright notice p. 7)",
+        "source_url": "https://github.com/cnp3/ebook/releases/download/draft-3rd/CNP3-2021.pdf",
+        "publisher_url": "https://www.computer-networking.info/",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "bytes": 7670565,
+        "sha256": "f0b0d9672bf96c9df45130a3251ebde31a4da141f5dd40d63a54c9221fdd3060",
+        "pages": 413,
+        "downloaded_at": "2026-10-02",
+        "modified": false
+      }
+    ],
+    "concepts": [
+      {
+        "id": "computer-networks-1",
+        "label": "分层与封装",
+        "chapter": "第1章"
+      },
+      {
+        "id": "computer-networks-2",
+        "label": "时延与吞吐量",
+        "chapter": "第2章"
+      },
+      {
+        "id": "computer-networks-3",
+        "label": "差错检测与CRC",
+        "chapter": "第3章"
+      },
+      {
+        "id": "computer-networks-4",
+        "label": "可靠传输与滑动窗口",
+        "chapter": "第4章"
+      },
+      {
+        "id": "computer-networks-5",
+        "label": "以太网与交换",
+        "chapter": "第5章"
+      },
+      {
+        "id": "computer-networks-6",
+        "label": "IPv4与子网",
+        "chapter": "第6章"
+      },
+      {
+        "id": "computer-networks-7",
+        "label": "ARP与转发",
+        "chapter": "第7章"
+      },
+      {
+        "id": "computer-networks-8",
+        "label": "TCP连接",
+        "chapter": "第8章"
+      },
+      {
+        "id": "computer-networks-9",
+        "label": "流量与拥塞控制",
+        "chapter": "第9章"
+      },
+      {
+        "id": "computer-networks-10",
+        "label": "UDP与应用选择",
+        "chapter": "第10章"
+      },
+      {
+        "id": "computer-networks-11",
+        "label": "DNS与HTTP",
+        "chapter": "第11章"
+      },
+      {
+        "id": "computer-networks-12",
+        "label": "网络安全与排错",
+        "chapter": "第12章"
+      }
+    ],
+    "edges": [
+      {
+        "source": "computer-networks-1",
+        "target": "computer-networks-2",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-2",
+        "target": "computer-networks-3",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-3",
+        "target": "computer-networks-4",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-4",
+        "target": "computer-networks-5",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-5",
+        "target": "computer-networks-6",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-6",
+        "target": "computer-networks-7",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-7",
+        "target": "computer-networks-8",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-8",
+        "target": "computer-networks-9",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-9",
+        "target": "computer-networks-10",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-10",
+        "target": "computer-networks-11",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-11",
+        "target": "computer-networks-12",
+        "relation": "学习关联"
+      },
+      {
+        "source": "computer-networks-1",
+        "target": "computer-networks-2",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-networks-3",
+        "target": "computer-networks-4",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-networks-5",
+        "target": "computer-networks-7",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-networks-6",
+        "target": "computer-networks-7",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-networks-8",
+        "target": "computer-networks-9",
+        "relation": "知识关联"
+      },
+      {
+        "source": "computer-networks-10",
+        "target": "computer-networks-11",
+        "relation": "知识关联"
+      }
+    ],
+    "questions": [
+      {
+        "id": "computer-networks-q1",
+        "stem": "1000B分组在10Mb/s链路上传输时延是多少？",
+        "options": [
+          {
+            "key": "A",
+            "text": "0.8ms"
+          },
+          {
+            "key": "B",
+            "text": "100ms"
+          },
+          {
+            "key": "C",
+            "text": "1ms"
+          },
+          {
+            "key": "D",
+            "text": "8s"
+          }
+        ],
+        "answer": "A",
+        "explanation": "1000B=8000bit；8000/10⁷秒=0.8ms。",
+        "concept": "时延与吞吐量",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-networks-q2",
+        "stem": "192.168.10.130/26所在子网的网络地址是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "192.168.10.0"
+          },
+          {
+            "key": "B",
+            "text": "192.168.10.128"
+          },
+          {
+            "key": "C",
+            "text": "192.168.10.130"
+          },
+          {
+            "key": "D",
+            "text": "192.168.10.192"
+          }
+        ],
+        "answer": "B",
+        "explanation": "/26每块64地址，130落在128至191内，网络地址128。",
+        "concept": "IPv4与子网",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-networks-q3",
+        "stem": "常规/26 IPv4多主机子网可用主机数为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "64"
+          },
+          {
+            "key": "B",
+            "text": "32"
+          },
+          {
+            "key": "C",
+            "text": "62"
+          },
+          {
+            "key": "D",
+            "text": "30"
+          }
+        ],
+        "answer": "C",
+        "explanation": "主机位6，2⁶-2=62，排除网络及广播地址。",
+        "concept": "IPv4与子网",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-networks-q4",
+        "stem": "远端目的不在本地子网时，主机通常ARP查询谁？",
+        "options": [
+          {
+            "key": "A",
+            "text": "远端目的主机"
+          },
+          {
+            "key": "B",
+            "text": "DNS服务器"
+          },
+          {
+            "key": "C",
+            "text": "所有路由器"
+          },
+          {
+            "key": "D",
+            "text": "默认网关"
+          }
+        ],
+        "answer": "D",
+        "explanation": "链路上要送到下一跳网关，ARP解析网关IP的MAC。",
+        "concept": "ARP与转发",
+        "difficulty": "基础"
+      },
+      {
+        "id": "computer-networks-q5",
+        "stem": "路由表转发查找采用什么原则？",
+        "options": [
+          {
+            "key": "A",
+            "text": "最长前缀匹配"
+          },
+          {
+            "key": "B",
+            "text": "最短前缀匹配"
+          },
+          {
+            "key": "C",
+            "text": "最大IP数字"
+          },
+          {
+            "key": "D",
+            "text": "随机匹配"
+          }
+        ],
+        "answer": "A",
+        "explanation": "最长匹配前缀代表最具体的目的范围。",
+        "concept": "ARP与转发",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-networks-q6",
+        "stem": "TCP的接收窗口rwnd主要用于什么？",
+        "options": [
+          {
+            "key": "A",
+            "text": "拥塞控制"
+          },
+          {
+            "key": "B",
+            "text": "流量控制"
+          },
+          {
+            "key": "C",
+            "text": "DNS解析"
+          },
+          {
+            "key": "D",
+            "text": "路由学习"
+          }
+        ],
+        "answer": "B",
+        "explanation": "rwnd反映接收端可用缓冲区，保护接收方。",
+        "concept": "流量与拥塞控制",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-networks-q7",
+        "stem": "3位序号的选择重传SR，等大发送/接收窗口最大通常为？",
+        "options": [
+          {
+            "key": "A",
+            "text": "8"
+          },
+          {
+            "key": "B",
+            "text": "7"
+          },
+          {
+            "key": "C",
+            "text": "4"
+          },
+          {
+            "key": "D",
+            "text": "3"
+          }
+        ],
+        "answer": "C",
+        "explanation": "避免序号新旧歧义，窗口不超过2^(3-1)=4。",
+        "concept": "可靠传输与滑动窗口",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-networks-q8",
+        "stem": "关于DNS传输的说法，正确的是？",
+        "options": [
+          {
+            "key": "A",
+            "text": "只能TCP"
+          },
+          {
+            "key": "B",
+            "text": "只能UDP"
+          },
+          {
+            "key": "C",
+            "text": "不能缓存"
+          },
+          {
+            "key": "D",
+            "text": "可使用UDP或TCP"
+          }
+        ],
+        "answer": "D",
+        "explanation": "普通查询常用UDP，其他场景可能用TCP，不能绝对化。",
+        "concept": "UDP与应用选择",
+        "difficulty": "进阶"
+      },
+      {
+        "id": "computer-networks-q9",
+        "stem": "交换机通常根据帧的什么字段学习MAC表？",
+        "options": [
+          {
+            "key": "A",
+            "text": "源MAC地址"
+          },
+          {
+            "key": "B",
+            "text": "源IP地址"
+          },
+          {
+            "key": "C",
+            "text": "目的端口"
+          },
+          {
+            "key": "D",
+            "text": "TTL"
+          }
+        ],
+        "answer": "A",
+        "explanation": "把源MAC和入端口关联，目的地址用于后续转发判断。",
+        "concept": "以太网与交换",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "computer-networks-q10",
+        "stem": "TCP发SYN时，其序号空间通常怎样变化？",
+        "options": [
+          {
+            "key": "A",
+            "text": "不占序号"
+          },
+          {
+            "key": "B",
+            "text": "消耗一个序号"
+          },
+          {
+            "key": "C",
+            "text": "消耗全部窗口"
+          },
+          {
+            "key": "D",
+            "text": "必须回退"
+          }
+        ],
+        "answer": "B",
+        "explanation": "SYN占一个序号，因此确认值通常为初始序号+1。",
+        "concept": "TCP连接",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "computer-networks-q11",
+        "stem": "CRC接收余数为0意味着？",
+        "options": [
+          {
+            "key": "A",
+            "text": "一定没有任何差错"
+          },
+          {
+            "key": "B",
+            "text": "可以纠正所有差错"
+          },
+          {
+            "key": "C",
+            "text": "没有检测到差错，但不能绝对保证无错"
+          },
+          {
+            "key": "D",
+            "text": "必须重传"
+          }
+        ],
+        "answer": "C",
+        "explanation": "CRC可以漏检某些错误模式，零余数不是绝对无误证明。",
+        "concept": "差错检测与CRC",
+        "difficulty": "挑战"
+      },
+      {
+        "id": "computer-networks-q12",
+        "stem": "HTTP/3通常建立于哪个传输方案？",
+        "options": [
+          {
+            "key": "A",
+            "text": "裸IP"
+          },
+          {
+            "key": "B",
+            "text": "只用TCP"
+          },
+          {
+            "key": "C",
+            "text": "以太网直接传输"
+          },
+          {
+            "key": "D",
+            "text": "基于UDP的QUIC"
+          }
+        ],
+        "answer": "D",
+        "explanation": "HTTP/3映射到QUIC，QUIC通常基于UDP。",
+        "concept": "DNS与HTTP",
+        "difficulty": "挑战"
+      }
+    ]
+  }
+]

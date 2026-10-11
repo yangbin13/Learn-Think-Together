@@ -1,0 +1,2576 @@
+{
+  "started_at": "2026-10-03T23:33:43.470889+00:00",
+  "account": "demo_5aa71ec844d9",
+  "course_id": "ee1d3e21e4db4a2f94975ca795f4d729",
+  "document_id": "e8fc31725eff48be9c093b1279a0c24e",
+  "surface": "Standalone Chromium controlled by Python Playwright; real UI and backend",
+  "iab_verified": false,
+  "completed": true,
+  "passed": true,
+  "boundary": "Complementary Chromium evidence; does not fulfill an in-app browser claim. Source snippets and whole-page pixels remain private.",
+  "checks": [
+    {
+      "stage": "recon",
+      "attempt": 1,
+      "name": "actual DOM opened in preserved original account",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recon",
+      "attempt": 1,
+      "name": "real textbook has all 14 physical-page chapters",
+      "passed": false,
+      "detail": {
+        "chapter_count": 26,
+        "physical_pages": [
+          3,
+          6,
+          14,
+          14,
+          26,
+          26,
+          34,
+          34,
+          42,
+          42,
+          53,
+          53,
+          63,
+          63,
+          75,
+          75,
+          86,
+          86,
+          95,
+          95,
+          103,
+          119,
+          132,
+          147,
+          168,
+          174
+        ]
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 1,
+      "name": "cancelling a manual figure leaves no marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 1,
+      "name": "page above 174 cannot be submitted for full textbook",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 1,
+      "name": "physical page zero is rejected before submission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 1,
+      "name": "fractional physical page cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 1,
+      "name": "blank caption cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 2,
+      "name": "cancelling a manual figure leaves no marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 2,
+      "name": "page above 174 cannot be submitted for full textbook",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 2,
+      "name": "physical page zero is rejected before submission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 2,
+      "name": "fractional physical page cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 2,
+      "name": "blank caption cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "cancelling a manual figure leaves no marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "page above 174 cannot be submitted for full textbook",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "physical page zero is rejected before submission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "fractional physical page cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "blank caption cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "manual unnamed diagram on physical 161 loads real pixels",
+      "passed": true,
+      "detail": {
+        "physical_page": 161,
+        "origin": "manual",
+        "figure_number_empty": true,
+        "figure_id": "figure:manual:5ef031b195194414bf1edc4d48d1df07"
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "manual diagram 161 identifies personal provenance without measured mastery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "manual unnamed diagram on physical 99 loads real pixels",
+      "passed": true,
+      "detail": {
+        "physical_page": 99,
+        "origin": "manual",
+        "figure_number_empty": true,
+        "figure_id": "figure:manual:493a59c019d94aca996f4d6bae7718fc"
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "manual diagram 99 identifies personal provenance without measured mastery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "cancel deletion retains temporary diagram and its note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "confirmed delete removes only this-round temporary marker",
+      "passed": true,
+      "detail": {
+        "temporary_figure_id": "figure:manual:1d9d73be0fec4caf95580d8bc1bcf094",
+        "kept_markers": 2
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "deleted marker and note are no longer accessible as learning evidence",
+      "passed": true,
+      "detail": {
+        "evidence_http_status": 404
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "figure hiding and showing do not delete stored manual markers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "hidden figures disappear from search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "name": "showing figures restores the same existing manual diagram",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "cancelling a manual figure leaves no marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "page above 174 cannot be submitted for full textbook",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "physical page zero is rejected before submission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "fractional physical page cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "blank caption cannot be submitted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "manual unnamed diagram on physical 161 loads real pixels",
+      "passed": true,
+      "detail": {
+        "physical_page": 161,
+        "origin": "manual",
+        "figure_number_empty": true,
+        "figure_id": "figure:manual:5ef031b195194414bf1edc4d48d1df07"
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "manual diagram 161 identifies personal provenance without measured mastery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "manual unnamed diagram on physical 99 loads real pixels",
+      "passed": true,
+      "detail": {
+        "physical_page": 99,
+        "origin": "manual",
+        "figure_number_empty": true,
+        "figure_id": "figure:manual:493a59c019d94aca996f4d6bae7718fc"
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "manual diagram 99 identifies personal provenance without measured mastery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "cancel deletion retains temporary diagram and its note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "confirmed delete removes only this-round temporary marker",
+      "passed": true,
+      "detail": {
+        "temporary_figure_id": "figure:manual:f1f3cb584ca84784a0f8ea2646761150",
+        "kept_markers": 2
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "deleted marker and note are no longer accessible as learning evidence",
+      "passed": true,
+      "detail": {
+        "evidence_http_status": 404
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "figure hiding and showing do not delete stored manual markers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "hidden figures disappear from search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "name": "showing figures restores the same existing manual diagram",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "annotation exercise touches only this-round new unannotated figure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "long corrected title remains complete in selected detail",
+      "passed": true,
+      "detail": {
+        "title_characters": 109
+      }
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "personal title and note preserve original PDF physical location",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "first annotation persists after real browser reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "cancel unsaved title and note keeps saved first version",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "second edit replaces first version and persists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "real inputs constrain title and note lengths",
+      "passed": true,
+      "detail": {
+        "title_length": 160,
+        "note_length": 2000
+      }
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "cancel draft clear retains second saved note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "name": "saved clear restores original figure title and removes only our note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures",
+      "attempt": 1,
+      "name": "evidence failure is visible and provides an explicit retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures",
+      "attempt": 1,
+      "name": "retry restores actual evidence and physical 99 pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures",
+      "attempt": 1,
+      "name": "failed annotation preserves draft and keeps save available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures",
+      "attempt": 1,
+      "name": "explicit annotation retry reaches real backend and saves draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 1,
+      "name": "recall hides figure title, personal note and original image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 1,
+      "name": "recall disables search and manual-marker creation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 1,
+      "name": "hidden local SVG reveals no title or note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 1,
+      "name": "keyboard reveal unlocks this node note and original pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 1,
+      "name": "revealed SVG contains the revealed title but omits personal note",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "name": "recall hides figure title, personal note and original image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "name": "recall disables search and manual-marker creation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "name": "hidden local SVG reveals no title or note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "name": "keyboard reveal unlocks this node note and original pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "name": "revealed SVG contains the revealed title but omits personal note",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "name": "reset conceal removes selected source and note again",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "name": "reset SVG again hides unrevealed title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "real two-PDF course exposes textbook filter and both sources",
+      "passed": true,
+      "detail": {
+        "source_documents": 2,
+        "options": 3
+      }
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 1 shows full main textbook only",
+      "passed": true,
+      "detail": {
+        "visible_nodes": 27
+      }
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 1 sample excludes main-book diagrams and nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 1 whole-course overview restores both books",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 2 shows full main textbook only",
+      "passed": true,
+      "detail": {
+        "visible_nodes": 27
+      }
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 2 sample excludes main-book diagrams and nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 2 whole-course overview restores both books",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 3 shows full main textbook only",
+      "passed": true,
+      "detail": {
+        "visible_nodes": 27
+      }
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 3 sample excludes main-book diagrams and nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filter cycle 3 whole-course overview restores both books",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "return to main filter restores retained physical 161 source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "name": "filtering leaves 174-page book and temporary 3-page sample ready",
+      "passed": true,
+      "detail": {
+        "main_pages": 174,
+        "temporary_sample_pages": 3
+      }
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "physical 161 figure source and PDF fragment agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "clicking original PDF link requests the actual PDF stream",
+      "passed": true,
+      "detail": {
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "physical_page_fragment": 161,
+        "boundary": "PDF stream and fragment checked; headless built-in PDF renderer not judged."
+      }
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "desktop initial viewer fits the complete original page",
+      "passed": true,
+      "detail": {
+        "clientWidth": 800,
+        "clientHeight": 638,
+        "imageWidth": 510.984375,
+        "imageHeight": 637.96875,
+        "scrollWidth": 800,
+        "scrollHeight": 638,
+        "naturalWidth": 1368,
+        "naturalHeight": 1708
+      }
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "desktop repeated page enlargement reaches bounded 300 percent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "desktop real wheel scroll reaches enlarged lower page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "desktop whole-page reset restores top and zoom boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "desktop Escape closes source viewer and returns to same selected figure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "desktop reopen starts at whole page and close control works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "narrow initial viewer fits the complete original page",
+      "passed": true,
+      "detail": {
+        "clientWidth": 332,
+        "clientHeight": 415,
+        "imageWidth": 332,
+        "imageHeight": 414.5,
+        "scrollWidth": 332,
+        "scrollHeight": 415,
+        "naturalWidth": 1368,
+        "naturalHeight": 1708
+      }
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "narrow repeated page enlargement reaches bounded 300 percent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "narrow real wheel scroll reaches enlarged lower page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "narrow whole-page reset restores top and zoom boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "narrow Escape closes source viewer and returns to same selected figure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "name": "narrow reopen starts at whole page and close control works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "image failure on physical 99 visibly offers retry and PDF",
+      "passed": true,
+      "detail": {
+        "injected_requests": 1,
+        "physical_page": 99
+      }
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "UI retry on physical 99 reloads real same page pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "image failure on physical 161 visibly offers retry and PDF",
+      "passed": true,
+      "detail": {
+        "injected_requests": 1,
+        "physical_page": 161
+      }
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "UI retry on physical 161 reloads real same page pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "map failure cycle 1 has visible retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "map retry cycle 1 restores real course nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "map failure cycle 2 has visible retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "name": "map retry cycle 2 restores real course nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "repeat recall hides original figure name and source in SVG and details",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "repeat reveal exposes original title and actual physical 99 page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "repeat reset removes figure title again",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "unrevealed course branches do not expand through global action",
+      "passed": true,
+      "detail": {
+        "initial_branches": 26
+      }
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "course SVG omits every concealed first-level title",
+      "passed": true,
+      "detail": {
+        "concealed_labels_checked": 26
+      }
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "revealing a real chapter reveals only that branch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "overview reset re-conceals all branches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "name": "exit recall restores usable source search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 1,
+      "name": "keyboard root fold and unfold preserve viewport and root position",
+      "passed": true,
+      "detail": {
+        "zoom_before": 0.394464,
+        "zoom_after": 0.394464,
+        "visible_nodes": 27
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 1,
+      "name": "local expansion preserves zoom and clicked chapter screen anchor",
+      "passed": false,
+      "detail": {
+        "zoom_before": 0.473356,
+        "zoom_after": 0.473356,
+        "anchor_dx": 0.0,
+        "anchor_dy": 588.0000152587891
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "keyboard root fold and unfold preserve viewport and root position",
+      "passed": true,
+      "detail": {
+        "zoom_before": 0.394464,
+        "zoom_after": 0.394464,
+        "visible_nodes": 27
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "local expansion preserves zoom and clicked chapter canvas anchor",
+      "passed": true,
+      "detail": {
+        "zoom_before": 0.473356,
+        "zoom_after": 0.473356,
+        "anchor_dx_in_canvas": 0.0,
+        "anchor_dy_in_canvas": 1.52587890625e-05,
+        "boundary": "Screen coordinates normalized to canvas; browser may scroll document to click toolbar."
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "local collapse restores original branch visibility",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "returning to a chapter restores branch expansion and viewport",
+      "passed": true,
+      "detail": {
+        "has_nested_branch": true,
+        "remembered_nodes": 17,
+        "zoom_before": 0.607029,
+        "zoom_restored": 0.607029
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "global fold and one-level expansion are reversible inside chapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "actual chapter 1 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 1,
+        "physical_page": 14,
+        "visible_nodes": 14,
+        "selected_title_characters": 12
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "actual chapter 2 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 2,
+        "physical_page": 26,
+        "visible_nodes": 10,
+        "selected_title_characters": 10
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "actual chapter 3 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 3,
+        "physical_page": 34,
+        "visible_nodes": 12,
+        "selected_title_characters": 8
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "actual chapter 4 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 4,
+        "physical_page": 42,
+        "visible_nodes": 14,
+        "selected_title_characters": 14
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "name": "actual chapter 5 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 5,
+        "physical_page": 53,
+        "visible_nodes": 15,
+        "selected_title_characters": 15
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "keyboard root fold and unfold preserve viewport and root position",
+      "passed": true,
+      "detail": {
+        "zoom_before": 0.394464,
+        "zoom_after": 0.394464,
+        "visible_nodes": 27
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "local expansion preserves zoom and clicked chapter canvas anchor",
+      "passed": true,
+      "detail": {
+        "zoom_before": 0.473356,
+        "zoom_after": 0.473356,
+        "anchor_dx_in_canvas": 0.0,
+        "anchor_dy_in_canvas": 1.52587890625e-05,
+        "boundary": "Screen coordinates normalized to canvas; browser may scroll document to click toolbar."
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "local collapse restores original branch visibility",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "returning to a chapter restores branch expansion and viewport",
+      "passed": true,
+      "detail": {
+        "has_nested_branch": true,
+        "remembered_nodes": 17,
+        "zoom_before": 0.607029,
+        "zoom_restored": 0.607029
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "global fold and one-level expansion are reversible inside chapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 1 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 1,
+        "physical_page": 14,
+        "visible_nodes": 14,
+        "selected_title_characters": 12
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 2 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 2,
+        "physical_page": 26,
+        "visible_nodes": 10,
+        "selected_title_characters": 10
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 3 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 3,
+        "physical_page": 34,
+        "visible_nodes": 12,
+        "selected_title_characters": 8
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 4 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 4,
+        "physical_page": 42,
+        "visible_nodes": 14,
+        "selected_title_characters": 14
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 5 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 5,
+        "physical_page": 53,
+        "visible_nodes": 15,
+        "selected_title_characters": 15
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 6 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 6,
+        "physical_page": 63,
+        "visible_nodes": 14,
+        "selected_title_characters": 9
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 7 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 7,
+        "physical_page": 75,
+        "visible_nodes": 13,
+        "selected_title_characters": 12
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 8 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 8,
+        "physical_page": 86,
+        "visible_nodes": 11,
+        "selected_title_characters": 17
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 9 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 9,
+        "physical_page": 95,
+        "visible_nodes": 11,
+        "selected_title_characters": 6
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 10 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 10,
+        "physical_page": 103,
+        "visible_nodes": 15,
+        "selected_title_characters": 12
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 11 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 11,
+        "physical_page": 119,
+        "visible_nodes": 16,
+        "selected_title_characters": 14
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 12 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 12,
+        "physical_page": 132,
+        "visible_nodes": 15,
+        "selected_title_characters": 17
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 13 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 13,
+        "physical_page": 147,
+        "visible_nodes": 17,
+        "selected_title_characters": 11
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "actual chapter 14 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 14,
+        "physical_page": 168,
+        "visible_nodes": 7,
+        "selected_title_characters": 11
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "all 14 actual textbook chapters were entered and returned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "no-result search gives explicit feedback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "clear search removes no-result dropdown and restores blank field",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "topic search 二分查找 selects a source-grounded result",
+      "passed": true,
+      "detail": {
+        "matching_results": 4
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "topic search 散列表 selects a source-grounded result",
+      "passed": true,
+      "detail": {
+        "matching_results": 13
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "name": "topic search Dijkstra selects a source-grounded result",
+      "passed": true,
+      "detail": {
+        "matching_results": 5
+      }
+    },
+    {
+      "stage": "drafts",
+      "attempt": 1,
+      "name": "figure helper fills private draft with real source and physical 99 without sending",
+      "passed": true,
+      "detail": {
+        "requested_physical_page": 99,
+        "draft_characters": 206,
+        "model_requests": 0
+      }
+    },
+    {
+      "stage": "recon",
+      "attempt": 2,
+      "name": "actual DOM opened in preserved original account",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recon",
+      "attempt": 2,
+      "name": "real textbook has all 14 physical-page chapters",
+      "passed": true,
+      "detail": {
+        "chapter_count": 14,
+        "physical_pages": [
+          14,
+          26,
+          34,
+          42,
+          53,
+          63,
+          75,
+          86,
+          95,
+          103,
+          119,
+          132,
+          147,
+          168
+        ]
+      }
+    },
+    {
+      "stage": "recon",
+      "attempt": 2,
+      "name": "default full textbook map renders textbook center and 14 chapter branches",
+      "passed": true,
+      "detail": {
+        "rendered_nodes": 15
+      }
+    },
+    {
+      "stage": "recon",
+      "attempt": 2,
+      "name": "outline repair retains both manual diagrams and no private test annotation",
+      "passed": true,
+      "detail": {
+        "manual_figures": 2
+      }
+    },
+    {
+      "stage": "recon",
+      "attempt": 2,
+      "name": "automatic figure count is reported as anchor scope rather than absence of diagrams",
+      "passed": true,
+      "detail": {
+        "actual_auto_count": 0,
+        "actual_manual_count": 2
+      }
+    },
+    {
+      "stage": "drafts",
+      "attempt": 2,
+      "name": "figure helper fills private draft with real source and physical 99 without sending",
+      "passed": true,
+      "detail": {
+        "requested_physical_page": 99,
+        "draft_characters": 206,
+        "model_requests": 0
+      }
+    },
+    {
+      "stage": "drafts",
+      "attempt": 2,
+      "name": "explain helper fills retrieval-based draft without a model request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts",
+      "attempt": 2,
+      "name": "recall helper fills multi-turn teaching instruction without auto-sending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts",
+      "attempt": 2,
+      "name": "typed unsent question survives a graph-tab round trip",
+      "passed": false,
+      "detail": {
+        "retained_characters": 0,
+        "expected_draft_characters": 34,
+        "model_requests": 0
+      }
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px main textbook overview has all 14 chapters without horizontal document overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document_width": 390,
+        "visible_nodes": 15
+      }
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px default chapter nodes remain inside canvas above a separate footer",
+      "passed": true,
+      "detail": {
+        "flow_width": 356,
+        "flow_height": 1048,
+        "zoom": 0.923077,
+        "minimum_node_height": 55.384521484375,
+        "effective_minimum_title_font": 14.769232
+      }
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px canvas zoom fit and export controls have 44px touch targets",
+      "passed": true,
+      "detail": {
+        "controls": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px root fold unfold cycle 1 keeps the same chapters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px root fold unfold cycle 2 keeps the same chapters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px root fold unfold cycle 3 keeps the same chapters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px selected chapter full title and physical page remain accessible",
+      "passed": true,
+      "detail": {
+        "chapter": 1,
+        "physical_page": 14,
+        "title_characters": 12
+      }
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px chapter global collapse expansion cycle 1 keeps zoom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px chapter global collapse expansion cycle 2 keeps zoom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px chapter return restores complete course overview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px search no-result and clear controls work",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px figure search opens real physical 99 page and complete title",
+      "passed": true,
+      "detail": {
+        "physical_page": 99,
+        "image_natural_width": 1368
+      }
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "name": "390px figure search opens real physical 161 page and complete title",
+      "passed": true,
+      "detail": {
+        "physical_page": 161,
+        "image_natural_width": 1368
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "keyboard root fold and unfold preserve viewport and root position",
+      "passed": true,
+      "detail": {
+        "zoom_before": 0.7125,
+        "zoom_after": 0.7125,
+        "visible_nodes": 15
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "local expansion preserves zoom and clicked chapter canvas anchor",
+      "passed": true,
+      "detail": {
+        "zoom_before": 0.855,
+        "zoom_after": 0.855,
+        "anchor_dx_in_canvas": 0.0,
+        "anchor_dy_in_canvas": 3.0517578125e-05,
+        "boundary": "Screen coordinates normalized to canvas; browser may scroll document to click toolbar."
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "local collapse restores original branch visibility",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "returning to a chapter restores branch expansion and viewport",
+      "passed": true,
+      "detail": {
+        "has_nested_branch": true,
+        "remembered_nodes": 8,
+        "zoom_before": 0.833333,
+        "zoom_restored": 0.833333
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "global fold and one-level expansion are reversible inside chapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 1 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 1,
+        "physical_page": 14,
+        "visible_nodes": 4,
+        "selected_title_characters": 12
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 2 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 2,
+        "physical_page": 26,
+        "visible_nodes": 6,
+        "selected_title_characters": 10
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 3 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 3,
+        "physical_page": 34,
+        "visible_nodes": 9,
+        "selected_title_characters": 8
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 4 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 4,
+        "physical_page": 42,
+        "visible_nodes": 8,
+        "selected_title_characters": 14
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 5 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 5,
+        "physical_page": 53,
+        "visible_nodes": 9,
+        "selected_title_characters": 15
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 6 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 6,
+        "physical_page": 63,
+        "visible_nodes": 8,
+        "selected_title_characters": 9
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 7 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 7,
+        "physical_page": 75,
+        "visible_nodes": 8,
+        "selected_title_characters": 12
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 8 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 8,
+        "physical_page": 86,
+        "visible_nodes": 6,
+        "selected_title_characters": 17
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 9 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 9,
+        "physical_page": 95,
+        "visible_nodes": 7,
+        "selected_title_characters": 6
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 10 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 10,
+        "physical_page": 103,
+        "visible_nodes": 7,
+        "selected_title_characters": 12
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 11 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 11,
+        "physical_page": 119,
+        "visible_nodes": 10,
+        "selected_title_characters": 14
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 12 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 12,
+        "physical_page": 132,
+        "visible_nodes": 7,
+        "selected_title_characters": 17
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 13 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 13,
+        "physical_page": 147,
+        "visible_nodes": 7,
+        "selected_title_characters": 11
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "actual chapter 14 enters, keeps full selected title and correct physical source",
+      "passed": true,
+      "detail": {
+        "chapter": 14,
+        "physical_page": 168,
+        "visible_nodes": 4,
+        "selected_title_characters": 11
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "all 14 actual textbook chapters were entered and returned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "no-result search gives explicit feedback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "clear search removes no-result dropdown and restores blank field",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "topic search 二分查找 selects a source-grounded result",
+      "passed": true,
+      "detail": {
+        "matching_results": 2
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "topic search 散列表 selects a source-grounded result",
+      "passed": true,
+      "detail": {
+        "matching_results": 8
+      }
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "name": "topic search Dijkstra selects a source-grounded result",
+      "passed": true,
+      "detail": {
+        "matching_results": 2
+      }
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "repeat recall hides original figure name and source in SVG and details",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "repeat reveal exposes original title and actual physical 99 page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "repeat reset removes figure title again",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "unrevealed course branches do not expand through global action",
+      "passed": true,
+      "detail": {
+        "initial_branches": 14
+      }
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "course SVG omits every concealed first-level title",
+      "passed": true,
+      "detail": {
+        "concealed_labels_checked": 14
+      }
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "revealing a real chapter reveals only that branch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "overview reset re-conceals all branches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "name": "exit recall restores usable source search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "figure helper fills private draft with real source and physical 99 without sending",
+      "passed": true,
+      "detail": {
+        "requested_physical_page": 99,
+        "draft_characters": 206,
+        "model_requests": 0
+      }
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "explain helper fills retrieval-based draft without a model request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "recall helper fills multi-turn teaching instruction without auto-sending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "typed unsent question survives a graph-tab round trip",
+      "passed": true,
+      "detail": {
+        "retained_characters": 34,
+        "expected_draft_characters": 34,
+        "model_requests": 0
+      }
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "repaired Unicode multiline draft survives real page reload with account and course key",
+      "passed": true,
+      "detail": {
+        "draft_characters": 31,
+        "multiline": true,
+        "unicode": true,
+        "scoped_storage_match": true
+      }
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "actual course switch does not leak the DS draft into OS",
+      "passed": true,
+      "detail": {
+        "source_course": "ee1d3e21e4db4a2f94975ca795f4d729",
+        "other_course": "50a0b54ae5e646bc9063b74912b18e79"
+      }
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "returning through actual course navigation restores original DS draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "second course has its own independently restored draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "clearing only this-round OS draft leaves the independent DS draft intact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "node helper conflict shows both reviewable drafts before changing tabs",
+      "passed": true,
+      "detail": {
+        "old_draft_characters": 31,
+        "new_draft_characters": 206,
+        "requested_physical_page": 99
+      }
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "cancel replacement keeps exact original typed draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "confirmed replacement opens exact reviewed node question without sending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "confirmed node-question draft also survives real reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "same existing node question returns to chat without unnecessary conflict",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "explicit empty input deletes scoped draft and remains empty after reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "whitespace-only input is cleaned instead of restoring a blank draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "name": "draft repair retest does not annotate or delete retained manual figures",
+      "passed": true,
+      "detail": {
+        "manual_physical_pages": [
+          161,
+          99
+        ]
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stage": "recon",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:33:43.470889+00:00",
+      "completed": false,
+      "passed": false,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-recon-1-actual-dom.png",
+        "data/private-validation/ds-textbook/mindmap-recon-1-failure.png"
+      ],
+      "error": "real textbook has all 14 physical-page chapters",
+      "finished_at": "2026-10-03T23:33:47.223372+00:00",
+      "failure_classification": "application_defect",
+      "failure_explanation": "The original full PDF produced 26 chapter entries although the verified source has 14. Outline cache/concepts were repaired by the root task; recon attempt 2 and structure attempt 4 confirm the same uploaded document now has 14 chapters. No upload/embedding replacement.",
+      "application_defect_resolved_by_retest": true,
+      "resolved_by": {
+        "stage": "recon",
+        "attempt": 2
+      }
+    },
+    {
+      "stage": "manual",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:37:08.633412+00:00",
+      "completed": false,
+      "passed": false,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-manual-1-before-marker.png",
+        "data/private-validation/ds-textbook/mindmap-manual-1-failure.png"
+      ],
+      "error": "",
+      "finished_at": "2026-10-03T23:37:12.877399+00:00",
+      "failure_classification": "driver_assumption",
+      "failure_explanation": "The actual UI creation correctly returned HTTP 201; the first driver expected 200. Corrected, with both retained markers reused rather than duplicated."
+    },
+    {
+      "stage": "manual",
+      "attempt": 2,
+      "started_at": "2026-10-03T23:37:58.917985+00:00",
+      "completed": false,
+      "passed": false,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-manual-2-before-marker.png",
+        "data/private-validation/ds-textbook/mindmap-manual-2-failure.png"
+      ],
+      "error": "'figures'",
+      "finished_at": "2026-10-03T23:38:02.889961+00:00",
+      "failure_classification": "driver_assumption",
+      "failure_explanation": "The actual figure-list response uses items, not figures. The response assertion was corrected; no application defect indicated."
+    },
+    {
+      "stage": "manual",
+      "attempt": 3,
+      "started_at": "2026-10-03T23:38:19.009723+00:00",
+      "completed": false,
+      "passed": false,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-manual-3-before-marker.png",
+        "data/private-validation/ds-textbook/mindmap-manual-3-physical-161-preview.png",
+        "data/private-validation/ds-textbook/mindmap-manual-3-physical-99-preview.png",
+        "data/private-validation/ds-textbook/mindmap-manual-3-failure.png"
+      ],
+      "error": "showing figures restores the same existing manual diagram",
+      "finished_at": "2026-10-03T23:38:27.532579+00:00",
+      "failure_classification": "driver_assumption",
+      "failure_explanation": "The displayed manual figure title includes the legitimate 图示 prefix. The title comparison was corrected; manual attempt 4 completed the same visibility/identity scenario."
+    },
+    {
+      "stage": "manual",
+      "attempt": 4,
+      "started_at": "2026-10-03T23:39:34.949263+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-manual-4-before-marker.png",
+        "data/private-validation/ds-textbook/mindmap-manual-4-physical-161-preview.png",
+        "data/private-validation/ds-textbook/mindmap-manual-4-physical-99-preview.png"
+      ],
+      "finished_at": "2026-10-03T23:39:42.688529+00:00"
+    },
+    {
+      "stage": "notes",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:41:48.571636+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-notes-1-first-note-after-reload.png"
+      ],
+      "finished_at": "2026-10-03T23:41:58.363710+00:00"
+    },
+    {
+      "stage": "failures",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:43:31.538545+00:00",
+      "completed": false,
+      "passed": false,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-failures-1-evidence-503.png",
+        "data/private-validation/ds-textbook/mindmap-failures-1-annotation-503.png",
+        "data/private-validation/ds-textbook/mindmap-failures-1-failure.png"
+      ],
+      "error": "Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\".mindmap-image-error\")\n\nAria snapshot:\n- complementary \"学习导航\":\n  - img\n  - strong: 学思同行\n  - text: ThinkMate 专业课程学习工作台 学习空间\n  - navigation \"主导航\":\n    - button \"我的课程 7\":\n      - img\n      - text: 我的课程 7\n    - button \"学习仪表板\":\n      - img\n      - text: 学习仪表板\n  - text: 我的助教\n  - img\n  - navigation \"课程助教\":\n    - button \"数据结构\"\n    - button \"计算机组成原理\"\n    - button \"操作系统\"\n    - button \"计算机网络\"\n    - button \"操作系统 · 完整教材实测\"\n    - button \"计算机网络 · 图示教材实测\"\n    - button \"数据结构与算法图解\"\n  - button \"使用指南\":\n    - img\n    - text: 使用指南\n  - text: 体\n  - strong: 体验同学\n  - text: \"@demo_5aa71ec844d9\"\n  - button \"退出登录\":\n    - img\n- banner:\n  - text: 学习空间 /\n  - strong: 数据结构与算法图解\n  - text: 助教已就绪\n  - link \"导出学习记录\":\n    - /url: /api/export?course_id=ee1d3e21e4db4a2f94975ca795f4d729\n    - img\n    - text: 导出学习记录\n- main:\n  - heading \"数据结构与算法图解\" [level=1]\n  - paragraph: 基于完整图解教材学习复杂度、排序、散列表、递归、树与图；用于同一学生账号的多轮实测。\n  - text: 未测 概念掌握 0 次提问\n  - tablist \"课程功能\":\n    - tab \"助教对话\":\n      - img\n      - text: 助教对话\n    - tab \"课程教材\":\n      - img\n      - text: 课程教材\n    - tab \"思维导图\" [selected]:\n      - img\n      - text: 思维导图\n    - tab \"练习中心\":\n      - img\n      - text: 练习中心\n    - tab \"复习计划\":\n      - img\n      - text: 复习计划\n  - heading \"课程思维导图\" [level=2]\n  - paragraph: 先把课程连成框架，再逐章展开。遮住分支名称，可以检查自己是否记住了结构。\n  - img\n  - textbox \"查找章节或知识点\":\n    - /placeholder: 查找章节、知识点或图号\n    - text: 阶乘递归的调用栈\n  - button \"清除导图搜索\": 清除\n  - combobox \"选择导图教材\":\n    - option \"整门课程\" [selected]\n    - option \"数据结构与算法图解 (杰伊•温格罗, 袁志鹏译) (Z-Library)\"\n    - option \"数据结构图解-真实PDF临时样本\"\n  - button \"隐藏图示\" [pressed]:\n    - img\n    - text: 隐藏图示\n  - button \"补充图示\":\n    - img\n    - text: 补充图示\n  - button \"进入回忆模式\":\n ",
+      "finished_at": "2026-10-03T23:43:52.391926+00:00",
+      "failure_classification": "driver_injection_boundary",
+      "failure_explanation": "The first four evidence/annotation failure-and-retry checks passed. A later image 503 injection did not intercept the decoded cached image. The fresh-page failures_image_map stage then intercepted both physical images and verified explicit retry to actual pixels. The first attempt remains incomplete."
+    },
+    {
+      "stage": "recall",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:45:41.212395+00:00",
+      "completed": false,
+      "passed": false,
+      "private_exports": [
+        "data/private-validation/ds-textbook/mindmap-recall-1-hidden-local.svg",
+        "data/private-validation/ds-textbook/mindmap-recall-1-revealed-local.svg"
+      ],
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-recall-1-recall-hidden.png",
+        "data/private-validation/ds-textbook/mindmap-recall-1-failure.png"
+      ],
+      "error": "revealed SVG contains the revealed title but omits personal note",
+      "finished_at": "2026-10-03T23:45:48.146383+00:00",
+      "failure_classification": "driver_assumption",
+      "failure_explanation": "A long visible SVG title was split across tspan elements. Literal raw-XML substring matching was inappropriate; reconstructing XML text confirmed the disclosed title. Subsequent checks separately confirm hidden-title and personal-note privacy."
+    },
+    {
+      "stage": "recall",
+      "attempt": 2,
+      "started_at": "2026-10-03T23:47:20.345827+00:00",
+      "completed": false,
+      "passed": false,
+      "private_exports": [
+        "data/private-validation/ds-textbook/mindmap-recall-2-hidden-local.svg",
+        "data/private-validation/ds-textbook/mindmap-recall-2-revealed-local.svg",
+        "data/private-validation/ds-textbook/mindmap-recall-2-reset-local.svg"
+      ],
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-recall-2-recall-hidden.png",
+        "data/private-validation/ds-textbook/mindmap-recall-2-failure.png"
+      ],
+      "error": "Locator.select_option: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"combobox\", name=\"选择导图教材\", exact=True)\n    - locator resolved to <select aria-label=\"选择导图教材\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n      - waiting 100ms\n    29 × waiting for element to be visible and enabled\n       - did not find some options\n     - retrying select option action\n       - waiting 500ms\n",
+      "finished_at": "2026-10-03T23:47:41.625703+00:00",
+      "failure_classification": "driver_assumption",
+      "failure_explanation": "Seven personal-note/figure recall checks passed and this-round note/title were cleared. The driver then supplied a bare document id to a selector that expects document:<id>. The independent read-only recall_verify stage completed course-level recall/export/reset coverage."
+    },
+    {
+      "stage": "filters",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:50:18.647040+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-filters-1-before-filters.png",
+        "data/private-validation/ds-textbook/mindmap-filters-1-main-source-restored.png"
+      ],
+      "finished_at": "2026-10-03T23:50:23.532587+00:00"
+    },
+    {
+      "stage": "viewer",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:52:53.478164+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-viewer-1-desktop-whole-page.png",
+        "data/private-validation/ds-textbook/mindmap-viewer-1-narrow-whole-page.png"
+      ],
+      "finished_at": "2026-10-03T23:53:00.728099+00:00"
+    },
+    {
+      "stage": "failures_image_map",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:53:12.404711+00:00",
+      "completed": true,
+      "passed": true,
+      "finished_at": "2026-10-03T23:53:19.557910+00:00"
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:53:29.255965+00:00",
+      "completed": true,
+      "passed": true,
+      "private_exports": [
+        "data/private-validation/ds-textbook/mindmap-recall_verify-1-hidden-repeat.svg",
+        "data/private-validation/ds-textbook/mindmap-recall_verify-1-revealed-repeat.svg",
+        "data/private-validation/ds-textbook/mindmap-recall_verify-1-reset-repeat.svg",
+        "data/private-validation/ds-textbook/mindmap-recall_verify-1-hidden-overview-repeat.svg"
+      ],
+      "finished_at": "2026-10-03T23:53:35.253179+00:00"
+    },
+    {
+      "stage": "structure",
+      "attempt": 1,
+      "started_at": "2026-10-03T23:56:00.650668+00:00",
+      "completed": false,
+      "passed": false,
+      "error": "local expansion preserves zoom and clicked chapter screen anchor",
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-structure-1-failure.png"
+      ],
+      "finished_at": "2026-10-03T23:56:05.086153+00:00",
+      "failure_classification": "driver_coordinate_boundary",
+      "failure_explanation": "Browser scrolling to a toolbar changed window coordinates. Canvas-relative coordinates are required for anchor preservation; corrected structure attempts 3 and 4 passed."
+    },
+    {
+      "stage": "structure",
+      "attempt": 2,
+      "started_at": "2026-10-03T23:57:08.288274+00:00",
+      "completed": false,
+      "passed": false,
+      "error": "Locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\".react-flow__node[data-id=\\\"5e0a80acc996633112\\\"]\").locator(\".mindmap-topic-button\")\n    - locator resolved to <button aria-label=\"选择 乐观地调优\" class=\"mindmap-topic-button nodrag\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"course-panel-content mindmap-page\">…</div> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"course-panel-content mindmap-page\">…</div> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    28 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"course-panel-content mindmap-page\">…</div> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-structure-2-failure.png"
+      ],
+      "finished_at": "2026-10-03T23:57:30.562665+00:00",
+      "failure_classification": "driver_navigation_boundary",
+      "failure_explanation": "A remembered enlarged viewport put the requested next chapter outside the clipped canvas. The corrected driver clicks the available fit control before chapter navigation; no forced DOM click was used."
+    },
+    {
+      "stage": "structure",
+      "attempt": 3,
+      "started_at": "2026-10-04T00:00:11.896313+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-structure-3-all-chapters-navigated.png"
+      ],
+      "finished_at": "2026-10-04T00:00:27.106496+00:00"
+    },
+    {
+      "stage": "drafts",
+      "attempt": 1,
+      "started_at": "2026-10-04T00:01:55.970512+00:00",
+      "completed": false,
+      "passed": false,
+      "error": "Locator expected to have count '1'\nActual value: 13 \nCall log:\n  - Expect \"to_have_count\" with timeout 15000ms\n  - waiting for locator(\".mindmap-search-results > button\")\n    33 × locator resolved to 13 elements\n       - unexpected value \"13\"\n",
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-drafts-1-failure.png"
+      ],
+      "finished_at": "2026-10-04T00:02:15.533277+00:00",
+      "failure_classification": "driver_selection_boundary",
+      "failure_explanation": "The search term matched 13 results through chapter/ancestor paths. Uniqueness was an invalid assumption. The next attempt selected the observed exact chapter node through the actual canvas."
+    },
+    {
+      "stage": "recon",
+      "attempt": 2,
+      "started_at": "2026-10-04T00:07:40.229743+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-recon-2-actual-dom.png"
+      ],
+      "finished_at": "2026-10-04T00:07:43.703653+00:00"
+    },
+    {
+      "stage": "drafts",
+      "attempt": 2,
+      "started_at": "2026-10-04T00:07:49.854775+00:00",
+      "completed": false,
+      "passed": false,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-drafts-2-unsent-draft-return.png",
+        "data/private-validation/ds-textbook/mindmap-drafts-2-failure.png"
+      ],
+      "error": "typed unsent question survives a graph-tab round trip",
+      "finished_at": "2026-10-04T00:07:57.286739+00:00",
+      "failure_classification": "application_defect",
+      "failure_explanation": "A manually typed unsent 34-character question became empty after a real graph-tab/chat-tab round trip. The three helper-draft scenarios passed and no model request was sent. A root-task UI repair and a subsequent real-browser retest were required; see application_defect_resolved_by_retest and the separate confirm stage.",
+      "application_defect_resolved_by_retest": true,
+      "resolved_by": {
+        "stage": "drafts_confirm",
+        "attempt": 1
+      }
+    },
+    {
+      "stage": "mobile",
+      "attempt": 1,
+      "started_at": "2026-10-04T00:09:37.722007+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-mobile-1-390-course-overview.png",
+        "data/private-validation/ds-textbook/mindmap-mobile-1-390-chapter-one.png",
+        "data/private-validation/ds-textbook/mindmap-mobile-1-390-manual-figure-selected.png"
+      ],
+      "finished_at": "2026-10-04T00:09:44.612642+00:00"
+    },
+    {
+      "stage": "structure",
+      "attempt": 4,
+      "started_at": "2026-10-04T00:10:03.688611+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-structure-4-all-chapters-navigated.png"
+      ],
+      "finished_at": "2026-10-04T00:10:20.074760+00:00"
+    },
+    {
+      "stage": "recall_verify",
+      "attempt": 2,
+      "started_at": "2026-10-04T00:10:36.215100+00:00",
+      "completed": true,
+      "passed": true,
+      "private_exports": [
+        "data/private-validation/ds-textbook/mindmap-recall_verify-2-hidden-repeat.svg",
+        "data/private-validation/ds-textbook/mindmap-recall_verify-2-revealed-repeat.svg",
+        "data/private-validation/ds-textbook/mindmap-recall_verify-2-reset-repeat.svg",
+        "data/private-validation/ds-textbook/mindmap-recall_verify-2-hidden-overview-repeat.svg"
+      ],
+      "finished_at": "2026-10-04T00:10:44.512099+00:00"
+    },
+    {
+      "stage": "drafts_confirm",
+      "attempt": 1,
+      "started_at": "2026-10-04T00:19:18.166046+00:00",
+      "completed": true,
+      "passed": true,
+      "private_captures": [
+        "data/private-validation/ds-textbook/mindmap-drafts_confirm-1-unsent-draft-return.png",
+        "data/private-validation/ds-textbook/mindmap-drafts_confirm-1-reloaded-scoped-draft.png",
+        "data/private-validation/ds-textbook/mindmap-drafts_confirm-1-reviewable-draft-conflict.png",
+        "data/private-validation/ds-textbook/mindmap-drafts_confirm-1-draft-clear-and-cleanup.png"
+      ],
+      "finished_at": "2026-10-04T00:19:35.552499+00:00"
+    }
+  ],
+  "page_errors": [],
+  "forbidden_requests": [],
+  "pending": [],
+  "updated_at": "2026-10-04T00:20:30.630492+00:00",
+  "baseline": {
+    "chapter_count": 26,
+    "tree_nodes": 207,
+    "total_headings": 205,
+    "auto_figures": 0,
+    "manual_figures": 0,
+    "figure_notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。",
+    "figure_jobs": [
+      {
+        "document_id": "e8fc31725eff48be9c093b1279a0c24e",
+        "status": "ready",
+        "index_version": "2026-10-04-caption-anchors-v3",
+        "current_page": 174,
+        "total_pages": 174,
+        "figure_count": 0,
+        "error": null,
+        "updated_at": "2026-10-03T23:23:47.500502+00:00",
+        "notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。"
+      },
+      {
+        "document_id": "f6894dab22914c43b1081ead289b3bad",
+        "status": "ready",
+        "index_version": "2026-10-04-caption-anchors-v3",
+        "current_page": 3,
+        "total_pages": 3,
+        "figure_count": 0,
+        "error": null,
+        "updated_at": "2026-10-03T23:33:45.476759+00:00",
+        "notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。"
+      }
+    ]
+  },
+  "manual_figures_kept": [
+    {
+      "figure_id": "figure:manual:5ef031b195194414bf1edc4d48d1df07",
+      "physical_page": 161,
+      "origin": "manual",
+      "unnumbered": true
+    },
+    {
+      "figure_id": "figure:manual:493a59c019d94aca996f4d6bae7718fc",
+      "physical_page": 99,
+      "origin": "manual",
+      "unnumbered": true
+    }
+  ],
+  "actual_auto_figure_count": 0,
+  "auto_figure_scope": "Only complete text-layer figure number/caption anchors. Zero automatic entries does not mean the textbook lacks diagrams.",
+  "multi_book_filter": {
+    "completed": true,
+    "cycles": 3,
+    "temporary_document_id": "f6894dab22914c43b1081ead289b3bad",
+    "temporary_sample_safe_to_remove_by_root": true
+  },
+  "failure_injection_boundary": "503 injected at Chromium route only, followed by explicit UI retry to real backend; no service interruption.",
+  "initial_baseline": {
+    "chapter_count": 26,
+    "tree_nodes": 207,
+    "total_headings": 205,
+    "auto_figures": 0,
+    "manual_figures": 0,
+    "figure_notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。",
+    "figure_jobs": [
+      {
+        "document_id": "e8fc31725eff48be9c093b1279a0c24e",
+        "status": "ready",
+        "index_version": "2026-10-04-caption-anchors-v3",
+        "current_page": 174,
+        "total_pages": 174,
+        "figure_count": 0,
+        "error": null,
+        "updated_at": "2026-10-03T23:23:47.500502+00:00",
+        "notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。"
+      },
+      {
+        "document_id": "f6894dab22914c43b1081ead289b3bad",
+        "status": "ready",
+        "index_version": "2026-10-04-caption-anchors-v3",
+        "current_page": 3,
+        "total_pages": 3,
+        "figure_count": 0,
+        "error": null,
+        "updated_at": "2026-10-03T23:33:45.476759+00:00",
+        "notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。"
+      }
+    ]
+  },
+  "latest_outline": {
+    "chapter_count": 14,
+    "tree_nodes": 107,
+    "total_headings": 104,
+    "auto_figures": 0,
+    "manual_figures": 2,
+    "figure_notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。",
+    "figure_jobs": [
+      {
+        "document_id": "e8fc31725eff48be9c093b1279a0c24e",
+        "status": "ready",
+        "index_version": "2026-10-04-caption-anchors-v3",
+        "current_page": 174,
+        "total_pages": 174,
+        "figure_count": 0,
+        "error": null,
+        "updated_at": "2026-10-03T23:23:47.500502+00:00",
+        "notice": "仅定位文字层中完整的图号和图题，尚未理解图内知识；OCR 缺字、乱序或无图题的图片可能未收录，请核验原 PDF。"
+      }
+    ]
+  },
+  "coverage_summary": {
+    "latest_scenarios": [
+      {
+        "stage": "recon",
+        "latest_attempt": 2,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 5,
+        "failed_checks": 0
+      },
+      {
+        "stage": "manual",
+        "latest_attempt": 4,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 15,
+        "failed_checks": 0
+      },
+      {
+        "stage": "notes",
+        "latest_attempt": 1,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 9,
+        "failed_checks": 0
+      },
+      {
+        "stage": "filters",
+        "latest_attempt": 1,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 12,
+        "failed_checks": 0
+      },
+      {
+        "stage": "viewer",
+        "latest_attempt": 1,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 14,
+        "failed_checks": 0
+      },
+      {
+        "stage": "failures_image_map",
+        "latest_attempt": 1,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 8,
+        "failed_checks": 0
+      },
+      {
+        "stage": "recall_verify",
+        "latest_attempt": 2,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 8,
+        "failed_checks": 0
+      },
+      {
+        "stage": "structure",
+        "latest_attempt": 4,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 25,
+        "failed_checks": 0
+      },
+      {
+        "stage": "mobile",
+        "latest_attempt": 1,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 13,
+        "failed_checks": 0
+      },
+      {
+        "stage": "drafts_confirm",
+        "latest_attempt": 1,
+        "completed": true,
+        "passed": true,
+        "successful_checks": 17,
+        "failed_checks": 0
+      }
+    ],
+    "successful_completed_scenario_checks": 126,
+    "supplementary_verified_subsets": [
+      {
+        "stage": "failures",
+        "attempt": 1,
+        "verified_subchecks": 4,
+        "all_listed_subchecks_passed": true,
+        "boundary": "Evidence/annotation 503, preserve unsaved editor, explicit retry to real backend and cleanup; later cached-image injection was inconclusive."
+      },
+      {
+        "stage": "recall",
+        "attempt": 2,
+        "verified_subchecks": 7,
+        "all_listed_subchecks_passed": true,
+        "boundary": "Personal title/note privacy, actual image hiding, keyboard reveal, reset and SVG redaction. A later selector failure prevented completing this attempt; read-only course recall was tested separately."
+      }
+    ],
+    "count_boundary": "Scenario check counts are not a claim that every application feature or model semantic case passed. Failed/incomplete attempts remain verbatim above."
+  },
+  "model_requests_sent_by_this_driver": 0,
+  "model_call_boundary": "This scoped driver never clicked send or generation, and aborted any unexpected chat/quiz/plan POST; zero intercepted forbidden requests. Root-task real model tests are separate concurrent evidence.",
+  "data_retention": {
+    "manual_physical_pages_kept": [
+      99,
+      161
+    ],
+    "manual_origin": "manual; empty figure_number; verified false",
+    "this_round_title_notes_cleared": true,
+    "temporary_marker_delete_boundary": "UI confirmation removed the temporary node; its evidence endpoint returned 404. No direct database inspection by this agent.",
+    "temporary_pdf_sample": "Three actual source pages were UI uploaded by root, used in three full filtering cycles, and subsequently UI removed by root."
+  },
+  "visual_review": {
+    "viewport": 390,
+    "inspected_private_captures": [
+      "data/private-validation/ds-textbook/mindmap-mobile-1-390-course-overview.png",
+      "data/private-validation/ds-textbook/mindmap-mobile-1-390-chapter-one.png"
+    ],
+    "finding": "Full 14-chapter course overview and first chapter inspected as actual pixels. Titles/branches readable, vertical layout and separate control footer coherent; no horizontal page overflow."
+  },
+  "draft_repair_retest": {
+    "stage": "drafts_confirm",
+    "attempt": 1,
+    "completed": true,
+    "original_failure_retained": true,
+    "scenarios": [
+      "three helpers",
+      "graph/chat round trip",
+      "Unicode multiline reload",
+      "course isolation round trip",
+      "review both drafts",
+      "cancel replacement",
+      "confirm replacement",
+      "same-question shortcut",
+      "empty input cleanup",
+      "whitespace cleanup"
+    ],
+    "send_boundary": "No chat/quiz/plan POST was sent. Sending-side cleanup is root logic-test coverage, not a paid send claim by this driver.",
+    "account_boundary": "Real UI uses original account; account scoping key verified. Another real account login was not used in this scoped retest."
+  }
+}

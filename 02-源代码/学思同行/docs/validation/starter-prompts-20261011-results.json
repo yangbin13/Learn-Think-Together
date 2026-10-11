@@ -1,0 +1,292 @@
+{
+  "verified_at_utc": "2026-10-10T19:38:48.536631+00:00",
+  "course_title": "数据结构与算法图解",
+  "validation_boundary": "Real browser/manual answer review plus read-only persistence capture; not all prompts, production or submission-package acceptance",
+  "latency_measurement": "Saved user-to-assistant timestamp interval, single observation per case",
+  "configured_model": "mimo-v2.6-flash",
+  "case_count": 8,
+  "manual_passed": 8,
+  "cases": [
+    {
+      "id": "explain_original_overview",
+      "mode": "explain",
+      "session_id": "c7564399fc934e1b8ca32ee86f4cc25d",
+      "assistant_turn": 1,
+      "prompt": "梳理一下数据结构与算法图解教材的核心知识",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "actual_chapter_1_to_14_coverage",
+        "single_overview_table",
+        "real_material_references"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 540,
+      "citation_count": 6,
+      "degraded": false,
+      "persisted_latency_seconds": 8.72,
+      "trace_nodes": [
+        "overview_retrieval",
+        "teaching_route",
+        "evidence_check",
+        "teaching",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": []
+    },
+    {
+      "id": "explain_original_analogy",
+      "mode": "explain",
+      "session_id": "f2bbc41ef5aa45c38f6cedf7b817c2a4",
+      "assistant_turn": 1,
+      "prompt": "选择一个重点概念，用生活例子帮我理解",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "consistent_position_and_data_mapping",
+        "actual_page_15_reference",
+        "no_unrequested_numeric_variant"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 317,
+      "citation_count": 1,
+      "degraded": false,
+      "persisted_latency_seconds": 39.39,
+      "trace_nodes": [
+        "initial_retrieval",
+        "teaching_route",
+        "evidence_check",
+        "teaching",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": []
+    },
+    {
+      "id": "socratic_recursion_entry",
+      "mode": "socratic",
+      "session_id": "80bab48cced24a87a0a0e3f159c2df33",
+      "assistant_turn": 1,
+      "prompt": "我不理解递归，先用生活情境只问我一个入门问题，不要先给答案",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "finite_answerable_scenario",
+        "no_definition_before_student_attempt",
+        "one_next_action_question"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 70,
+      "citation_count": 0,
+      "degraded": false,
+      "persisted_latency_seconds": 17.83,
+      "trace_nodes": [
+        "initial_retrieval",
+        "teaching_route",
+        "evidence_check",
+        "teaching",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": []
+    },
+    {
+      "id": "socratic_recursion_followup",
+      "mode": "socratic",
+      "session_id": "80bab48cced24a87a0a0e3f159c2df33",
+      "assistant_turn": 2,
+      "prompt": "我会先翻看下一张，不马上报数。这样理解对吗？接着我的这一步，只问一个下一步问题。",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "direct_correctness_feedback",
+        "one_stop_condition_question",
+        "same_text_after_browser_refresh"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 73,
+      "citation_count": 0,
+      "degraded": false,
+      "persisted_latency_seconds": 31.24,
+      "trace_nodes": [
+        "initial_retrieval",
+        "planner",
+        "evidence_check",
+        "teaching",
+        "fact_review",
+        "fact_review",
+        "answer_retry",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": []
+    },
+    {
+      "id": "socratic_binary_correction",
+      "mode": "socratic",
+      "session_id": "f136a5ef5e8c469b9fd137beeb61e371",
+      "assistant_turn": 1,
+      "prompt": "我认为二分查找可以直接查无序数组，这样理解对吗？先纠正，再只问我一个下一步问题",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "incorrect_unsorted_binary_search_corrected",
+        "one_next_step",
+        "real_material_reference"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 125,
+      "citation_count": 1,
+      "degraded": false,
+      "persisted_latency_seconds": 33.56,
+      "trace_nodes": [
+        "initial_retrieval",
+        "planner",
+        "evidence_check",
+        "teaching",
+        "answer_retry",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": []
+    },
+    {
+      "id": "socratic_binary_followup",
+      "mode": "socratic",
+      "session_id": "f136a5ef5e8c469b9fd137beeb61e371",
+      "assistant_turn": 2,
+      "prompt": "先排序，再从中间比较。我的理解对吗？接着我的这一步，只问一个下一步问题。",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "direct_correctness_feedback",
+        "continue_student_current_step",
+        "one_next_step"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 73,
+      "citation_count": 1,
+      "degraded": false,
+      "persisted_latency_seconds": 8.1,
+      "trace_nodes": [
+        "initial_retrieval",
+        "history_evidence",
+        "planner",
+        "evidence_check",
+        "teaching",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": []
+    },
+    {
+      "id": "solve_binary_trace",
+      "mode": "solve",
+      "session_id": "8591541dc86e4697a6e7deaf178b0366",
+      "assistant_turn": 1,
+      "prompt": "有序数组[2,4,6,8,10,12,14]查找10，使用闭区间和下取整中点，请列出比较过程与结果",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "actual_binary_search_trace_execution",
+        "mid_indices_3_5_4",
+        "result_index_4_and_3_probes",
+        "tool_popup_input_output_match",
+        "no_false_variant_claim"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 443,
+      "citation_count": 1,
+      "degraded": false,
+      "persisted_latency_seconds": 17.8,
+      "trace_nodes": [
+        "initial_retrieval",
+        "planner",
+        "binary_search_trace",
+        "planner",
+        "evidence_check",
+        "teaching",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": [
+        "binary_search_trace"
+      ]
+    },
+    {
+      "id": "solve_paging_address",
+      "mode": "solve",
+      "session_id": "1697b19807c3415e887172fbee174c7a",
+      "assistant_turn": 1,
+      "prompt": "页大小1024字节、虚拟地址2500、页2映射帧5，求页号、偏移和物理地址",
+      "manual_verdict": "passed",
+      "manual_checks": [
+        "actual_translate_paging_address_execution",
+        "page_2_offset_452_address_5572",
+        "tool_popup_input_output_match",
+        "same_text_after_browser_refresh"
+      ],
+      "model": "mimo-v2.6-flash",
+      "answer_characters": 555,
+      "citation_count": 1,
+      "degraded": false,
+      "persisted_latency_seconds": 40.84,
+      "trace_nodes": [
+        "initial_retrieval",
+        "planner",
+        "translate_paging_address",
+        "planner",
+        "evidence_check",
+        "teaching",
+        "answer_retry",
+        "fact_review",
+        "fact_review",
+        "citation_validation"
+      ],
+      "completed_tools": [
+        "translate_paging_address"
+      ]
+    }
+  ],
+  "real_browser_recovery": {
+    "session_id": "24b3446b933b4b0989e8017a6af83808",
+    "failure": "SocraticReplyProtocolError",
+    "ordinary_model_reply": true,
+    "model": "mimo-v2.6-flash",
+    "grounded": false,
+    "internal_error_shown": false,
+    "manual_verdict": "recovery_path_passed_not_normal_grounded_acceptance"
+  },
+  "tests": [
+    {
+      "artifact": "data/private-validation/starter-prompts-20261011/pytest-full-final-confirm.xml",
+      "tests": 2218,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 388.769,
+      "scope_note": "Full collected snapshot before the final compound-question changes"
+    },
+    {
+      "artifact": "data/private-validation/starter-prompts-20261011/pytest-single-step-final.xml",
+      "tests": 614,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 72.471,
+      "scope_note": "Affected integration tests after the final single-step validator and teaching-prompt changes"
+    },
+    {
+      "artifact": "data/private-validation/starter-prompts-20261011/pytest-recovery-final.xml",
+      "tests": 47,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 2.6,
+      "scope_note": "Latest recovery prompt and compound-question fallback case"
+    }
+  ],
+  "frontend": {
+    "checks_passed": 60,
+    "typescript_vite_build": "passed"
+  },
+  "evidence_private_directory": "data/private-validation/starter-prompts-20261011"
+}
