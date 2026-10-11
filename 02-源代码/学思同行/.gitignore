@@ -147,6 +147,8 @@ docs/validation/*
 !docs/validation/test-case-coverage-20261011.json
 # 中文合规说明的必需内容、来源及版本核对。
 !docs/validation/compliance-document-verification-20261011.json
+# CPU 调度自动测试使用的最小纯数值固定数据，不是私人教材原文或诊断记录。
+!docs/validation/textbook-cases.json
 # 明确排除私人教材页面预览与验证截图；公开报告配图放在 docs/release-assets/。
 docs/validation/private-textbook-previews/
 docs/validation/*.png

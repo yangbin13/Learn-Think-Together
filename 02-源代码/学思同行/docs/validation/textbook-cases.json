@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "scope": "CPU调度回归的单个原创固定数值样例；仅保留OS-07，不含教材正文、个人信息或运行记录。",
+  "cases": [
+    {
+      "id": "OS-07",
+      "input": {
+        "processes": [
+          {"pid": "P1", "arrival": 0, "burst": 8},
+          {"pid": "P2", "arrival": 0, "burst": 4},
+          {"pid": "P3", "arrival": 0, "burst": 2}
+        ],
+        "initial_queue": ["P1", "P2", "P3"],
+        "time_unit": "ms",
+        "preemptive": false,
+        "io_present": false,
+        "context_switch_cost": 0
+      },
+      "expected_numeric": {
+        "unit": "ms",
+        "FCFS": {
+          "completion_by_pid": {"P1": 8, "P2": 12, "P3": 14},
+          "mean_turnaround": 11.333333333333334,
+          "mean_wait": 6.666666666666667
+        },
+        "SJF": {
+          "completion_by_pid": {"P1": 14, "P2": 6, "P3": 2},
+          "mean_turnaround": 7.333333333333333,
+          "mean_wait": 2.6666666666666665
+        },
+        "tolerance": 0.001
+      },
+      "independent_calculation": {
+        "formulas": "周转时间=完成时刻-到达时刻；等待时间=周转时间-服务时间。所有进程在0ms到达。",
+        "FCFS": "按初始队列P1,P2,P3运行；完成时刻8、8+4=12、8+4+2=14；周转均值=(8+12+14)/3=34/3ms；等待为0、8、12，均值=(0+8+12)/3=20/3ms。",
+        "SJF": "非抢占，按服务时间升序P3,P2,P1运行；完成时刻2、2+4=6、2+4+8=14；周转均值=(2+6+14)/3=22/3ms；等待为0、2、6，均值=(0+2+6)/3=8/3ms。"
+      }
+    }
+  ]
+}

@@ -45,7 +45,8 @@ EVIDENCE = ["release-verification-20261011.json", "release-requirements-20261011
             "demo-final-verification-20261011.json",
             "report-final-verification-20261011.json",
             "test-case-coverage-20261011.json",
-            "compliance-document-verification-20261011.json"]
+            "compliance-document-verification-20261011.json",
+            "textbook-cases.json"]
 
 
 ASSETS = ["architecture-20261011.png", "teaching-workspace-20261011.png",

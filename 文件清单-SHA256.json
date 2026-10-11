@@ -2,7 +2,7 @@
   "version": "2026-10-11",
   "purpose": "辅助完整性核对清单，非比赛必需材料；路径相对于本仓库根目录。",
   "manifest_self_excluded": true,
-  "file_count_without_manifest": 261,
+  "file_count_without_manifest": 262,
   "files": [
     {
       "path": ".github/workflows/ci.yml",
@@ -51,8 +51,8 @@
     },
     {
       "path": "02-源代码/学思同行/.gitignore",
-      "bytes": 7175,
-      "sha256": "815490dd5aaacbf2208c34a0768c22b8902615f303da9ba649941f56d852dc3c"
+      "bytes": 7318,
+      "sha256": "54b7857f2aa55b0809a6c328df337a7a1ae2b1fc7e2858d5372230bc123e7062"
     },
     {
       "path": "02-源代码/学思同行/backend/__init__.py",
@@ -950,6 +950,11 @@
       "sha256": "20c9e73c8e51491bd151afe0916653c7314772847981b5cd399a716ab4c38317"
     },
     {
+      "path": "02-源代码/学思同行/docs/validation/textbook-cases.json",
+      "bytes": 1561,
+      "sha256": "4da88560961a3163efae6209d2f08411d5cd3e938730dd76a81bc76badbd8a44"
+    },
+    {
       "path": "02-源代码/学思同行/docs/学思同行-项目技术与验收报告-20261011.docx",
       "bytes": 348581,
       "sha256": "29d210dc8e5256dd7b1ca4fe8e257e1d8649838089c6bc1bf61f545466a04d29"
@@ -1266,8 +1271,8 @@
     },
     {
       "path": "02-源代码/学思同行/tools/release_source.py",
-      "bytes": 11009,
-      "sha256": "8ba6e223aa3876d7f1e3dec269fcd5fb8da6f739ac13c8001f4c77091c3c59ad"
+      "bytes": 11045,
+      "sha256": "4fd483ec25b65d8725dd1af02e0d5febf2ef5c1aa31080b0ee2e331640e9bc24"
     },
     {
       "path": "03-测试用例/README.md",
