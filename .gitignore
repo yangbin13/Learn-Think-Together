@@ -1,13 +1,7 @@
-# 此文件用于五类参赛材料组成的仓库根目录。
-# # 为注释，! 为允许提交的例外；忽略不会删除本机文件或移除已跟踪文件。
-# 02-源代码/学思同行/.gitignore 同时管理源码目录内部的精细排除与正式材料例外。
-
-# 本机实际模型配置；仅公开凭证留空的模板。
+# Credentials and local environment
 .env
 .env.*
 !.env.example
-
-# Python 虚拟环境、编译文件、检查缓存与覆盖率产物。
 .venv/
 venv/
 __pycache__/
@@ -15,14 +9,10 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
-.coverage
-.coverage.*
-coverage/
-htmlcov/
 
-# 本机运行数据、日志、数据库及事务辅助文件。
-data/
-logs/
+# Local databases, uploads, logs, and generated test output
+/data/
+/logs/
 *.log
 *.sqlite
 *.sqlite-*
@@ -30,42 +20,56 @@ logs/
 *.sqlite3-*
 *.db
 *.db-*
+backend/tests/*.xml
+coverage/
+htmlcov/
+.coverage
+.coverage.*
 
-# 可按锁文件重新安装或构建的依赖与前端产物。
-node_modules/
-dist/
-*.tsbuildinfo
+# Frontend dependencies and build output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/*.tsbuildinfo
 
-# 临时压缩包、交付草稿、浏览器测试原始产物。
-deliverables/
+# Local delivery material and generated artifacts
+/deliverables/
+/outputs/
+/01-技术文档/
+/03-测试用例/
+/04-演示视频/
+/05-合规说明/
+/智能体创新实践大赛4.0/
+/文件清单-SHA256.json
+/docs/demo/
+/docs/release-assets/
+/docs/validation/*
+!/docs/validation/textbook-cases.json
+/docs/*报告*.docx
+/docs/*报告*.pdf
+
+# Personal/local-only material
+/TEST_ACCOUNTS.md
+/content/civil-textbook/
 *.zip
 *.7z
 *.rar
-playwright-report/
-test-results/
-
-# Office/WPS 锁文件和系统目录缓存。
-~$*
 .DS_Store
 Thumbs.db
 Desktop.ini
+~$*
 
-# 私人报名表、Word 草稿及根目录私人 PDF；允许当前正式技术报告。
-*.doc
-*.docx
-!/01-技术文档/学思同行-项目技术与验收报告-20261011.docx
-/*.pdf
-/TEST_ACCOUNTS.md
-
-# 原始录屏留在本机；允许当前正式演示视频。
-*.mp4
-*.webm
-*.mov
-!/04-演示视频/学思同行-最终演示-20261011.mp4
-
-# 本机 Agent 技能、设计资料与技能安装记录。
-/.agents/
-/.impeccable/
-/skills-lock.json
-
-# README、五类正式材料、源码、锁文件、开放教材、许可与精选证据均保留。
+# Delivery files kept only in the local workspace
+/02-源代码/
+/docs/compliance.md
+/docs/contest-submission-checklist.md
+/docs/defense-and-interview.md
+/docs/mindmap-learning-guide.md
+/docs/project-study-guide.md
+/docs/requirements-evidence.md
+/docs/requirements.md
+/docs/starter-prompts-20261011.md
+/docs/submission-checklist.md
+/docs/submission-report.md
+/docs/technical-report.md
+/docs/test-cases-final.md
+/docs/test-cases.md

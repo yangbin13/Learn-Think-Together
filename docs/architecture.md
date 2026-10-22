@@ -1,6 +1,6 @@
 # 学思同行系统架构与调用链
 
-当前技术基线为 React 19、TypeScript、Vite、FastAPI、SQLite WAL 和 LangGraph。教学、规划、审核、出题与页图服务统一使用 Mimo 的 OpenAI 兼容接口；BGE-M3 向量服务独立可选。本文对应 2026-10-11 交付版本。
+当前技术基线为 React 19、TypeScript、Vite、FastAPI、SQLite WAL 和 LangGraph。教学、规划、审核、出题与页图服务统一使用 Mimo 的 OpenAI 兼容接口；BGE-M3 向量服务独立可选。具体行为以仓库中的当前源码为准。
 
 ## 组件
 
@@ -88,4 +88,4 @@ Mimo 通过 thinking.type 明确启闭推理，流式教学关闭隐藏推理；
 
 ## 部署和验证边界
 
-锁文件、单端口启动和 Docker 配置支持复现。当前 SQLite 是单实例设计。自动回归、真实模型语义、UI、媒体、部署各有独立证据，不能相互代替。当前统计集中见 submission-report.md 与 validation/release-verification-20261011.json。
+锁文件、单端口启动和 Docker 配置支持复现。当前 SQLite 是单实例设计。自动回归、真实模型语义、UI、媒体、部署各有独立证据，不能相互代替。测试结果不作为源码仓库中的交付附件保存。

@@ -1,79 +1,28 @@
-# 学思同行
+# 学思同行 ThinkMate
 
-专业课助教智能体 · 中兴赛道命题二 · 交付版本：2026-10-11
+基于教材证据的专业课学习助手。学生可以使用内置的 408 参考课程，也可以创建课程并上传自己有权使用的资料；系统把教材检索、对话、练习和学习记录放在同一工作台中。
 
-学思同行把学生自己的教材、助教对话、计算核对、练习反馈和复习记录连接成一个学习工作台。支持讲解、启发、解题三种模式，内置四门 408 参考课，也可上传有权使用的资料建立自己的课程。
+## 功能
 
-**本目录整体作为 GitHub 仓库根目录提交。** 源码项目位于 `02-源代码/学思同行/`；配置、启动和测试命令均在该源码目录执行。本文是材料总入口，[源码 README](02-源代码/学思同行/README.md)提供完整配置、安装、启动、测试和常见问题说明。
+- 讲解、启发和解题三种教学模式，并根据学生当前反馈继续对话。
+- 按课程检索教材片段、显示引用位置，并打开对应原文。
+- 管理个人课程和教材，记录练习、错题、复习计划与学习进度。
+- 生成课程知识地图；在受限范围内使用计算和算法工具核对结果。
+- 通过后端连接可配置的 OpenAI 兼容模型服务；模型凭证不发送到浏览器。
 
-## 1. 目录结构
+项目使用 React、TypeScript、Vite、FastAPI、LangGraph 和 SQLite。内置课程资料与开放教材保留在 `content/`，相关许可和第三方声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与 [教材来源说明](docs/textbook-provenance.md)。
 
-```text
-仓库根目录/
-├── README.md                         本说明：材料入口、目录及运行方式
-├── .gitignore                        本机配置、私人数据及生成文件的排除规则
-├── .github/workflows/ci.yml           对嵌套源码执行测试和前端构建
-├── 01-技术文档/
-│   ├── 学思同行-项目技术与验收报告-20261011.docx
-│   ├── 学思同行-项目技术与验收报告-20261011.pdf
-│   ├── 学思同行-项目技术与验收报告-20261011.md
-│   └── 仓库目录与部署位置说明.md
-├── 02-源代码/
-│   └── 学思同行/                     完整、可独立运行的源码项目
-│       ├── README.md、.env.example、.gitignore、.dockerignore
-│       ├── Dockerfile、compose.yaml
-│       ├── backend/                  API、教学流程、检索、持久化及测试
-│       ├── frontend/                 学习界面、前端测试及依赖锁文件
-│       ├── content/                  原创导学资料、题库及许可开放教材
-│       ├── scripts/                  启动、建目录及验证脚本
-│       ├── tools/                    可选报告、视频及交付检查工具
-│       ├── docs/                     详细设计、来源、许可及验收证据
-│       └── THIRD_PARTY_NOTICES.md     第三方署名和许可入口
-├── 03-测试用例/
-│   ├── README.md
-│   └── 正常-异常-边界测试用例.md
-├── 04-演示视频/
-│   ├── README.md
-│   ├── 学思同行-最终演示-20261011.mp4
-│   ├── 学思同行-最终演示-20261011.srt
-│   └── 学思同行-演示解说与复现-20261011.md
-├── 05-合规说明/
-│   └── 数据来源与隐私合规.md
-└── 文件清单-SHA256.json              可选的文件完整性核对清单
-```
+## 环境要求
 
-## 2. 与比赛要求的对应
+- Python 3.12 或更新版本
+- Node.js 22 或更新版本
+- 首次安装依赖及使用在线模型时需要网络
 
-依据《智能体创新实践大赛参赛手册》作品提交要求第（1）—（6）项。
+## 快速启动
 
-| 比赛要求 | 本仓库材料 |
-| --- | --- |
-| （1）可运行作品、部署说明及体验方式 | [完整源码](02-源代码/学思同行/)、[配置与运行说明](02-源代码/学思同行/README.md)、Windows/Linux 启动脚本及 Docker 配置；启动后点击“体验学习工作台”创建独立体验账号，无固定测试密码 |
-| （2）技术文档 | [Word 报告](01-技术文档/学思同行-项目技术与验收报告-20261011.docx)、[PDF 报告](01-技术文档/学思同行-项目技术与验收报告-20261011.pdf)、[Markdown 正文](01-技术文档/学思同行-项目技术与验收报告-20261011.md)；按系统架构图、模块说明、核心功能介绍、技术路线、部署方式、依赖环境、配置项说明七章组织，附验收结果及[当前仓库部署位置说明](01-技术文档/仓库目录与部署位置说明.md) |
-| （3）README | 本文件和[源码 README](02-源代码/学思同行/README.md)：环境配置、依赖安装、启动、运行、测试和常见问题 |
-| （4）至少 10 条正常、异常、边界用例 | [32 条最终测试用例](03-测试用例/正常-异常-边界测试用例.md)：正常 17、异常 8、边界 7；每条包含预期、实际结果、验证方式和证据 |
-| （5）3—5 分钟演示视频 | [4 分 31 秒 MP4](04-演示视频/学思同行-最终演示-20261011.mp4)、[中文字幕](04-演示视频/学思同行-最终演示-20261011.srt)、[解说与复现](04-演示视频/学思同行-演示解说与复现-20261011.md) |
-| （6）合规说明 | 一份中文[数据来源与隐私合规说明](05-合规说明/数据来源与隐私合规.md)：说明数据来源、隐私保护、真实个人信息使用及脱敏情况 |
+克隆仓库后，在项目根目录执行。
 
-`文件清单-SHA256.json` 是辅助核对文件，比赛没有要求必须提供。个人报名表由参赛者另行提交，不进入本仓库。源码内保留第三方声明及原始许可，用于满足教材和依赖的署名、授权要求。
-
-## 3. 配置与快速运行
-
-需要 **Python 3.12+、Node.js 22+**。首次安装依赖和在线模型调用需要网络。
-
-### 3.1 进入源码目录
-
-```powershell
-git clone https://github.com/yangbin13/Learn-Think-Together.git
-cd Learn-Think-Together
-cd "02-源代码/学思同行"
-```
-
-通过网页下载或直接获得本文件夹时，也先进入 `02-源代码/学思同行/`。
-
-### 3.2 配置本机 `.env`
-
-在上述源码目录执行，已有配置会保留：
+### Windows PowerShell
 
 ```powershell
 if (-not (Test-Path -LiteralPath '.env')) {
@@ -81,69 +30,78 @@ if (-not (Test-Path -LiteralPath '.env')) {
 }
 ```
 
-打开新建的 `.env`，填写自己的模型凭证。交付文件中的实际凭证字段留空。
-
-| 配置项 | 使用者操作 |
-| --- | --- |
-| `LLM_API_KEY` | 启用在线 AI 必填，仅在本机填写自己的有效凭证 |
-| `LLM_API_BASE` | 默认 `https://api.xiaomimimo.com/v1`；其他平台或 Token Plan 使用服务商提供的地址 |
-| `LLM_MODEL` | 默认 `mimo-v2.6-flash`；更换模型时填写平台实际支持的模型 ID |
-
-**使用示例中的普通 MiMo 地址和模型时，主要填写 `LLM_API_KEY` 即可。** 教学、规划、出题和审核默认复用主模型；示例关闭可选向量服务，使用本地 BM25，无需额外向量凭证。完整配置项见[源码 README](02-源代码/学思同行/README.md#配置)和[配置模板](02-源代码/学思同行/.env.example)。
-
-实际配置文件应位于 `02-源代码/学思同行/.env`。修改配置后重启后端。
-
-### 3.3 启动
-
-Windows PowerShell，在源码目录执行：
+在根目录的 `.env` 中填写自己的 `LLM_API_KEY`。使用示例中的 MiMo 接口时，`LLM_API_BASE` 和 `LLM_MODEL` 可保持默认值。然后启动：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/start.ps1
 ```
 
-打开 [http://127.0.0.1:8765](http://127.0.0.1:8765)，点击“体验学习工作台”，或注册自己的账号。启动脚本安装依赖并构建前端；已有依赖和构建时可以加 `-SkipInstall`，指定空闲端口可加 `-Port 8766`。
+### Linux
 
-Linux 在同一源码目录执行 `sh scripts/start.sh`。手动安装、开发运行和详细故障处理见[源码 README](02-源代码/学思同行/README.md)。
-
-没有有效在线模型凭证时，可体验原创题库、教材、导图、计划和记录；在线模型问答不可用，界面会给出学习续接提示。
-
-### 3.4 Docker 部署
-
-先在源码目录配置 `.env`，再执行：
-
-```powershell
-docker compose -p thinkmate up --build -d
-docker compose -p thinkmate logs -f tutor
-docker compose -p thinkmate down
+```sh
+test -f .env || cp .env.example .env
+# 在 .env 中填写 LLM_API_KEY
+sh scripts/start.sh
 ```
 
-[Dockerfile](02-源代码/学思同行/Dockerfile)和[compose.yaml](02-源代码/学思同行/compose.yaml)已提供，镜像由源码构建。`-p thinkmate` 明确指定项目名，使纯中文源码目录也有一致的 Compose 项目标识；后续日志和停止命令使用相同参数。默认绑定本机 8765 端口，学习数据保存在 `tutor-data` 命名卷。停止时保留数据卷。
+启动后打开 [http://127.0.0.1:8765](http://127.0.0.1:8765)。启动脚本会安装锁定依赖、构建前端并启动服务。Windows 可用 `-SkipInstall` 跳过已完成的安装与构建，也可用 `-Port 8766` 指定端口。按 Ctrl+C 停止本次服务。
 
-已完成的运行验收是 Windows 原生与独立解压源码运行；**最新 Docker 构建和容器启动未重新实测**。
+未填写有效模型凭证时，仍可使用本地课程、资料和学习记录；在线模型功能需要有效凭证。
 
-## 4. 测试与验证范围
+## Docker
 
-在源码目录执行：
+在项目根目录准备好 `.env` 后运行：
+
+```sh
+docker compose up --build -d
+docker compose logs -f tutor
+docker compose down
+```
+
+默认服务地址为本机 8765 端口，学习数据保存在 Docker 命名卷中。停止服务时不要添加 `-v`，否则会一并删除该卷。
+
+## 手动安装与开发
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest backend/tests -q
-.\.venv\Scripts\python.exe scripts/evaluate_retrieval.py
+python -m venv .venv
+.venv/Scripts/python.exe -m pip install -r backend/requirements.lock.txt
+cd frontend
+npm ci
+npm run build
+cd ..
+.venv/Scripts/python.exe -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8765
+```
+
+开发前端时，在另一个终端进入 `frontend/` 并运行 `npm run dev`；Vite 开发服务器使用 5173 端口，并将 `/api` 请求代理到后端。
+
+## 测试与构建
+
+```powershell
+.venv/Scripts/python.exe -m pytest backend/tests -q
 cd frontend
 npm test
 npm run build
 ```
 
-后端自动测试使用受控模型替身和隔离数据；真实模型验收单独记录。[最终验收摘要](02-源代码/学思同行/docs/validation/release-verification-20261011.json)保留后端全量 2,276 项通过、前端测试和构建、真实 MiMo 教学及隔离运行等证据。
+Linux/macOS 可将 Python 可执行文件替换为 `.venv/bin/python`。测试使用隔离数据和受控模型替身，不需要真实模型凭证。
 
-[32 条用例](03-测试用例/正常-异常-边界测试用例.md)均有各自范围内已执行通过的证据，涵盖真实模型人工语义检查、真实 HTTP/文件/数据库、受控自动测试及有日期的历史浏览器记录。各自范围见[逐条证据映射](02-源代码/学思同行/docs/validation/test-case-coverage-20261011.json)。目录整理不代表重新完成了 32 条最新浏览器全量复测。
+## 配置与数据
 
-根目录 `.github/workflows/ci.yml` 从 `02-源代码/学思同行/` 执行后端测试和前端测试、构建。GitHub 实际运行结果以提交后的 Actions 记录为准。
+常用设置见 [.env.example](.env.example)。`LLM_API_KEY` 是服务端凭证；使用其他模型平台时，按服务商设置 `LLM_API_BASE` 和 `LLM_MODEL`。向量检索可选配置独立嵌入服务；未开启时使用本地 BM25 检索。
 
-## 5. 材料复用与配置保护
+默认运行数据写入 `data/`，包括 SQLite 数据库和用户上传资料，不应提交到源码仓库。启用在线模型后，服务会发送回答所需的问题、对话上下文和检索片段；启用视觉阅读时也会发送选中的页面图片。需要完全离线处理的资料不应上传到在线模型服务。
 
-- 正式 Word/PDF 报告沿用已完成内容和排版核验的版本；[部署位置补充说明](01-技术文档/仓库目录与部署位置说明.md)明确当前仓库目录，运行时以该补充和本 README 为准。
-- 最终视频、音轨和字幕原样复用。视频末段所称“提交包”对应本仓库的五类材料，视频内容未因目录整理改写或重新录制。
-- 源码保留内部详细文档和证据，外层五目录提供便于评审的分类入口；正式报告和演示在两处保留的是同一份已核验文件。
-- 本仓库不含实际 `.env`、用户数据库、私人教材、Cookie、可用 API key、依赖安装目录和开发原始素材。填写后的本机配置受 `.gitignore` 排除。
+## 项目结构
 
-完整来源和隐私说明见[合规文档](05-合规说明/数据来源与隐私合规.md)。
+```text
+backend/app/       FastAPI 接口、Agent、检索、资料处理和学习业务
+backend/tests/     后端回归测试
+frontend/src/      React 学习工作台
+content/           内置课程资料、开放教材、许可及检索测试数据
+scripts/           启动、内容构建和可复用验证脚本
+tools/             可选的维护与本地发布工具
+docs/              架构、API、界面设计及教材来源说明
+.github/           GitHub Actions 工作流
+```
+
+源码仓库保留运行与测试所需的代码、配置模板、课程样例、测试夹具和许可信息。报告、演示视频、截图、验收结果及本地运行数据不属于源码仓库内容。
